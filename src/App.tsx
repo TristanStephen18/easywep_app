@@ -1,5 +1,6 @@
 import Dashboard from "./pages/dashboard/Dashboard";
 import Homepage from "./pages/homepage/Homepage";
+import MyAccounts from "./pages/jerome/MyAccounts";
 import LoginPage from "./pages/login/LoginPage";
 import TDBankAccount from "./pages/MyAccounts";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
@@ -18,6 +19,7 @@ function App() {
         />
         <Route path="/ca/en/personal-banking" element={<Dashboard />} />
         <Route path="/myaccounts" element={<Homepage />} />
+        <Route path="/myaccounts1" element={<MyAccounts />} />
         <Route path="/authentication" element={<LoginPage />} />
       </Routes>
     </BrowserRouter>

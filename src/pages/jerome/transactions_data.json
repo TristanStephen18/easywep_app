@@ -1,0 +1,3011 @@
+{
+  "january_2025": {
+    "month": "January 2025",
+    "transactions": [
+      {
+        "date": " Jan 31, 2025",
+        "description": "FRAIS MENS PLAN SERV",
+        "withdrawals": "",
+        "deposits": "125.00",
+        "balance": "$167,517.11",
+        "expandable": true
+      },
+      {
+        "date": " Jan 31, 2025",
+        "description": "View more Envoi - VFC ***FGEView more Envoi - VFC ***FGE",
+        "withdrawals": "",
+        "deposits": "19,523.89",
+        "balance": "$167,642.11",
+        "link": true
+      },
+      {
+        "date": " Jan 31, 2025",
+        "description": "View more Annul. - VFC ***k9KView more Annul. - VFC ***k9K",
+        "withdrawals": "20,573.01",
+        "deposits": "",
+        "balance": "$187,166.00",
+        "link": true
+      },
+      {
+        "date": " Jan 31, 2025",
+        "description": "View more Envoi - VFC ***k9KView more Envoi - VFC ***k9K",
+        "withdrawals": "",
+        "deposits": "20,573.01",
+        "balance": "$166,592.99",
+        "link": true
+      },
+      {
+        "date": " Jan 31, 2025",
+        "description": "View more Envoi - VFC ***ZZEView more Envoi - VFC ***ZZE",
+        "withdrawals": "",
+        "deposits": "57.47",
+        "balance": "$187,166.00",
+        "link": true
+      },
+      {
+        "date": " Jan 31, 2025",
+        "description": "View more Envoi - VFC ***CMFView more Envoi - VFC ***CMF",
+        "withdrawals": "",
+        "deposits": "144.54",
+        "balance": "$187,223.47",
+        "link": true
+      },
+      {
+        "date": " Jan 31, 2025",
+        "description": "View more Envoi - VFC ***r2WView more Envoi - VFC ***r2W",
+        "withdrawals": "",
+        "deposits": "1,360.23",
+        "balance": "$187,368.01",
+        "link": true
+      },
+      {
+        "date": " Jan 31, 2025",
+        "description": "View more Envoi - VFC ***xEKView more Envoi - VFC ***xEK",
+        "withdrawals": "",
+        "deposits": "510.95",
+        "balance": "$188,728.24",
+        "link": true
+      },
+      {
+        "date": " Jan 31, 2025",
+        "description": "View more Envoi - VFC ***MzHView more Envoi - VFC ***MzH",
+        "withdrawals": "",
+        "deposits": "139.52",
+        "balance": "$189,239.19",
+        "link": true
+      },
+      {
+        "date": " Jan 31, 2025",
+        "description": "Bouffe HB inc DIV",
+        "withdrawals": "10,000.00",
+        "deposits": "",
+        "balance": "$189,378.71"
+      },
+      {
+        "date": " Jan 29, 2025",
+        "description": "BOUFFE SB inc DIV",
+        "withdrawals": "20,000.00",
+        "deposits": "",
+        "balance": "$179,378.71"
+      },
+      {
+        "date": " Jan 28, 2025",
+        "description": "DEBITS/PAIE DIV",
+        "withdrawals": "",
+        "deposits": "5,759.34",
+        "balance": "$159,378.71"
+      },
+      {
+        "date": " Jan 28, 2025",
+        "description": "DEBITS/FACT. DIV",
+        "withdrawals": "",
+        "deposits": "27.13",
+        "balance": "$165,138.05"
+      },
+      {
+        "date": " Jan 28, 2025",
+        "description": "View more Envoi - VFC ***teEView more Envoi - VFC ***teE",
+        "withdrawals": "",
+        "deposits": "3,850.00",
+        "balance": "$165,165.18",
+        "link": true
+      },
+      {
+        "date": " Jan 27, 2025",
+        "description": "GOVEDARICAVANCE DIV",
+        "withdrawals": "5,000.00",
+        "deposits": "",
+        "balance": "$169,015.18"
+      },
+      {
+        "date": " Jan 27, 2025",
+        "description": "View more Envoi - VFC ***DKZView more Envoi - VFC ***DKZ",
+        "withdrawals": "",
+        "deposits": "1,491.23",
+        "balance": "$164,015.18",
+        "link": true
+      },
+      {
+        "date": " Jan 27, 2025",
+        "description": "CABLE AU CLIENT",
+        "withdrawals": "",
+        "deposits": "25,344.50",
+        "balance": "$165,506.41"
+      },
+      {
+        "date": " Jan 27, 2025",
+        "description": "View more Envoi - VFC ***euuView more Envoi - VFC ***euu",
+        "withdrawals": "",
+        "deposits": "6,137.78",
+        "balance": "$190,850.91",
+        "link": true
+      },
+      {
+        "date": " Jan 27, 2025",
+        "description": "View more Envoi - VFC ***ESBView more Envoi - VFC ***ESB",
+        "withdrawals": "",
+        "deposits": "1,334.11",
+        "balance": "$196,988.69",
+        "link": true
+      },
+      {
+        "date": " Jan 27, 2025",
+        "description": "View more Envoi - VFC ***n8UView more Envoi - VFC ***n8U",
+        "withdrawals": "",
+        "deposits": "1,457.90",
+        "balance": "$198,322.80",
+        "link": true
+      },
+      {
+        "date": " Jan 27, 2025",
+        "description": "250127S7254000WIRE",
+        "withdrawals": "64,982.50",
+        "deposits": "",
+        "balance": "$199,780.70"
+      },
+      {
+        "date": " Jan 27, 2025",
+        "description": "View more Envoi - VFC ***ZvjView more Envoi - VFC ***Zvj",
+        "withdrawals": "",
+        "deposits": "4,703.33",
+        "balance": "$134,798.20",
+        "link": true
+      },
+      {
+        "date": " Jan 27, 2025",
+        "description": "View more Envoi - VFC ***b4SView more Envoi - VFC ***b4S",
+        "withdrawals": "",
+        "deposits": "4,329.66",
+        "balance": "$139,501.53",
+        "link": true
+      },
+      {
+        "date": " Jan 27, 2025",
+        "description": "View more Envoi - VFC ***XV9View more Envoi - VFC ***XV9",
+        "withdrawals": "",
+        "deposits": "1,867.39",
+        "balance": "$143,831.19",
+        "link": true
+      },
+      {
+        "date": " Jan 27, 2025",
+        "description": "View more Envoi - VFC ***nRzView more Envoi - VFC ***nRz",
+        "withdrawals": "",
+        "deposits": "265.01",
+        "balance": "$145,698.58",
+        "link": true
+      },
+      {
+        "date": " Jan 27, 2025",
+        "description": "View more Envoi - VFC ***5tNView more Envoi - VFC ***5tN",
+        "withdrawals": "",
+        "deposits": "1,363.42",
+        "balance": "$145,963.59",
+        "link": true
+      },
+      {
+        "date": " Jan 24, 2025",
+        "description": "WIRE TO CUSTOMER",
+        "withdrawals": "",
+        "deposits": "59,315.33",
+        "balance": "$147,327.01"
+      },
+      {
+        "date": " Jan 24, 2025",
+        "description": "GOVEDARICAVANCE DIV",
+        "withdrawals": "40,000.00",
+        "deposits": "",
+        "balance": "$206,642.34"
+      },
+      {
+        "date": " Jan 24, 2025",
+        "description": "Shaker Franchi DIV",
+        "withdrawals": "29,743.31",
+        "deposits": "",
+        "balance": "$166,642.34"
+      },
+      {
+        "date": " Jan 24, 2025",
+        "description": "View more Envoi - VFC ***3V8View more Envoi - VFC ***3V8",
+        "withdrawals": "",
+        "deposits": "1,432.91",
+        "balance": "$136,899.03",
+        "link": true
+      },
+      {
+        "date": " Jan 24, 2025",
+        "description": "View more Annul. - VFC ***ckqView more Annul. - VFC ***ckq",
+        "withdrawals": "1,730.00",
+        "deposits": "",
+        "balance": "$138,331.94",
+        "link": true
+      },
+      {
+        "date": " Jan 24, 2025",
+        "description": "View more Envoi - VFC ***ckqView more Envoi - VFC ***ckq",
+        "withdrawals": "",
+        "deposits": "1,730.00",
+        "balance": "$136,601.94",
+        "link": true
+      },
+      {
+        "date": " Jan 23, 2025",
+        "description": "GOVEDARICAVANCE DIV",
+        "withdrawals": "40,000.00",
+        "deposits": "",
+        "balance": "$138,331.94"
+      },
+      {
+        "date": " Jan 23, 2025",
+        "description": "CELITE CONT FAC",
+        "withdrawals": "72,000.00",
+        "deposits": "",
+        "balance": "$98,331.94"
+      },
+      {
+        "date": " Jan 22, 2025",
+        "description": "CV 4481-RETRAIT EN E",
+        "withdrawals": "",
+        "deposits": "50.00",
+        "balance": "$26,331.94"
+      },
+      {
+        "date": " Jan 22, 2025",
+        "description": "CABLE AU CLIENT",
+        "withdrawals": "",
+        "deposits": "70,973.79",
+        "balance": "$26,381.94"
+      },
+      {
+        "date": " Jan 22, 2025",
+        "description": "View more Envoi - VFC ***4J6View more Envoi - VFC ***4J6",
+        "withdrawals": "",
+        "deposits": "2,368.06",
+        "balance": "$97,355.73",
+        "link": true
+      },
+      {
+        "date": " Jan 22, 2025",
+        "description": "View more Envoi - VFC ***Gx6View more Envoi - VFC ***Gx6",
+        "withdrawals": "",
+        "deposits": "3,565.37",
+        "balance": "$99,723.79",
+        "link": true
+      },
+      {
+        "date": " Jan 22, 2025",
+        "description": "View more Envoi - VFC ***FdWView more Envoi - VFC ***FdW",
+        "withdrawals": "",
+        "deposits": "8,112.64",
+        "balance": "$103,289.16",
+        "link": true
+      },
+      {
+        "date": " Jan 21, 2025",
+        "description": "DEBITS/PAIE DIV",
+        "withdrawals": "",
+        "deposits": "3,217.25",
+        "balance": "$111,401.80"
+      },
+      {
+        "date": " Jan 21, 2025",
+        "description": "DEBITS/FACT. DIV",
+        "withdrawals": "",
+        "deposits": "24.78",
+        "balance": "$114,619.05"
+      },
+      {
+        "date": " Jan 21, 2025",
+        "description": "BOUFFE SB inc DIV",
+        "withdrawals": "40,000.00",
+        "deposits": "",
+        "balance": "$114,643.83"
+      },
+      {
+        "date": " Jan 21, 2025",
+        "description": "CAD DRAFT 00174707",
+        "withdrawals": "",
+        "deposits": "65,008.31",
+        "balance": "$74,643.83"
+      },
+      {
+        "date": " Jan 21, 2025",
+        "description": "WIRE TO CUSTOMER",
+        "withdrawals": "",
+        "deposits": "31,756.33",
+        "balance": "$139,652.14"
+      },
+      {
+        "date": " Jan 21, 2025",
+        "description": "WIRE TO CUSTOMER",
+        "withdrawals": "",
+        "deposits": "23,795.79",
+        "balance": "$171,408.47"
+      },
+      {
+        "date": " Jan 21, 2025",
+        "description": "WIRE TO CUSTOMER",
+        "withdrawals": "",
+        "deposits": "22,466.08",
+        "balance": "$195,204.26"
+      },
+      {
+        "date": " Jan 21, 2025",
+        "description": "WIRE TO CUSTOMER",
+        "withdrawals": "",
+        "deposits": "25,403.82",
+        "balance": "$217,670.34"
+      },
+      {
+        "date": " Jan 21, 2025",
+        "description": "SKININ DIV",
+        "withdrawals": "919.87",
+        "deposits": "",
+        "balance": "$243,074.16"
+      },
+      {
+        "date": " Jan 21, 2025",
+        "description": "View more Envoi - VFC ***3B5View more Envoi - VFC ***3B5",
+        "withdrawals": "",
+        "deposits": "3,219.30",
+        "balance": "$242,154.29",
+        "link": true
+      },
+      {
+        "date": " Jan 21, 2025",
+        "description": "View more Envoi - VFC ***cGeView more Envoi - VFC ***cGe",
+        "withdrawals": "",
+        "deposits": "5,218.82",
+        "balance": "$245,373.59",
+        "link": true
+      },
+      {
+        "date": " Jan 21, 2025",
+        "description": "250121S9896100WIRE",
+        "withdrawals": "96,982.50",
+        "deposits": "",
+        "balance": "$250,592.41"
+      },
+      {
+        "date": " Jan 20, 2025",
+        "description": "SKININ DIV",
+        "withdrawals": "5,000.00",
+        "deposits": "",
+        "balance": "$153,609.91"
+      },
+      {
+        "date": " Jan 20, 2025",
+        "description": "SKININ DIV",
+        "withdrawals": "5,000.00",
+        "deposits": "",
+        "balance": "$148,609.91"
+      },
+      {
+        "date": " Jan 20, 2025",
+        "description": "250120S2963700WIRE",
+        "withdrawals": "79,982.50",
+        "deposits": "",
+        "balance": "$143,609.91"
+      },
+      {
+        "date": " Jan 20, 2025",
+        "description": "View more Envoi - VFC ***HnuView more Envoi - VFC ***Hnu",
+        "withdrawals": "",
+        "deposits": "12,000.00",
+        "balance": "$63,627.41",
+        "link": true
+      },
+      {
+        "date": " Jan 20, 2025",
+        "description": "View more Envoi - VFC ***mBKView more Envoi - VFC ***mBK",
+        "withdrawals": "",
+        "deposits": "2,963.11",
+        "balance": "$75,627.41",
+        "link": true
+      },
+      {
+        "date": " Jan 20, 2025",
+        "description": "View more Envoi - VFC ***PNpView more Envoi - VFC ***PNp",
+        "withdrawals": "",
+        "deposits": "9,454.39",
+        "balance": "$78,590.52",
+        "link": true
+      },
+      {
+        "date": " Jan 20, 2025",
+        "description": "CABLE AU CLIENT",
+        "withdrawals": "",
+        "deposits": "94,329.50",
+        "balance": "$88,044.91"
+      },
+      {
+        "date": " Jan 20, 2025",
+        "description": "SKININ DIV",
+        "withdrawals": "5,000.00",
+        "deposits": "",
+        "balance": "$182,374.41"
+      },
+      {
+        "date": " Jan 17, 2025",
+        "description": "GOVEDARICAVANCE DIV",
+        "withdrawals": "103,000.00",
+        "deposits": "",
+        "balance": "$177,374.41"
+      },
+      {
+        "date": " Jan 17, 2025",
+        "description": "View more Envoi - VFC ***nxwView more Envoi - VFC ***nxw",
+        "withdrawals": "",
+        "deposits": "6,130.42",
+        "balance": "$74,374.41",
+        "link": true
+      },
+      {
+        "date": " Jan 17, 2025",
+        "description": "View more Envoi - VFC ***GYUView more Envoi - VFC ***GYU",
+        "withdrawals": "",
+        "deposits": "509.64",
+        "balance": "$80,504.83",
+        "link": true
+      },
+      {
+        "date": " Jan 17, 2025",
+        "description": "View more Annul. - VFC ***H4YView more Annul. - VFC ***H4Y",
+        "withdrawals": "509.64",
+        "deposits": "",
+        "balance": "$81,014.47",
+        "link": true
+      },
+      {
+        "date": " Jan 17, 2025",
+        "description": "View more Envoi - VFC ***bWKView more Envoi - VFC ***bWK",
+        "withdrawals": "",
+        "deposits": "48.23",
+        "balance": "$80,504.83",
+        "link": true
+      },
+      {
+        "date": " Jan 17, 2025",
+        "description": "View more Envoi - VFC ***H4YView more Envoi - VFC ***H4Y",
+        "withdrawals": "",
+        "deposits": "509.64",
+        "balance": "$80,553.06",
+        "link": true
+      },
+      {
+        "date": " Jan 17, 2025",
+        "description": "View more Envoi - VFC ***XJYView more Envoi - VFC ***XJY",
+        "withdrawals": "",
+        "deposits": "1,459.64",
+        "balance": "$81,062.70",
+        "link": true
+      },
+      {
+        "date": " Jan 17, 2025",
+        "description": "View more Envoi - VFC ***B5HView more Envoi - VFC ***B5H",
+        "withdrawals": "",
+        "deposits": "1,134.26",
+        "balance": "$82,522.34",
+        "link": true
+      },
+      {
+        "date": " Jan 17, 2025",
+        "description": "View more Envoi - VFC ***3tgView more Envoi - VFC ***3tg",
+        "withdrawals": "",
+        "deposits": "15,596.36",
+        "balance": "$83,656.60",
+        "link": true
+      },
+      {
+        "date": " Jan 16, 2025",
+        "description": "250116S7105600WIRE",
+        "withdrawals": "8,966.50",
+        "deposits": "",
+        "balance": "$99,252.96"
+      },
+      {
+        "date": " Jan 16, 2025",
+        "description": "250116S7105500WIRE",
+        "withdrawals": "7,761.50",
+        "deposits": "",
+        "balance": "$90,286.46"
+      },
+      {
+        "date": " Jan 15, 2025",
+        "description": "WAWANESA INS ASS",
+        "withdrawals": "",
+        "deposits": "231.38",
+        "balance": "$82,524.96"
+      },
+      {
+        "date": " Jan 15, 2025",
+        "description": "View more Envoi-VFC *vAe FACView more Envoi-VFC *vAe FAC",
+        "withdrawals": "",
+        "deposits": "15,978.21",
+        "balance": "$82,756.34",
+        "link": true
+      },
+      {
+        "date": " Jan 14, 2025",
+        "description": "DEBITS/PAIE DIV",
+        "withdrawals": "",
+        "deposits": "747.44",
+        "balance": "$98,734.55"
+      },
+      {
+        "date": " Jan 14, 2025",
+        "description": "DEBITS/FACT. DIV",
+        "withdrawals": "",
+        "deposits": "123.23",
+        "balance": "$99,481.99"
+      },
+      {
+        "date": " Jan 14, 2025",
+        "description": "View more Envoi - VFC ***bp8View more Envoi - VFC ***bp8",
+        "withdrawals": "",
+        "deposits": "3,609.07",
+        "balance": "$99,605.22",
+        "link": true
+      },
+      {
+        "date": " Jan 14, 2025",
+        "description": "CABLE AU CLIENT",
+        "withdrawals": "",
+        "deposits": "45,092.23",
+        "balance": "$103,214.29"
+      },
+      {
+        "date": " Jan 14, 2025",
+        "description": "View more Recept-VFC *aEQ EPAYView more Recept-VFC *aEQ EPAY",
+        "withdrawals": "11,820.25",
+        "deposits": "",
+        "balance": "$148,306.52",
+        "link": true
+      },
+      {
+        "date": " Jan 14, 2025",
+        "description": "View more Recept-VFC *AfU EPAYView more Recept-VFC *AfU EPAY",
+        "withdrawals": "25,000.00",
+        "deposits": "",
+        "balance": "$136,486.27",
+        "link": true
+      },
+      {
+        "date": " Jan 14, 2025",
+        "description": "View more Recept-VFC *vsc EPAYView more Recept-VFC *vsc EPAY",
+        "withdrawals": "25,000.00",
+        "deposits": "",
+        "balance": "$111,486.27",
+        "link": true
+      },
+      {
+        "date": " Jan 14, 2025",
+        "description": "View more Envoi - VFC ***uw4View more Envoi - VFC ***uw4",
+        "withdrawals": "",
+        "deposits": "20,000.00",
+        "balance": "$86,486.27",
+        "link": true
+      },
+      {
+        "date": " Jan 13, 2025",
+        "description": "View more Envoi - VFC ***MtfView more Envoi - VFC ***Mtf",
+        "withdrawals": "",
+        "deposits": "1,245.95",
+        "balance": "$106,486.27",
+        "link": true
+      },
+      {
+        "date": " Jan 13, 2025",
+        "description": "View more Envoi - VFC ***G9uView more Envoi - VFC ***G9u",
+        "withdrawals": "",
+        "deposits": "9,002.55",
+        "balance": "$107,732.22",
+        "link": true
+      },
+      {
+        "date": " Jan 10, 2025",
+        "description": "View more Envoi - VFC ***W3CView more Envoi - VFC ***W3C",
+        "withdrawals": "",
+        "deposits": "7,252.39",
+        "balance": "$116,734.77",
+        "link": true
+      },
+      {
+        "date": " Jan 09, 2025",
+        "description": "WIRE TO CUSTOMER",
+        "withdrawals": "",
+        "deposits": "43,108.14",
+        "balance": "$123,987.16"
+      },
+      {
+        "date": " Jan 08, 2025",
+        "description": "DEBITS/PAIE DIV",
+        "withdrawals": "",
+        "deposits": "4,255.61",
+        "balance": "$167,095.30"
+      },
+      {
+        "date": " Jan 08, 2025",
+        "description": "Shaker Sorel DIV",
+        "withdrawals": "150,394.09",
+        "deposits": "",
+        "balance": "$171,350.91"
+      },
+      {
+        "date": " Jan 08, 2025",
+        "description": "View more Envoi - VFC ***gj3View more Envoi - VFC ***gj3",
+        "withdrawals": "",
+        "deposits": "3,130.20",
+        "balance": "$20,956.82",
+        "link": true
+      },
+      {
+        "date": " Jan 08, 2025",
+        "description": "View more Envoi - VFC ***KexView more Envoi - VFC ***Kex",
+        "withdrawals": "",
+        "deposits": "241.45",
+        "balance": "$24,087.02",
+        "link": true
+      },
+      {
+        "date": " Jan 08, 2025",
+        "description": "View more Envoi - VFC ***uEUView more Envoi - VFC ***uEU",
+        "withdrawals": "",
+        "deposits": "38.21",
+        "balance": "$24,328.47",
+        "link": true
+      },
+      {
+        "date": " Jan 08, 2025",
+        "description": "View more Envoi - VFC ***rGtView more Envoi - VFC ***rGt",
+        "withdrawals": "",
+        "deposits": "83.73",
+        "balance": "$24,366.68",
+        "link": true
+      },
+      {
+        "date": " Jan 08, 2025",
+        "description": "View more Envoi - VFC ***5tZView more Envoi - VFC ***5tZ",
+        "withdrawals": "",
+        "deposits": "60.00",
+        "balance": "$24,450.41",
+        "link": true
+      },
+      {
+        "date": " Jan 08, 2025",
+        "description": "View more Envoi - VFC ***Vm8View more Envoi - VFC ***Vm8",
+        "withdrawals": "",
+        "deposits": "2,966.89",
+        "balance": "$24,510.41",
+        "link": true
+      },
+      {
+        "date": " Jan 06, 2025",
+        "description": "FRAIS GAB INTL",
+        "withdrawals": "",
+        "deposits": "3.00",
+        "balance": "$27,477.30",
+        "expandable": true
+      },
+      {
+        "date": " Jan 06, 2025",
+        "description": "APTE FAC",
+        "withdrawals": "17,119.74",
+        "deposits": "",
+        "balance": "$27,480.30"
+      },
+      {
+        "date": " Jan 06, 2025",
+        "description": "View more Envoi - VFC ***XZVView more Envoi - VFC ***XZV",
+        "withdrawals": "",
+        "deposits": "75.00",
+        "balance": "$10,360.56",
+        "link": true
+      },
+      {
+        "date": " Jan 06, 2025",
+        "description": "View more Envoi - VFC ***qzGView more Envoi - VFC ***qzG",
+        "withdrawals": "",
+        "deposits": "1,750.00",
+        "balance": "$10,435.56",
+        "link": true
+      },
+      {
+        "date": " Jan 06, 2025",
+        "description": "RETR GAB $INTL",
+        "withdrawals": "",
+        "deposits": "164.70",
+        "balance": "$12,185.56"
+      },
+      {
+        "date": " Jan 03, 2025",
+        "description": "9397-2115 QCINC DIV",
+        "withdrawals": "5,000.00",
+        "deposits": "",
+        "balance": "$12,350.26"
+      },
+      {
+        "date": " Jan 03, 2025",
+        "description": "View more Envoi - VFC ***9vUView more Envoi - VFC ***9vU",
+        "withdrawals": "",
+        "deposits": "1,872.00",
+        "balance": "$7,350.26",
+        "link": true
+      },
+      {
+        "date": " Jan 03, 2025",
+        "description": "CABLE AU CLIENT",
+        "withdrawals": "",
+        "deposits": "99,511.90",
+        "balance": "$9,222.26"
+      },
+      {
+        "date": " Jan 03, 2025",
+        "description": "CABLE AU CLIENT",
+        "withdrawals": "",
+        "deposits": "3,360.69",
+        "balance": "$108,734.16"
+      },
+      {
+        "date": " Jan 02, 2025",
+        "description": "LOMBARDI AUTOS BAIL",
+        "withdrawals": "",
+        "deposits": "1,921.89",
+        "balance": "$112,094.85"
+      },
+      {
+        "date": " Jan 02, 2025",
+        "description": "LOMBARDI AUTOS BAIL",
+        "withdrawals": "",
+        "deposits": "1,242.45",
+        "balance": "$114,016.74"
+      },
+      {
+        "date": " Jan 02, 2025",
+        "description": "View more Envoi - VFC ***5T2View more Envoi - VFC ***5T2",
+        "withdrawals": "",
+        "deposits": "1,108.30",
+        "balance": "$115,259.19",
+        "link": true
+      },
+      {
+        "date": "",
+        "description": "Total :",
+        "withdrawals": "891,485.41",
+        "deposits": "840,335.79",
+        "balance": ""
+      }
+    ],
+    "totals": {
+      "withdrawals": "$1,782,970.82",
+      "deposits": "$1,680,671.58"
+    }
+  },
+  "febuary_2025": {
+    "month": "Febuary 2025",
+    "transactions": [
+      {
+        "date": " Feb 28, 2025",
+        "description": "FRAIS MENS PLAN SERV",
+        "withdrawals": "",
+        "deposits": "125.00",
+        "balance": "$76,745.06",
+        "expandable": true
+      },
+      {
+        "date": " Feb 28, 2025",
+        "description": "View more Envoi - VFC ***KeZView more Envoi - VFC ***KeZ",
+        "withdrawals": "",
+        "deposits": "12,479.98",
+        "balance": "$76,870.06",
+        "link": true
+      },
+      {
+        "date": " Feb 28, 2025",
+        "description": "View more Envoi - VFC ***gQDView more Envoi - VFC ***gQD",
+        "withdrawals": "",
+        "deposits": "860.00",
+        "balance": "$89,350.04",
+        "link": true
+      },
+      {
+        "date": " Feb 28, 2025",
+        "description": "View more Envoi - VFC ***eDQView more Envoi - VFC ***eDQ",
+        "withdrawals": "",
+        "deposits": "5,160.94",
+        "balance": "$90,210.04",
+        "link": true
+      },
+      {
+        "date": " Feb 28, 2025",
+        "description": "View more Envoi - VFC ***RtgView more Envoi - VFC ***Rtg",
+        "withdrawals": "",
+        "deposits": "478.86",
+        "balance": "$95,370.98",
+        "link": true
+      },
+      {
+        "date": " Feb 28, 2025",
+        "description": "View more Envoi - VFC ***rswView more Envoi - VFC ***rsw",
+        "withdrawals": "",
+        "deposits": "741.74",
+        "balance": "$95,849.84",
+        "link": true
+      },
+      {
+        "date": " Feb 28, 2025",
+        "description": "View more Envoi - VFC ***XSVView more Envoi - VFC ***XSV",
+        "withdrawals": "",
+        "deposits": "324.82",
+        "balance": "$96,591.58",
+        "link": true
+      },
+      {
+        "date": " Feb 28, 2025",
+        "description": "View more Envoi - VFC ***WBQView more Envoi - VFC ***WBQ",
+        "withdrawals": "",
+        "deposits": "102.20",
+        "balance": "$96,916.40",
+        "link": true
+      },
+      {
+        "date": " Feb 28, 2025",
+        "description": "View more Envoi - VFC ***KXWView more Envoi - VFC ***KXW",
+        "withdrawals": "",
+        "deposits": "213.38",
+        "balance": "$97,018.60",
+        "link": true
+      },
+      {
+        "date": " Feb 28, 2025",
+        "description": "View more Envoi - VFC ***XCUView more Envoi - VFC ***XCU",
+        "withdrawals": "",
+        "deposits": "1,670.59",
+        "balance": "$97,231.98",
+        "link": true
+      },
+      {
+        "date": " Feb 27, 2025",
+        "description": "TRAITE $CA 09635483",
+        "withdrawals": "",
+        "deposits": "200,263.05",
+        "balance": "$98,902.57"
+      },
+      {
+        "date": " Feb 27, 2025",
+        "description": "CV 4120-VIREMENT",
+        "withdrawals": "110,000.00",
+        "deposits": "",
+        "balance": "$299,165.62"
+      },
+      {
+        "date": " Feb 27, 2025",
+        "description": "IL002 TFR-A C/C",
+        "withdrawals": "",
+        "deposits": "1,579.00",
+        "balance": "$189,165.62"
+      },
+      {
+        "date": " Feb 27, 2025",
+        "description": "View more Envoi - VFC ***HvpView more Envoi - VFC ***Hvp",
+        "withdrawals": "",
+        "deposits": "3,741.69",
+        "balance": "$190,744.62",
+        "link": true
+      },
+      {
+        "date": " Feb 26, 2025",
+        "description": "B.F DIV",
+        "withdrawals": "24,334.93",
+        "deposits": "",
+        "balance": "$194,486.31"
+      },
+      {
+        "date": " Feb 26, 2025",
+        "description": "9397-2115 QCINC DIV",
+        "withdrawals": "95,000.00",
+        "deposits": "",
+        "balance": "$170,151.38"
+      },
+      {
+        "date": " Feb 26, 2025",
+        "description": "Geratek FAC",
+        "withdrawals": "51,857.64",
+        "deposits": "",
+        "balance": "$75,151.38"
+      },
+      {
+        "date": " Feb 25, 2025",
+        "description": "DEBITS/PAIE DIV",
+        "withdrawals": "",
+        "deposits": "9,202.74",
+        "balance": "$23,293.74"
+      },
+      {
+        "date": " Feb 25, 2025",
+        "description": "DEBITS/FACT. DIV",
+        "withdrawals": "",
+        "deposits": "31.53",
+        "balance": "$32,496.48"
+      },
+      {
+        "date": " Feb 25, 2025",
+        "description": "View more Envoi - VFC ***nKAView more Envoi - VFC ***nKA",
+        "withdrawals": "",
+        "deposits": "2,452.50",
+        "balance": "$32,528.01",
+        "link": true
+      },
+      {
+        "date": " Feb 25, 2025",
+        "description": "View more Envoi - VFC ***KsCView more Envoi - VFC ***KsC",
+        "withdrawals": "",
+        "deposits": "7,000.00",
+        "balance": "$34,980.51",
+        "link": true
+      },
+      {
+        "date": " Feb 24, 2025",
+        "description": "View more Envoi - VFC ***CH3View more Envoi - VFC ***CH3",
+        "withdrawals": "",
+        "deposits": "9,298.05",
+        "balance": "$41,980.51",
+        "link": true
+      },
+      {
+        "date": " Feb 24, 2025",
+        "description": "View more Envoi - VFC ***geNView more Envoi - VFC ***geN",
+        "withdrawals": "",
+        "deposits": "2,182.84",
+        "balance": "$51,278.56",
+        "link": true
+      },
+      {
+        "date": " Feb 21, 2025",
+        "description": "View more Envoi - VFC ***GzyView more Envoi - VFC ***Gzy",
+        "withdrawals": "",
+        "deposits": "1,042.52",
+        "balance": "$53,461.40",
+        "link": true
+      },
+      {
+        "date": " Feb 21, 2025",
+        "description": "View more Envoi - VFC ***SAaView more Envoi - VFC ***SAa",
+        "withdrawals": "",
+        "deposits": "826.00",
+        "balance": "$54,503.92",
+        "link": true
+      },
+      {
+        "date": " Feb 21, 2025",
+        "description": "View more Envoi - VFC ***HjXView more Envoi - VFC ***HjX",
+        "withdrawals": "",
+        "deposits": "370.28",
+        "balance": "$55,329.92",
+        "link": true
+      },
+      {
+        "date": " Feb 21, 2025",
+        "description": "View more Envoi - VFC ***FTfView more Envoi - VFC ***FTf",
+        "withdrawals": "",
+        "deposits": "184.00",
+        "balance": "$55,700.20",
+        "link": true
+      },
+      {
+        "date": " Feb 21, 2025",
+        "description": "View more Envoi - VFC ***5bEView more Envoi - VFC ***5bE",
+        "withdrawals": "",
+        "deposits": "50.00",
+        "balance": "$55,884.20",
+        "link": true
+      },
+      {
+        "date": " Feb 21, 2025",
+        "description": "View more Envoi - VFC ***TDDView more Envoi - VFC ***TDD",
+        "withdrawals": "",
+        "deposits": "2,599.26",
+        "balance": "$55,934.20",
+        "link": true
+      },
+      {
+        "date": " Feb 21, 2025",
+        "description": "View more Envoi - VFC ***98mView more Envoi - VFC ***98m",
+        "withdrawals": "",
+        "deposits": "2,957.52",
+        "balance": "$58,533.46",
+        "link": true
+      },
+      {
+        "date": " Feb 21, 2025",
+        "description": "View more Envoi - VFC ***beDView more Envoi - VFC ***beD",
+        "withdrawals": "",
+        "deposits": "2,300.00",
+        "balance": "$61,490.98",
+        "link": true
+      },
+      {
+        "date": " Feb 21, 2025",
+        "description": "View more Envoi - VFC ***BFbView more Envoi - VFC ***BFb",
+        "withdrawals": "",
+        "deposits": "975.00",
+        "balance": "$63,790.98",
+        "link": true
+      },
+      {
+        "date": " Feb 20, 2025",
+        "description": "View more Envoi - VFC ***XwjView more Envoi - VFC ***Xwj",
+        "withdrawals": "",
+        "deposits": "108.11",
+        "balance": "$64,765.98",
+        "link": true
+      },
+      {
+        "date": " Feb 20, 2025",
+        "description": "View more Envoi - VFC ***hShView more Envoi - VFC ***hSh",
+        "withdrawals": "",
+        "deposits": "977.29",
+        "balance": "$64,874.09",
+        "link": true
+      },
+      {
+        "date": " Feb 20, 2025",
+        "description": "View more Envoi - VFC ***9trView more Envoi - VFC ***9tr",
+        "withdrawals": "",
+        "deposits": "1,280.82",
+        "balance": "$65,851.38",
+        "link": true
+      },
+      {
+        "date": " Feb 20, 2025",
+        "description": "View more Envoi - VFC ***VAsView more Envoi - VFC ***VAs",
+        "withdrawals": "",
+        "deposits": "454.15",
+        "balance": "$67,132.20",
+        "link": true
+      },
+      {
+        "date": " Feb 19, 2025",
+        "description": "View more Envoi - VFC ***AXxView more Envoi - VFC ***AXx",
+        "withdrawals": "",
+        "deposits": "17,214.90",
+        "balance": "$67,586.35",
+        "link": true
+      },
+      {
+        "date": " Feb 19, 2025",
+        "description": "WIRE TO CUSTOMER",
+        "withdrawals": "",
+        "deposits": "17,296.25",
+        "balance": "$84,801.25"
+      },
+      {
+        "date": " Feb 19, 2025",
+        "description": "9495-9707 QUEBE FAC",
+        "withdrawals": "7,434.76",
+        "deposits": "",
+        "balance": "$102,097.50"
+      },
+      {
+        "date": " Feb 18, 2025",
+        "description": "DEBITS/PAIE DIV",
+        "withdrawals": "",
+        "deposits": "7,107.80",
+        "balance": "$94,662.74"
+      },
+      {
+        "date": " Feb 18, 2025",
+        "description": "DEBITS/FACT. DIV",
+        "withdrawals": "",
+        "deposits": "35.37",
+        "balance": "$101,770.54"
+      },
+      {
+        "date": " Feb 18, 2025",
+        "description": "View more Envoi - VFC ***ywBView more Envoi - VFC ***ywB",
+        "withdrawals": "",
+        "deposits": "8,000.00",
+        "balance": "$101,805.91",
+        "link": true
+      },
+      {
+        "date": " Feb 18, 2025",
+        "description": "View more Envoi - VFC ***HuBView more Envoi - VFC ***HuB",
+        "withdrawals": "",
+        "deposits": "2,297.16",
+        "balance": "$109,805.91",
+        "link": true
+      },
+      {
+        "date": " Feb 18, 2025",
+        "description": "View more Envoi - VFC ***XtSView more Envoi - VFC ***XtS",
+        "withdrawals": "",
+        "deposits": "3,361.23",
+        "balance": "$112,103.07",
+        "link": true
+      },
+      {
+        "date": " Feb 18, 2025",
+        "description": "WAWANESA INS ASS",
+        "withdrawals": "",
+        "deposits": "231.38",
+        "balance": "$115,464.30"
+      },
+      {
+        "date": " Feb 18, 2025",
+        "description": "CV 4478-RETRAIT EN E",
+        "withdrawals": "",
+        "deposits": "50.00",
+        "balance": "$115,695.68"
+      },
+      {
+        "date": " Feb 18, 2025",
+        "description": "WIRE TO CUSTOMER",
+        "withdrawals": "",
+        "deposits": "75,323.05",
+        "balance": "$115,745.68"
+      },
+      {
+        "date": " Feb 18, 2025",
+        "description": "View more Envoi - VFC ***EHmView more Envoi - VFC ***EHm",
+        "withdrawals": "",
+        "deposits": "4,803.36",
+        "balance": "$191,068.73",
+        "link": true
+      },
+      {
+        "date": " Feb 18, 2025",
+        "description": "RH002 TFR-A C/C",
+        "withdrawals": "",
+        "deposits": "1,476.00",
+        "balance": "$195,872.09"
+      },
+      {
+        "date": " Feb 18, 2025",
+        "description": "LW220 TFR-A C/C",
+        "withdrawals": "",
+        "deposits": "26,300.00",
+        "balance": "$197,348.09"
+      },
+      {
+        "date": " Feb 18, 2025",
+        "description": "View more Envoi - VFC ***KXPView more Envoi - VFC ***KXP",
+        "withdrawals": "",
+        "deposits": "3,298.35",
+        "balance": "$223,648.09",
+        "link": true
+      },
+      {
+        "date": " Feb 18, 2025",
+        "description": "View more Annul. - VFC ***tMJView more Annul. - VFC ***tMJ",
+        "withdrawals": "3,298.35",
+        "deposits": "",
+        "balance": "$226,946.44",
+        "link": true
+      },
+      {
+        "date": " Feb 18, 2025",
+        "description": "View more Envoi - VFC ***UC6View more Envoi - VFC ***UC6",
+        "withdrawals": "",
+        "deposits": "4,000.00",
+        "balance": "$223,648.09",
+        "link": true
+      },
+      {
+        "date": " Feb 18, 2025",
+        "description": "View more Annul. - VFC ***KjhView more Annul. - VFC ***Kjh",
+        "withdrawals": "4,000.00",
+        "deposits": "",
+        "balance": "$227,648.09",
+        "link": true
+      },
+      {
+        "date": " Feb 18, 2025",
+        "description": "View more Envoi - VFC ***KjhView more Envoi - VFC ***Kjh",
+        "withdrawals": "",
+        "deposits": "4,000.00",
+        "balance": "$223,648.09",
+        "link": true
+      },
+      {
+        "date": " Feb 18, 2025",
+        "description": "View more Envoi - VFC ***kJGView more Envoi - VFC ***kJG",
+        "withdrawals": "",
+        "deposits": "1,500.00",
+        "balance": "$227,648.09",
+        "link": true
+      },
+      {
+        "date": " Feb 18, 2025",
+        "description": "View more Envoi - VFC ***tMJView more Envoi - VFC ***tMJ",
+        "withdrawals": "",
+        "deposits": "3,298.35",
+        "balance": "$229,148.09",
+        "link": true
+      },
+      {
+        "date": " Feb 14, 2025",
+        "description": "View more Envoi - VFC ***V8hView more Envoi - VFC ***V8h",
+        "withdrawals": "",
+        "deposits": "335.71",
+        "balance": "$232,446.44",
+        "link": true
+      },
+      {
+        "date": " Feb 14, 2025",
+        "description": "View more Envoi - VFC ***aNGView more Envoi - VFC ***aNG",
+        "withdrawals": "",
+        "deposits": "336.09",
+        "balance": "$232,782.15",
+        "link": true
+      },
+      {
+        "date": " Feb 14, 2025",
+        "description": "View more Envoi - VFC ***n9KView more Envoi - VFC ***n9K",
+        "withdrawals": "",
+        "deposits": "1,687.87",
+        "balance": "$233,118.24",
+        "link": true
+      },
+      {
+        "date": " Feb 14, 2025",
+        "description": "View more Annul. - VFC ***usEView more Annul. - VFC ***usE",
+        "withdrawals": "1,687.87",
+        "deposits": "",
+        "balance": "$234,806.11",
+        "link": true
+      },
+      {
+        "date": " Feb 14, 2025",
+        "description": "View more Envoi - VFC ***usEView more Envoi - VFC ***usE",
+        "withdrawals": "",
+        "deposits": "1,687.87",
+        "balance": "$233,118.24",
+        "link": true
+      },
+      {
+        "date": " Feb 14, 2025",
+        "description": "View more Envoi - VFC ***AX6View more Envoi - VFC ***AX6",
+        "withdrawals": "",
+        "deposits": "4,702.54",
+        "balance": "$234,806.11",
+        "link": true
+      },
+      {
+        "date": " Feb 14, 2025",
+        "description": "250214S8549700WIRE",
+        "withdrawals": "189,982.50",
+        "deposits": "",
+        "balance": "$239,508.65"
+      },
+      {
+        "date": " Feb 14, 2025",
+        "description": "CABLE AU CLIENT",
+        "withdrawals": "",
+        "deposits": "126,617.15",
+        "balance": "$49,526.15"
+      },
+      {
+        "date": " Feb 14, 2025",
+        "description": "250214S8216000WIRE",
+        "withdrawals": "171,872.63",
+        "deposits": "",
+        "balance": "$176,143.30"
+      },
+      {
+        "date": " Feb 14, 2025",
+        "description": "View more Envoi - VFC ***6YXView more Envoi - VFC ***6YX",
+        "withdrawals": "",
+        "deposits": "17,546.11",
+        "balance": "$4,270.67",
+        "link": true
+      },
+      {
+        "date": " Feb 11, 2025",
+        "description": "DEBITS/PAIE DIV",
+        "withdrawals": "",
+        "deposits": "5,902.63",
+        "balance": "$21,816.78"
+      },
+      {
+        "date": " Feb 11, 2025",
+        "description": "DEBITS/FACT. DIV",
+        "withdrawals": "",
+        "deposits": "29.33",
+        "balance": "$27,719.41"
+      },
+      {
+        "date": " Feb 11, 2025",
+        "description": "View more Envoi - VFC ***tQfView more Envoi - VFC ***tQf",
+        "withdrawals": "",
+        "deposits": "4,639.15",
+        "balance": "$27,748.74",
+        "link": true
+      },
+      {
+        "date": " Feb 11, 2025",
+        "description": "View more Envoi - VFC ***ekMView more Envoi - VFC ***ekM",
+        "withdrawals": "",
+        "deposits": "3,908.87",
+        "balance": "$32,387.89",
+        "link": true
+      },
+      {
+        "date": " Feb 10, 2025",
+        "description": "DEBITS/PAIE DIV",
+        "withdrawals": "",
+        "deposits": "1,916.74",
+        "balance": "$36,296.76"
+      },
+      {
+        "date": " Feb 10, 2025",
+        "description": "9495-9707 QUEBE FAC",
+        "withdrawals": "25,000.00",
+        "deposits": "",
+        "balance": "$38,213.50"
+      },
+      {
+        "date": " Feb 10, 2025",
+        "description": "View more Envoi - VFC ***C9BView more Envoi - VFC ***C9B",
+        "withdrawals": "",
+        "deposits": "5,000.00",
+        "balance": "$13,213.50",
+        "link": true
+      },
+      {
+        "date": " Feb 10, 2025",
+        "description": "View more Envoi - VFC ***UXeView more Envoi - VFC ***UXe",
+        "withdrawals": "",
+        "deposits": "2,341.18",
+        "balance": "$18,213.50",
+        "link": true
+      },
+      {
+        "date": " Feb 10, 2025",
+        "description": "View more Envoi - VFC ***W4eView more Envoi - VFC ***W4e",
+        "withdrawals": "",
+        "deposits": "1,592.61",
+        "balance": "$20,554.68",
+        "link": true
+      },
+      {
+        "date": " Feb 10, 2025",
+        "description": "View more Envoi - VFC ***k2zView more Envoi - VFC ***k2z",
+        "withdrawals": "",
+        "deposits": "1,042.20",
+        "balance": "$22,147.29",
+        "link": true
+      },
+      {
+        "date": " Feb 10, 2025",
+        "description": "View more Envoi - VFC ***VnZView more Envoi - VFC ***VnZ",
+        "withdrawals": "",
+        "deposits": "10,000.00",
+        "balance": "$23,189.49",
+        "link": true
+      },
+      {
+        "date": " Feb 07, 2025",
+        "description": "View more Envoi - VFC ***rzWView more Envoi - VFC ***rzW",
+        "withdrawals": "",
+        "deposits": "19,246.81",
+        "balance": "$33,189.49",
+        "link": true
+      },
+      {
+        "date": " Feb 07, 2025",
+        "description": "View more Envoi - VFC ***qtgView more Envoi - VFC ***qtg",
+        "withdrawals": "",
+        "deposits": "1,207.24",
+        "balance": "$52,436.30",
+        "link": true
+      },
+      {
+        "date": " Feb 07, 2025",
+        "description": "View more Envoi - VFC ***c78View more Envoi - VFC ***c78",
+        "withdrawals": "",
+        "deposits": "1,796.47",
+        "balance": "$53,643.54",
+        "link": true
+      },
+      {
+        "date": " Feb 07, 2025",
+        "description": "View more Envoi - VFC ***TvjView more Envoi - VFC ***Tvj",
+        "withdrawals": "",
+        "deposits": "258.95",
+        "balance": "$55,440.01",
+        "link": true
+      },
+      {
+        "date": " Feb 07, 2025",
+        "description": "View more Envoi - VFC ***kn9View more Envoi - VFC ***kn9",
+        "withdrawals": "",
+        "deposits": "853.38",
+        "balance": "$55,698.96",
+        "link": true
+      },
+      {
+        "date": " Feb 07, 2025",
+        "description": "View more Envoi - VFC ***BxxView more Envoi - VFC ***Bxx",
+        "withdrawals": "",
+        "deposits": "1,318.30",
+        "balance": "$56,552.34",
+        "link": true
+      },
+      {
+        "date": " Feb 05, 2025",
+        "description": "View more Envoi - VFC ***48RView more Envoi - VFC ***48R",
+        "withdrawals": "",
+        "deposits": "1,456.10",
+        "balance": "$57,870.64",
+        "link": true
+      },
+      {
+        "date": " Feb 05, 2025",
+        "description": "View more Envoi - VFC ***g7zView more Envoi - VFC ***g7z",
+        "withdrawals": "",
+        "deposits": "3,010.37",
+        "balance": "$59,326.74",
+        "link": true
+      },
+      {
+        "date": " Feb 05, 2025",
+        "description": "View more Envoi - VFC ***TgvView more Envoi - VFC ***Tgv",
+        "withdrawals": "",
+        "deposits": "16,789.85",
+        "balance": "$62,337.11",
+        "link": true
+      },
+      {
+        "date": " Feb 05, 2025",
+        "description": "View more Envoi - VFC ***WaqView more Envoi - VFC ***Waq",
+        "withdrawals": "",
+        "deposits": "250.00",
+        "balance": "$79,126.96",
+        "link": true
+      },
+      {
+        "date": " Feb 04, 2025",
+        "description": "DEBITS/PAIE DIV",
+        "withdrawals": "",
+        "deposits": "5,972.36",
+        "balance": "$79,376.96"
+      },
+      {
+        "date": " Feb 04, 2025",
+        "description": "DEBITS/FACT. DIV",
+        "withdrawals": "",
+        "deposits": "150.72",
+        "balance": "$85,349.32"
+      },
+      {
+        "date": " Feb 04, 2025",
+        "description": "View more Envoi - VFC ***k76View more Envoi - VFC ***k76",
+        "withdrawals": "",
+        "deposits": "696.71",
+        "balance": "$85,500.04",
+        "link": true
+      },
+      {
+        "date": " Feb 03, 2025",
+        "description": "LOMBARDI AUTOS BAIL",
+        "withdrawals": "",
+        "deposits": "1,921.89",
+        "balance": "$86,196.75"
+      },
+      {
+        "date": " Feb 03, 2025",
+        "description": "LOMBARDI AUTOS BAIL",
+        "withdrawals": "",
+        "deposits": "1,242.45",
+        "balance": "$88,118.64"
+      },
+      {
+        "date": " Feb 03, 2025",
+        "description": "WIRE TO CUSTOMER",
+        "withdrawals": "",
+        "deposits": "3,360.24",
+        "balance": "$89,361.09"
+      },
+      {
+        "date": " Feb 03, 2025",
+        "description": "WIRE TO CUSTOMER",
+        "withdrawals": "",
+        "deposits": "52,954.53",
+        "balance": "$92,721.33"
+      },
+      {
+        "date": " Feb 03, 2025",
+        "description": "View more Envoi - VFC ***J6WView more Envoi - VFC ***J6W",
+        "withdrawals": "",
+        "deposits": "20,573.01",
+        "balance": "$145,675.86",
+        "link": true
+      },
+      {
+        "date": " Feb 03, 2025",
+        "description": "View more Envoi - VFC ***38MView more Envoi - VFC ***38M",
+        "withdrawals": "",
+        "deposits": "356.57",
+        "balance": "$166,248.87",
+        "link": true
+      },
+      {
+        "date": " Feb 03, 2025",
+        "description": "View more Envoi - VFC ***E3gView more Envoi - VFC ***E3g",
+        "withdrawals": "",
+        "deposits": "911.67",
+        "balance": "$166,605.44",
+        "link": true
+      },
+      {
+        "date": "",
+        "description": "Total :",
+        "withdrawals": "684,468.68",
+        "deposits": "775,240.73",
+        "balance": ""
+      }
+    ],
+    "totals": {
+      "withdrawals": "$1,368,937.36",
+      "deposits": "$1,550,481.46"
+    }
+  },
+  "march_2025": {
+    "month": "March 2025",
+    "transactions": [
+      {
+        "date": " Mar 31, 2025",
+        "description": "FRAIS MENS PLAN SERV",
+        "withdrawals": "",
+        "deposits": "125.00",
+        "balance": "$40,050.10",
+        "expandable": true
+      },
+      {
+        "date": " Mar 31, 2025",
+        "description": "View more Envoi - VFC ***nDyView more Envoi - VFC ***nDy",
+        "withdrawals": "",
+        "deposits": "13.17",
+        "balance": "$40,175.10",
+        "link": true
+      },
+      {
+        "date": " Mar 31, 2025",
+        "description": "View more Envoi - VFC ***6WzView more Envoi - VFC ***6Wz",
+        "withdrawals": "",
+        "deposits": "10,385.89",
+        "balance": "$40,188.27",
+        "link": true
+      },
+      {
+        "date": " Mar 31, 2025",
+        "description": "View more Annul. - VFC ***7VsView more Annul. - VFC ***7Vs",
+        "withdrawals": "10,385.39",
+        "deposits": "",
+        "balance": "$50,574.16",
+        "link": true
+      },
+      {
+        "date": " Mar 31, 2025",
+        "description": "View more Envoi - VFC ***7VsView more Envoi - VFC ***7Vs",
+        "withdrawals": "",
+        "deposits": "10,385.39",
+        "balance": "$40,188.77",
+        "link": true
+      },
+      {
+        "date": " Mar 31, 2025",
+        "description": "RETRAIT EN ESPECES",
+        "withdrawals": "",
+        "deposits": "50.00",
+        "balance": "$50,574.16"
+      },
+      {
+        "date": " Mar 31, 2025",
+        "description": "CABLE AU CLIENT",
+        "withdrawals": "",
+        "deposits": "105,415.77",
+        "balance": "$50,624.16"
+      },
+      {
+        "date": " Mar 31, 2025",
+        "description": "View more Recept - VFC ***hrdView more Recept - VFC ***hrd",
+        "withdrawals": "5,000.00",
+        "deposits": "",
+        "balance": "$156,039.93",
+        "link": true
+      },
+      {
+        "date": " Mar 31, 2025",
+        "description": "View more Recept - VFC ***U3jView more Recept - VFC ***U3j",
+        "withdrawals": "4,132.00",
+        "deposits": "",
+        "balance": "$151,039.93",
+        "link": true
+      },
+      {
+        "date": " Mar 31, 2025",
+        "description": "View more Envoi - VFC ***rvpView more Envoi - VFC ***rvp",
+        "withdrawals": "",
+        "deposits": "5,000.00",
+        "balance": "$146,907.93",
+        "link": true
+      },
+      {
+        "date": " Mar 28, 2025",
+        "description": "250328S8783500WIRE",
+        "withdrawals": "129,982.50",
+        "deposits": "",
+        "balance": "$151,907.93"
+      },
+      {
+        "date": " Mar 28, 2025",
+        "description": "JQ551 TFR-A 6377425",
+        "withdrawals": "",
+        "deposits": "1,000.00",
+        "balance": "$21,925.43"
+      },
+      {
+        "date": " Mar 28, 2025",
+        "description": "View more Envoi - VFC ***AFdView more Envoi - VFC ***AFd",
+        "withdrawals": "",
+        "deposits": "1,429.00",
+        "balance": "$22,925.43",
+        "link": true
+      },
+      {
+        "date": " Mar 27, 2025",
+        "description": "View more Recept - VFC ***wPEView more Recept - VFC ***wPE",
+        "withdrawals": "3,000.00",
+        "deposits": "",
+        "balance": "$24,354.43",
+        "link": true
+      },
+      {
+        "date": " Mar 27, 2025",
+        "description": "View more Recept - VFC ***JbPView more Recept - VFC ***JbP",
+        "withdrawals": "5,000.00",
+        "deposits": "",
+        "balance": "$21,354.43",
+        "link": true
+      },
+      {
+        "date": " Mar 27, 2025",
+        "description": "View more Recept - VFC ***ukJView more Recept - VFC ***ukJ",
+        "withdrawals": "5,000.00",
+        "deposits": "",
+        "balance": "$16,354.43",
+        "link": true
+      },
+      {
+        "date": " Mar 27, 2025",
+        "description": "View more Envoi - VFC ***Qv8View more Envoi - VFC ***Qv8",
+        "withdrawals": "",
+        "deposits": "3,777.89",
+        "balance": "$11,354.43",
+        "link": true
+      },
+      {
+        "date": " Mar 26, 2025",
+        "description": "View more Envoi - VFC ***RBzView more Envoi - VFC ***RBz",
+        "withdrawals": "",
+        "deposits": "8,000.00",
+        "balance": "$15,132.32",
+        "link": true
+      },
+      {
+        "date": " Mar 26, 2025",
+        "description": "View more Recept - VFC ***2NTView more Recept - VFC ***2NT",
+        "withdrawals": "3,000.00",
+        "deposits": "",
+        "balance": "$23,132.32",
+        "link": true
+      },
+      {
+        "date": " Mar 26, 2025",
+        "description": "View more Recept - VFC ***yWCView more Recept - VFC ***yWC",
+        "withdrawals": "5,000.00",
+        "deposits": "",
+        "balance": "$20,132.32",
+        "link": true
+      },
+      {
+        "date": " Mar 26, 2025",
+        "description": "View more Envoi - VFC ***f4NView more Envoi - VFC ***f4N",
+        "withdrawals": "",
+        "deposits": "2,477.71",
+        "balance": "$15,132.32",
+        "link": true
+      },
+      {
+        "date": " Mar 26, 2025",
+        "description": "View more Envoi - VFC ***K6tView more Envoi - VFC ***K6t",
+        "withdrawals": "",
+        "deposits": "2,819.77",
+        "balance": "$17,610.03",
+        "link": true
+      },
+      {
+        "date": " Mar 26, 2025",
+        "description": "View more Envoi - VFC ***dTRView more Envoi - VFC ***dTR",
+        "withdrawals": "",
+        "deposits": "1,845.25",
+        "balance": "$20,429.80",
+        "link": true
+      },
+      {
+        "date": " Mar 26, 2025",
+        "description": "View more Envoi - VFC ***BkdView more Envoi - VFC ***Bkd",
+        "withdrawals": "",
+        "deposits": "2,690.42",
+        "balance": "$22,275.05",
+        "link": true
+      },
+      {
+        "date": " Mar 26, 2025",
+        "description": "View more Envoi - VFC ***438View more Envoi - VFC ***438",
+        "withdrawals": "",
+        "deposits": "999.41",
+        "balance": "$24,965.47",
+        "link": true
+      },
+      {
+        "date": " Mar 26, 2025",
+        "description": "View more Envoi - VFC ***tJwView more Envoi - VFC ***tJw",
+        "withdrawals": "",
+        "deposits": "1,797.07",
+        "balance": "$25,964.88",
+        "link": true
+      },
+      {
+        "date": " Mar 26, 2025",
+        "description": "View more Envoi - VFC ***9buView more Envoi - VFC ***9bu",
+        "withdrawals": "",
+        "deposits": "104.01",
+        "balance": "$27,761.95",
+        "link": true
+      },
+      {
+        "date": " Mar 26, 2025",
+        "description": "View more Envoi - VFC ***KMFView more Envoi - VFC ***KMF",
+        "withdrawals": "",
+        "deposits": "773.16",
+        "balance": "$27,865.96",
+        "link": true
+      },
+      {
+        "date": " Mar 26, 2025",
+        "description": "View more Envoi - VFC ***PdsView more Envoi - VFC ***Pds",
+        "withdrawals": "",
+        "deposits": "1,291.16",
+        "balance": "$28,639.12",
+        "link": true
+      },
+      {
+        "date": " Mar 26, 2025",
+        "description": "View more Envoi - VFC ***RYZView more Envoi - VFC ***RYZ",
+        "withdrawals": "",
+        "deposits": "478.04",
+        "balance": "$29,930.28",
+        "link": true
+      },
+      {
+        "date": " Mar 25, 2025",
+        "description": "DEBITS/PAIE DIV",
+        "withdrawals": "",
+        "deposits": "7,791.10",
+        "balance": "$30,408.32"
+      },
+      {
+        "date": " Mar 25, 2025",
+        "description": "DEBITS/FACT. DIV",
+        "withdrawals": "",
+        "deposits": "33.56",
+        "balance": "$38,199.42"
+      },
+      {
+        "date": " Mar 24, 2025",
+        "description": "View more Envoi - VFC ***RZSView more Envoi - VFC ***RZS",
+        "withdrawals": "",
+        "deposits": "20,000.00",
+        "balance": "$38,232.98",
+        "link": true
+      },
+      {
+        "date": " Mar 24, 2025",
+        "description": "CELITE CONT FAC",
+        "withdrawals": "20,000.00",
+        "deposits": "",
+        "balance": "$58,232.98"
+      },
+      {
+        "date": " Mar 24, 2025",
+        "description": "View more Envoi - VFC ***TAVView more Envoi - VFC ***TAV",
+        "withdrawals": "",
+        "deposits": "4,550.00",
+        "balance": "$38,232.98",
+        "link": true
+      },
+      {
+        "date": " Mar 20, 2025",
+        "description": "View more Envoi - VFC ***98DView more Envoi - VFC ***98D",
+        "withdrawals": "",
+        "deposits": "17,541.10",
+        "balance": "$42,782.98",
+        "link": true
+      },
+      {
+        "date": " Mar 20, 2025",
+        "description": "View more Envoi - VFC ***UNVView more Envoi - VFC ***UNV",
+        "withdrawals": "",
+        "deposits": "4,000.00",
+        "balance": "$60,324.08",
+        "link": true
+      },
+      {
+        "date": " Mar 20, 2025",
+        "description": "View more Envoi - VFC ***jB2View more Envoi - VFC ***jB2",
+        "withdrawals": "",
+        "deposits": "1,322.70",
+        "balance": "$64,324.08",
+        "link": true
+      },
+      {
+        "date": " Mar 19, 2025",
+        "description": "View more Envoi - VFC ***f8fView more Envoi - VFC ***f8f",
+        "withdrawals": "",
+        "deposits": "1,781.76",
+        "balance": "$65,646.78",
+        "link": true
+      },
+      {
+        "date": " Mar 19, 2025",
+        "description": "View more Envoi - VFC ***4WaView more Envoi - VFC ***4Wa",
+        "withdrawals": "",
+        "deposits": "175.90",
+        "balance": "$67,428.54",
+        "link": true
+      },
+      {
+        "date": " Mar 19, 2025",
+        "description": "View more Envoi - VFC ***ePrView more Envoi - VFC ***ePr",
+        "withdrawals": "",
+        "deposits": "56.00",
+        "balance": "$67,604.44",
+        "link": true
+      },
+      {
+        "date": " Mar 19, 2025",
+        "description": "View more Envoi - VFC ***v6EView more Envoi - VFC ***v6E",
+        "withdrawals": "",
+        "deposits": "776.47",
+        "balance": "$67,660.44",
+        "link": true
+      },
+      {
+        "date": " Mar 19, 2025",
+        "description": "View more Envoi - VFC ***FTPView more Envoi - VFC ***FTP",
+        "withdrawals": "",
+        "deposits": "1,631.38",
+        "balance": "$68,436.91",
+        "link": true
+      },
+      {
+        "date": " Mar 18, 2025",
+        "description": "DEBITS/PAIE DIV",
+        "withdrawals": "",
+        "deposits": "9,883.72",
+        "balance": "$70,068.29"
+      },
+      {
+        "date": " Mar 18, 2025",
+        "description": "DEBITS/FACT. DIV",
+        "withdrawals": "",
+        "deposits": "33.56",
+        "balance": "$79,952.01"
+      },
+      {
+        "date": " Mar 18, 2025",
+        "description": "WIRE TO CUSTOMER",
+        "withdrawals": "",
+        "deposits": "56,995.52",
+        "balance": "$79,985.57"
+      },
+      {
+        "date": " Mar 18, 2025",
+        "description": "View more Envoi - VFC ***7PvView more Envoi - VFC ***7Pv",
+        "withdrawals": "",
+        "deposits": "2,000.00",
+        "balance": "$136,981.09",
+        "link": true
+      },
+      {
+        "date": " Mar 17, 2025",
+        "description": "FRAIS GAB INTL",
+        "withdrawals": "",
+        "deposits": "3.00",
+        "balance": "$138,981.09",
+        "expandable": true
+      },
+      {
+        "date": " Mar 17, 2025",
+        "description": "WAWANESA INS ASS",
+        "withdrawals": "",
+        "deposits": "231.37",
+        "balance": "$138,984.09"
+      },
+      {
+        "date": " Mar 17, 2025",
+        "description": "View more Envoi - VFC ***JVeView more Envoi - VFC ***JVe",
+        "withdrawals": "",
+        "deposits": "885.82",
+        "balance": "$139,215.46",
+        "link": true
+      },
+      {
+        "date": " Mar 17, 2025",
+        "description": "View more Envoi - VFC ***2k9View more Envoi - VFC ***2k9",
+        "withdrawals": "",
+        "deposits": "6,280.51",
+        "balance": "$140,101.28",
+        "link": true
+      },
+      {
+        "date": " Mar 17, 2025",
+        "description": "View more Envoi - VFC ***RdPView more Envoi - VFC ***RdP",
+        "withdrawals": "",
+        "deposits": "12,647.25",
+        "balance": "$146,381.79",
+        "link": true
+      },
+      {
+        "date": " Mar 17, 2025",
+        "description": "View more Envoi - VFC ***WKfView more Envoi - VFC ***WKf",
+        "withdrawals": "",
+        "deposits": "4,625.00",
+        "balance": "$159,029.04",
+        "link": true
+      },
+      {
+        "date": " Mar 17, 2025",
+        "description": "RETR GAB $INTL",
+        "withdrawals": "",
+        "deposits": "462.15",
+        "balance": "$163,654.04"
+      },
+      {
+        "date": " Mar 14, 2025",
+        "description": "View more Envoi - VFC ***kUDView more Envoi - VFC ***kUD",
+        "withdrawals": "",
+        "deposits": "3,000.00",
+        "balance": "$164,116.19",
+        "link": true
+      },
+      {
+        "date": " Mar 14, 2025",
+        "description": "View more Envoi - VFC ***CdcView more Envoi - VFC ***Cdc",
+        "withdrawals": "",
+        "deposits": "3,000.00",
+        "balance": "$167,116.19",
+        "link": true
+      },
+      {
+        "date": " Mar 14, 2025",
+        "description": "WIRE TO CUSTOMER",
+        "withdrawals": "",
+        "deposits": "80,802.69",
+        "balance": "$170,116.19"
+      },
+      {
+        "date": " Mar 14, 2025",
+        "description": "View more Envoi - VFC ***RQfView more Envoi - VFC ***RQf",
+        "withdrawals": "",
+        "deposits": "5,000.00",
+        "balance": "$250,918.88",
+        "link": true
+      },
+      {
+        "date": " Mar 14, 2025",
+        "description": "View more Envoi - VFC ***TnwView more Envoi - VFC ***Tnw",
+        "withdrawals": "",
+        "deposits": "1,000.00",
+        "balance": "$255,918.88",
+        "link": true
+      },
+      {
+        "date": " Mar 14, 2025",
+        "description": "View more Envoi - VFC ***SqPView more Envoi - VFC ***SqP",
+        "withdrawals": "",
+        "deposits": "5,000.00",
+        "balance": "$256,918.88",
+        "link": true
+      },
+      {
+        "date": " Mar 13, 2025",
+        "description": "Carbonleo FAC",
+        "withdrawals": "5,000.00",
+        "deposits": "",
+        "balance": "$261,918.88"
+      },
+      {
+        "date": " Mar 12, 2025",
+        "description": "View more Envoi - VFC ***6R5View more Envoi - VFC ***6R5",
+        "withdrawals": "",
+        "deposits": "124.98",
+        "balance": "$256,918.88",
+        "link": true
+      },
+      {
+        "date": " Mar 12, 2025",
+        "description": "View more Envoi - VFC ***yN3View more Envoi - VFC ***yN3",
+        "withdrawals": "",
+        "deposits": "92.83",
+        "balance": "$257,043.86",
+        "link": true
+      },
+      {
+        "date": " Mar 12, 2025",
+        "description": "View more Envoi - VFC ***DgwView more Envoi - VFC ***Dgw",
+        "withdrawals": "",
+        "deposits": "186.20",
+        "balance": "$257,136.69",
+        "link": true
+      },
+      {
+        "date": " Mar 12, 2025",
+        "description": "View more Envoi - VFC ***JmnView more Envoi - VFC ***Jmn",
+        "withdrawals": "",
+        "deposits": "341.32",
+        "balance": "$257,322.89",
+        "link": true
+      },
+      {
+        "date": " Mar 12, 2025",
+        "description": "View more Envoi - VFC ***ywKView more Envoi - VFC ***ywK",
+        "withdrawals": "",
+        "deposits": "57.00",
+        "balance": "$257,664.21",
+        "link": true
+      },
+      {
+        "date": " Mar 12, 2025",
+        "description": "View more Envoi - VFC ***hPxView more Envoi - VFC ***hPx",
+        "withdrawals": "",
+        "deposits": "2,934.63",
+        "balance": "$257,721.21",
+        "link": true
+      },
+      {
+        "date": " Mar 12, 2025",
+        "description": "View more Envoi - VFC ***YmdView more Envoi - VFC ***Ymd",
+        "withdrawals": "",
+        "deposits": "15,521.63",
+        "balance": "$260,655.84",
+        "link": true
+      },
+      {
+        "date": " Mar 12, 2025",
+        "description": "View more Envoi - VFC ***gg3View more Envoi - VFC ***gg3",
+        "withdrawals": "",
+        "deposits": "3,828.67",
+        "balance": "$276,177.47",
+        "link": true
+      },
+      {
+        "date": " Mar 12, 2025",
+        "description": "WIRE TO CUSTOMER",
+        "withdrawals": "",
+        "deposits": "30,050.00",
+        "balance": "$280,006.14"
+      },
+      {
+        "date": " Mar 12, 2025",
+        "description": "WIRE TO CUSTOMER",
+        "withdrawals": "",
+        "deposits": "79,050.00",
+        "balance": "$310,056.14"
+      },
+      {
+        "date": " Mar 11, 2025",
+        "description": "View more Envoi - VFC ***4mrView more Envoi - VFC ***4mr",
+        "withdrawals": "",
+        "deposits": "3,000.00",
+        "balance": "$389,106.14",
+        "link": true
+      },
+      {
+        "date": " Mar 11, 2025",
+        "description": "DEBITS/PAIE DIV",
+        "withdrawals": "",
+        "deposits": "9,883.72",
+        "balance": "$392,106.14"
+      },
+      {
+        "date": " Mar 11, 2025",
+        "description": "View more Envoi - VFC ***YwYView more Envoi - VFC ***YwY",
+        "withdrawals": "",
+        "deposits": "25,000.00",
+        "balance": "$401,989.86",
+        "link": true
+      },
+      {
+        "date": " Mar 11, 2025",
+        "description": "COQ ROYAL SHERBROOKE",
+        "withdrawals": "400,751.69",
+        "deposits": "",
+        "balance": "$426,989.86"
+      },
+      {
+        "date": " Mar 10, 2025",
+        "description": "DEBITS/PAIE DIV",
+        "withdrawals": "",
+        "deposits": "7,884.90",
+        "balance": "$26,238.17"
+      },
+      {
+        "date": " Mar 10, 2025",
+        "description": "DEBITS/FACT. DIV",
+        "withdrawals": "",
+        "deposits": "33.56",
+        "balance": "$34,123.07"
+      },
+      {
+        "date": " Mar 10, 2025",
+        "description": "TRAITE $US 04319079",
+        "withdrawals": "",
+        "deposits": "752.65",
+        "balance": "$34,156.63"
+      },
+      {
+        "date": " Mar 10, 2025",
+        "description": "View more Envoi - VFC ***YRSView more Envoi - VFC ***YRS",
+        "withdrawals": "",
+        "deposits": "2,864.17",
+        "balance": "$34,909.28",
+        "link": true
+      },
+      {
+        "date": " Mar 10, 2025",
+        "description": "View more Envoi - VFC ***ySHView more Envoi - VFC ***ySH",
+        "withdrawals": "",
+        "deposits": "8,547.55",
+        "balance": "$37,773.45",
+        "link": true
+      },
+      {
+        "date": " Mar 10, 2025",
+        "description": "View more Envoi - VFC ***XgyView more Envoi - VFC ***Xgy",
+        "withdrawals": "",
+        "deposits": "1,693.54",
+        "balance": "$46,321.00",
+        "link": true
+      },
+      {
+        "date": " Mar 10, 2025",
+        "description": "View more Envoi - VFC ***6FyView more Envoi - VFC ***6Fy",
+        "withdrawals": "",
+        "deposits": "660.00",
+        "balance": "$48,014.54",
+        "link": true
+      },
+      {
+        "date": " Mar 07, 2025",
+        "description": "View more Envoi - VFC ***pYrView more Envoi - VFC ***pYr",
+        "withdrawals": "",
+        "deposits": "3,966.34",
+        "balance": "$48,674.54",
+        "link": true
+      },
+      {
+        "date": " Mar 07, 2025",
+        "description": "CABLE AU CLIENT",
+        "withdrawals": "",
+        "deposits": "85,120.00",
+        "balance": "$52,640.88"
+      },
+      {
+        "date": " Mar 07, 2025",
+        "description": "CABLE AU CLIENT",
+        "withdrawals": "",
+        "deposits": "85,120.00",
+        "balance": "$137,760.88"
+      },
+      {
+        "date": " Mar 07, 2025",
+        "description": "250307S3753000WIRE",
+        "withdrawals": "194,982.50",
+        "deposits": "",
+        "balance": "$222,880.88"
+      },
+      {
+        "date": " Mar 07, 2025",
+        "description": "View more Envoi - VFC ***RhRView more Envoi - VFC ***RhR",
+        "withdrawals": "",
+        "deposits": "758.84",
+        "balance": "$27,898.38",
+        "link": true
+      },
+      {
+        "date": " Mar 07, 2025",
+        "description": "View more Envoi - VFC ***PhDView more Envoi - VFC ***PhD",
+        "withdrawals": "",
+        "deposits": "1,227.51",
+        "balance": "$28,657.22",
+        "link": true
+      },
+      {
+        "date": " Mar 07, 2025",
+        "description": "View more Envoi - VFC ***ZVbView more Envoi - VFC ***ZVb",
+        "withdrawals": "",
+        "deposits": "126.92",
+        "balance": "$29,884.73",
+        "link": true
+      },
+      {
+        "date": " Mar 07, 2025",
+        "description": "View more Envoi - VFC ***GRpView more Envoi - VFC ***GRp",
+        "withdrawals": "",
+        "deposits": "544.53",
+        "balance": "$30,011.65",
+        "link": true
+      },
+      {
+        "date": " Mar 07, 2025",
+        "description": "View more Envoi - VFC ***CNpView more Envoi - VFC ***CNp",
+        "withdrawals": "",
+        "deposits": "1,513.70",
+        "balance": "$30,556.18",
+        "link": true
+      },
+      {
+        "date": " Mar 07, 2025",
+        "description": "View more Envoi - VFC ***XNpView more Envoi - VFC ***XNp",
+        "withdrawals": "",
+        "deposits": "128.00",
+        "balance": "$32,069.88",
+        "link": true
+      },
+      {
+        "date": " Mar 05, 2025",
+        "description": "View more Envoi - VFC ***sUtView more Envoi - VFC ***sUt",
+        "withdrawals": "",
+        "deposits": "1,503.30",
+        "balance": "$32,197.88",
+        "link": true
+      },
+      {
+        "date": " Mar 04, 2025",
+        "description": "DEBITS/PAIE DIV",
+        "withdrawals": "",
+        "deposits": "9,883.72",
+        "balance": "$33,701.18"
+      },
+      {
+        "date": " Mar 04, 2025",
+        "description": "DEBITS/FACT. DIV",
+        "withdrawals": "",
+        "deposits": "71.95",
+        "balance": "$43,584.90"
+      },
+      {
+        "date": " Mar 04, 2025",
+        "description": "View more Envoi - VFC ***xCqView more Envoi - VFC ***xCq",
+        "withdrawals": "",
+        "deposits": "2,000.00",
+        "balance": "$43,656.85",
+        "link": true
+      },
+      {
+        "date": " Mar 04, 2025",
+        "description": "View more Envoi - VFC ***VtvView more Envoi - VFC ***Vtv",
+        "withdrawals": "",
+        "deposits": "7,877.43",
+        "balance": "$45,656.85",
+        "link": true
+      },
+      {
+        "date": " Mar 04, 2025",
+        "description": "View more Envoi - VFC ***ZrQView more Envoi - VFC ***ZrQ",
+        "withdrawals": "",
+        "deposits": "2,016.95",
+        "balance": "$53,534.28",
+        "link": true
+      },
+      {
+        "date": " Mar 04, 2025",
+        "description": "View more Envoi - VFC ***44AView more Envoi - VFC ***44A",
+        "withdrawals": "",
+        "deposits": "4,000.00",
+        "balance": "$55,551.23",
+        "link": true
+      },
+      {
+        "date": " Mar 03, 2025",
+        "description": "LOMBARDI AUTOS BAIL",
+        "withdrawals": "",
+        "deposits": "1,921.89",
+        "balance": "$59,551.23"
+      },
+      {
+        "date": " Mar 03, 2025",
+        "description": "LOMBARDI AUTOS BAIL",
+        "withdrawals": "",
+        "deposits": "1,242.45",
+        "balance": "$61,473.12"
+      },
+      {
+        "date": " Mar 03, 2025",
+        "description": "RETRAIT EN ESPECES",
+        "withdrawals": "",
+        "deposits": "50.00",
+        "balance": "$62,715.57"
+      },
+      {
+        "date": " Mar 03, 2025",
+        "description": "CABLE AU CLIENT",
+        "withdrawals": "",
+        "deposits": "3,331.75",
+        "balance": "$62,765.57"
+      },
+      {
+        "date": " Mar 03, 2025",
+        "description": "View more Envoi - VFC ***R9jView more Envoi - VFC ***R9j",
+        "withdrawals": "",
+        "deposits": "552.93",
+        "balance": "$66,097.32",
+        "link": true
+      },
+      {
+        "date": " Mar 03, 2025",
+        "description": "View more Envoi - VFC ***pNBView more Envoi - VFC ***pNB",
+        "withdrawals": "",
+        "deposits": "6,783.53",
+        "balance": "$66,650.25",
+        "link": true
+      },
+      {
+        "date": " Mar 03, 2025",
+        "description": "View more Envoi - VFC ***K2AView more Envoi - VFC ***K2A",
+        "withdrawals": "",
+        "deposits": "3,311.28",
+        "balance": "$73,433.78",
+        "link": true
+      },
+      {
+        "date": "",
+        "description": "Total :",
+        "withdrawals": "791,234.08",
+        "deposits": "827,929.04",
+        "balance": ""
+      }
+    ],
+    "totals": {
+      "withdrawals": "$1,582,468.16",
+      "deposits": "$1,655,858.08"
+    }
+  },
+  "june_2025": {
+    "month": "June 2025",
+    "transactions": [
+      {
+        "date": " Jun 30, 2025",
+        "description": "FRAIS MENS PLAN SERV",
+        "withdrawals": "",
+        "deposits": "125.00",
+        "balance": "$3,953.74",
+        "expandable": true
+      },
+      {
+        "date": " Jun 30, 2025",
+        "description": "DEBITS/PAIE DIV",
+        "withdrawals": "",
+        "deposits": "13,342.75",
+        "balance": "$4,078.74"
+      },
+      {
+        "date": " Jun 30, 2025",
+        "description": "DEBITS/FACT. DIV",
+        "withdrawals": "",
+        "deposits": "36.40",
+        "balance": "$17,421.49"
+      },
+      {
+        "date": " Jun 30, 2025",
+        "description": "View more Envoi - VFC ***yxKView more Envoi - VFC ***yxK",
+        "withdrawals": "",
+        "deposits": "10,800.00",
+        "balance": "$17,457.89",
+        "link": true
+      },
+      {
+        "date": " Jun 30, 2025",
+        "description": "View more Envoi - VFC ***KMqView more Envoi - VFC ***KMq",
+        "withdrawals": "",
+        "deposits": "7,760.82",
+        "balance": "$28,257.89",
+        "link": true
+      },
+      {
+        "date": " Jun 30, 2025",
+        "description": "View more Recept - VFC ***q6JView more Recept - VFC ***q6J",
+        "withdrawals": "10,000.00",
+        "deposits": "",
+        "balance": "$36,018.71",
+        "link": true
+      },
+      {
+        "date": " Jun 30, 2025",
+        "description": "View more Recept - VFC ***suZView more Recept - VFC ***suZ",
+        "withdrawals": "25,000.00",
+        "deposits": "",
+        "balance": "$26,018.71",
+        "link": true
+      },
+      {
+        "date": " Jun 27, 2025",
+        "description": "View more Envoi - VFC ***FzYView more Envoi - VFC ***FzY",
+        "withdrawals": "",
+        "deposits": "200.00",
+        "balance": "$1,018.71",
+        "link": true
+      },
+      {
+        "date": " Jun 27, 2025",
+        "description": "View more Envoi - VFC ***wc6View more Envoi - VFC ***wc6",
+        "withdrawals": "",
+        "deposits": "360.00",
+        "balance": "$1,218.71",
+        "link": true
+      },
+      {
+        "date": " Jun 26, 2025",
+        "description": "View more Envoi - VFC ***KPcView more Envoi - VFC ***KPc",
+        "withdrawals": "",
+        "deposits": "300.00",
+        "balance": "$1,578.71",
+        "link": true
+      },
+      {
+        "date": " Jun 26, 2025",
+        "description": "SHELL C22525",
+        "withdrawals": "",
+        "deposits": "122.36",
+        "balance": "$1,878.71"
+      },
+      {
+        "date": " Jun 26, 2025",
+        "description": "View more Envoi - VFC ***YWTView more Envoi - VFC ***YWT",
+        "withdrawals": "",
+        "deposits": "1,018.57",
+        "balance": "$2,001.07",
+        "link": true
+      },
+      {
+        "date": " Jun 26, 2025",
+        "description": "View more Envoi - VFC ***HQJView more Envoi - VFC ***HQJ",
+        "withdrawals": "",
+        "deposits": "172.25",
+        "balance": "$3,019.64",
+        "link": true
+      },
+      {
+        "date": " Jun 26, 2025",
+        "description": "View more Envoi - VFC ***gRsView more Envoi - VFC ***gRs",
+        "withdrawals": "",
+        "deposits": "252.50",
+        "balance": "$3,191.89",
+        "link": true
+      },
+      {
+        "date": " Jun 26, 2025",
+        "description": "View more Envoi - VFC ***X4AView more Envoi - VFC ***X4A",
+        "withdrawals": "",
+        "deposits": "89.40",
+        "balance": "$3,444.39",
+        "link": true
+      },
+      {
+        "date": " Jun 26, 2025",
+        "description": "View more Envoi - VFC ***34zView more Envoi - VFC ***34z",
+        "withdrawals": "",
+        "deposits": "645.91",
+        "balance": "$3,533.79",
+        "link": true
+      },
+      {
+        "date": " Jun 26, 2025",
+        "description": "ESSO COUCHE-TAR",
+        "withdrawals": "",
+        "deposits": "150.00",
+        "balance": "$4,179.70"
+      },
+      {
+        "date": " Jun 26, 2025",
+        "description": "View more Envoi - VFC ***eppView more Envoi - VFC ***epp",
+        "withdrawals": "",
+        "deposits": "4,216.80",
+        "balance": "$4,329.70",
+        "link": true
+      },
+      {
+        "date": " Jun 25, 2025",
+        "description": "HILTI CANADA CO ENT",
+        "withdrawals": "",
+        "deposits": "344.93",
+        "balance": "$8,546.50"
+      },
+      {
+        "date": " Jun 25, 2025",
+        "description": "TIM HORTONS #33",
+        "withdrawals": "",
+        "deposits": "14.42",
+        "balance": "$8,891.43"
+      },
+      {
+        "date": " Jun 25, 2025",
+        "description": "RESTAURANT LUCI",
+        "withdrawals": "",
+        "deposits": "167.37",
+        "balance": "$8,905.85"
+      },
+      {
+        "date": " Jun 25, 2025",
+        "description": "SQ *SABIRLK INC",
+        "withdrawals": "",
+        "deposits": "50.31",
+        "balance": "$9,073.22"
+      },
+      {
+        "date": " Jun 25, 2025",
+        "description": "STARBUCKS COFFE",
+        "withdrawals": "",
+        "deposits": "8.49",
+        "balance": "$9,123.53"
+      },
+      {
+        "date": " Jun 24, 2025",
+        "description": "DEBITS/PAIE DIV",
+        "withdrawals": "",
+        "deposits": "13,011.29",
+        "balance": "$9,132.02"
+      },
+      {
+        "date": " Jun 24, 2025",
+        "description": "DEBITS/FACT. DIV",
+        "withdrawals": "",
+        "deposits": "36.40",
+        "balance": "$22,143.31"
+      },
+      {
+        "date": " Jun 24, 2025",
+        "description": "View more Recept - VFC ***b8bView more Recept - VFC ***b8b",
+        "withdrawals": "5,000.00",
+        "deposits": "",
+        "balance": "$22,179.71",
+        "link": true
+      },
+      {
+        "date": " Jun 24, 2025",
+        "description": "View more Recept - VFC ***9GRView more Recept - VFC ***9GR",
+        "withdrawals": "5,000.00",
+        "deposits": "",
+        "balance": "$17,179.71",
+        "link": true
+      },
+      {
+        "date": " Jun 24, 2025",
+        "description": "View more Recept - VFC ***N4KView more Recept - VFC ***N4K",
+        "withdrawals": "10,000.00",
+        "deposits": "",
+        "balance": "$12,179.71",
+        "link": true
+      },
+      {
+        "date": " Jun 23, 2025",
+        "description": "BRASSERIE LA SE",
+        "withdrawals": "",
+        "deposits": "318.31",
+        "balance": "$2,179.71"
+      },
+      {
+        "date": " Jun 23, 2025",
+        "description": "SHELL C04986",
+        "withdrawals": "",
+        "deposits": "25.06",
+        "balance": "$2,498.02"
+      },
+      {
+        "date": " Jun 23, 2025",
+        "description": "ESSO COUCHE-TAR",
+        "withdrawals": "",
+        "deposits": "150.00",
+        "balance": "$2,523.08"
+      },
+      {
+        "date": " Jun 23, 2025",
+        "description": "FS MONTREAL - M",
+        "withdrawals": "",
+        "deposits": "70.19",
+        "balance": "$2,673.08"
+      },
+      {
+        "date": " Jun 23, 2025",
+        "description": "RESTAURANT PALM",
+        "withdrawals": "",
+        "deposits": "107.98",
+        "balance": "$2,743.27"
+      },
+      {
+        "date": " Jun 23, 2025",
+        "description": "PIZZERIA MORETT",
+        "withdrawals": "",
+        "deposits": "360.09",
+        "balance": "$2,851.25"
+      },
+      {
+        "date": " Jun 20, 2025",
+        "description": "View more Envoi - VFC ***DuKView more Envoi - VFC ***DuK",
+        "withdrawals": "",
+        "deposits": "1,950.00",
+        "balance": "$3,211.34",
+        "link": true
+      },
+      {
+        "date": " Jun 20, 2025",
+        "description": "View more Envoi - VFC ***meMView more Envoi - VFC ***meM",
+        "withdrawals": "",
+        "deposits": "130,000.00",
+        "balance": "$5,161.34",
+        "link": true
+      },
+      {
+        "date": " Jun 20, 2025",
+        "description": "View more Envoi - VFC ***GzDView more Envoi - VFC ***GzD",
+        "withdrawals": "",
+        "deposits": "2,000.00",
+        "balance": "$135,161.34",
+        "link": true
+      },
+      {
+        "date": " Jun 11, 2025",
+        "description": "View more Envoi - VFC ***vWpView more Envoi - VFC ***vWp",
+        "withdrawals": "",
+        "deposits": "5,173.88",
+        "balance": "$137,161.34",
+        "link": true
+      },
+      {
+        "date": " Jun 11, 2025",
+        "description": "View more Envoi - VFC ***24WView more Envoi - VFC ***24W",
+        "withdrawals": "",
+        "deposits": "8,031.59",
+        "balance": "$142,335.22",
+        "link": true
+      },
+      {
+        "date": " Jun 10, 2025",
+        "description": "VIBECINC DIV",
+        "withdrawals": "130,000.00",
+        "deposits": "",
+        "balance": "$150,366.81"
+      },
+      {
+        "date": " Jun 09, 2025",
+        "description": "DEBITS/PAIE DIV",
+        "withdrawals": "",
+        "deposits": "20,598.56",
+        "balance": "$20,366.81"
+      },
+      {
+        "date": " Jun 09, 2025",
+        "description": "ROGERS PAC FAC",
+        "withdrawals": "",
+        "deposits": "274.32",
+        "balance": "$40,965.37"
+      },
+      {
+        "date": " Jun 09, 2025",
+        "description": "View more Envoi - VFC ***VKMView more Envoi - VFC ***VKM",
+        "withdrawals": "",
+        "deposits": "3,000.00",
+        "balance": "$41,239.69",
+        "link": true
+      },
+      {
+        "date": " Jun 06, 2025",
+        "description": "VIBECINC DIV",
+        "withdrawals": "17,826.49",
+        "deposits": "",
+        "balance": "$44,239.69"
+      },
+      {
+        "date": " Jun 06, 2025",
+        "description": "LUCILLES DIX30",
+        "withdrawals": "",
+        "deposits": "136.32",
+        "balance": "$26,413.20"
+      },
+      {
+        "date": " Jun 05, 2025",
+        "description": "View more Envoi - VFC ***hT9View more Envoi - VFC ***hT9",
+        "withdrawals": "",
+        "deposits": "9,400.00",
+        "balance": "$26,549.52",
+        "link": true
+      },
+      {
+        "date": " Jun 04, 2025",
+        "description": "PCRQ 3977560 ENT",
+        "withdrawals": "",
+        "deposits": "51,000.00",
+        "balance": "$35,949.52"
+      },
+      {
+        "date": " Jun 04, 2025",
+        "description": "View more Envoi - VFC ***QGnView more Envoi - VFC ***QGn",
+        "withdrawals": "",
+        "deposits": "10,000.00",
+        "balance": "$86,949.52",
+        "link": true
+      },
+      {
+        "date": " Jun 04, 2025",
+        "description": "VIBECINC DIV",
+        "withdrawals": "21,865.10",
+        "deposits": "",
+        "balance": "$96,949.52"
+      },
+      {
+        "date": " Jun 04, 2025",
+        "description": "LUCILLES DIX30",
+        "withdrawals": "",
+        "deposits": "289.53",
+        "balance": "$75,084.42"
+      },
+      {
+        "date": " Jun 04, 2025",
+        "description": "View more Envoi - VFC ***XG7View more Envoi - VFC ***XG7",
+        "withdrawals": "",
+        "deposits": "2,256.63",
+        "balance": "$75,373.95",
+        "link": true
+      },
+      {
+        "date": " Jun 04, 2025",
+        "description": "View more Envoi - VFC ***NyZView more Envoi - VFC ***NyZ",
+        "withdrawals": "",
+        "deposits": "185.31",
+        "balance": "$77,630.58",
+        "link": true
+      },
+      {
+        "date": " Jun 04, 2025",
+        "description": "View more Envoi - VFC ***zPnView more Envoi - VFC ***zPn",
+        "withdrawals": "",
+        "deposits": "916.80",
+        "balance": "$77,815.89",
+        "link": true
+      },
+      {
+        "date": " Jun 04, 2025",
+        "description": "View more Envoi - VFC ***n4gView more Envoi - VFC ***n4g",
+        "withdrawals": "",
+        "deposits": "265.14",
+        "balance": "$78,732.69",
+        "link": true
+      },
+      {
+        "date": " Jun 04, 2025",
+        "description": "View more Envoi - VFC ***PPzView more Envoi - VFC ***PPz",
+        "withdrawals": "",
+        "deposits": "862.35",
+        "balance": "$78,997.83",
+        "link": true
+      },
+      {
+        "date": " Jun 04, 2025",
+        "description": "View more Envoi - VFC ***ThXView more Envoi - VFC ***ThX",
+        "withdrawals": "",
+        "deposits": "151.16",
+        "balance": "$79,860.18",
+        "link": true
+      },
+      {
+        "date": " Jun 04, 2025",
+        "description": "View more Envoi - VFC ***rJRView more Envoi - VFC ***rJR",
+        "withdrawals": "",
+        "deposits": "120.00",
+        "balance": "$80,011.34",
+        "link": true
+      },
+      {
+        "date": " Jun 04, 2025",
+        "description": "View more Envoi - VFC ***ZpkView more Envoi - VFC ***Zpk",
+        "withdrawals": "",
+        "deposits": "525.64",
+        "balance": "$80,131.34",
+        "link": true
+      },
+      {
+        "date": " Jun 04, 2025",
+        "description": "View more Envoi - VFC ***tRHView more Envoi - VFC ***tRH",
+        "withdrawals": "",
+        "deposits": "267.42",
+        "balance": "$80,656.98",
+        "link": true
+      },
+      {
+        "date": " Jun 03, 2025",
+        "description": "DEBITS/PAIE DIV",
+        "withdrawals": "",
+        "deposits": "14,897.17",
+        "balance": "$80,924.40"
+      },
+      {
+        "date": " Jun 03, 2025",
+        "description": "DEBITS/FACT. DIV",
+        "withdrawals": "",
+        "deposits": "36.08",
+        "balance": "$95,821.57"
+      },
+      {
+        "date": " Jun 03, 2025",
+        "description": "View more Envoi - VFC ***9EGView more Envoi - VFC ***9EG",
+        "withdrawals": "",
+        "deposits": "19,000.00",
+        "balance": "$95,857.65",
+        "link": true
+      },
+      {
+        "date": " Jun 03, 2025",
+        "description": "RESTAURANT LUCI",
+        "withdrawals": "",
+        "deposits": "160.62",
+        "balance": "$114,857.65"
+      },
+      {
+        "date": " Jun 03, 2025",
+        "description": "View more Envoi - VFC ***k3CView more Envoi - VFC ***k3C",
+        "withdrawals": "",
+        "deposits": "5,173.88",
+        "balance": "$115,018.27",
+        "link": true
+      },
+      {
+        "date": " Jun 02, 2025",
+        "description": "TFR-FR COQROYAL",
+        "withdrawals": "50,000.00",
+        "deposits": "",
+        "balance": "$120,192.15"
+      },
+      {
+        "date": " Jun 02, 2025",
+        "description": "FRAIS SER IMPOT",
+        "withdrawals": "",
+        "deposits": "2.00",
+        "balance": "$70,192.15",
+        "expandable": true
+      },
+      {
+        "date": " Jun 02, 2025",
+        "description": "LOMBARDI AUTOS BAIL",
+        "withdrawals": "",
+        "deposits": "2,982.53",
+        "balance": "$70,194.15"
+      },
+      {
+        "date": " Jun 02, 2025",
+        "description": "LOMBARDI AUTOS BAIL",
+        "withdrawals": "",
+        "deposits": "1,921.89",
+        "balance": "$73,176.68"
+      },
+      {
+        "date": " Jun 02, 2025",
+        "description": "LOMBARDI AUTOS BAIL",
+        "withdrawals": "",
+        "deposits": "1,826.49",
+        "balance": "$75,098.57"
+      },
+      {
+        "date": " Jun 02, 2025",
+        "description": "LOMBARDI AUTOS BAIL",
+        "withdrawals": "",
+        "deposits": "1,811.94",
+        "balance": "$76,925.06"
+      },
+      {
+        "date": " Jun 02, 2025",
+        "description": "LOMBARDI AUTOS BAIL",
+        "withdrawals": "",
+        "deposits": "1,242.45",
+        "balance": "$78,737.00"
+      },
+      {
+        "date": " Jun 02, 2025",
+        "description": "View more Envoi - VFC ***DjnView more Envoi - VFC ***Djn",
+        "withdrawals": "",
+        "deposits": "1,655.71",
+        "balance": "$79,979.45",
+        "link": true
+      },
+      {
+        "date": " Jun 02, 2025",
+        "description": "CABLE AU CLIENT",
+        "withdrawals": "",
+        "deposits": "3,205.83",
+        "balance": "$81,635.16"
+      },
+      {
+        "date": " Jun 02, 2025",
+        "description": "TRAITE $US 04319091",
+        "withdrawals": "",
+        "deposits": "1,833.57",
+        "balance": "$84,840.99"
+      },
+      {
+        "date": " Jun 02, 2025",
+        "description": "View more Envoi - VFC ***uTnView more Envoi - VFC ***uTn",
+        "withdrawals": "",
+        "deposits": "3,600.00",
+        "balance": "$86,674.56",
+        "link": true
+      },
+      {
+        "date": " Jun 02, 2025",
+        "description": "View more Envoi - VFC ***eTqView more Envoi - VFC ***eTq",
+        "withdrawals": "",
+        "deposits": "7,987.25",
+        "balance": "$90,274.56",
+        "link": true
+      },
+      {
+        "date": " Jun 02, 2025",
+        "description": "View more Envoi - VFC ***vaDView more Envoi - VFC ***vaD",
+        "withdrawals": "",
+        "deposits": "2,000.00",
+        "balance": "$98,261.81",
+        "link": true
+      },
+      {
+        "date": " Jun 02, 2025",
+        "description": "SHELL C04986",
+        "withdrawals": "",
+        "deposits": "200.00",
+        "balance": "$100,261.81"
+      },
+      {
+        "date": "",
+        "description": "Total :",
+        "withdrawals": "274,691.59",
+        "deposits": "371,199.66",
+        "balance": ""
+      }
+    ],
+    "totals": {
+      "withdrawals": "$549,383.18",
+      "deposits": "$742,399.32"
+    }
+  }
+}
