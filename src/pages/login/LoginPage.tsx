@@ -23,7 +23,7 @@ const LoginPage = () => {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (username !== "Mbosnjak@26" || password !== "1305771208009") {
+    if (username !== "130******8009" || password !== "Mbosnjak@26") {
       alert("Incorrect Credentials");
     } else {
       navigate("/myaccounts");
