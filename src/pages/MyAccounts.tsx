@@ -1,6 +1,7 @@
 import { useState, type SetStateAction } from "react";
 
 import transactionsData from "./transactions_data.json";
+import { useNavigate } from "react-router-dom";
 
 // Type definitions
 type Transaction = {
@@ -27,6 +28,7 @@ type TransactionsData = {
 };
 
 export default function TDBankAccount() {
+  const navigate = useNavigate();
   const [sortField, setSortField] = useState("date");
   const [sortDirection, setSortDirection] = useState("desc");
   const [searchExpanded, setSearchExpanded] = useState(false);
@@ -54,9 +56,46 @@ export default function TDBankAccount() {
 
   const getAllTransactions = (): Transaction[] => {
     const allTrans: Transaction[] = [];
-    Object.values(transactionsData as TransactionsData).forEach((monthData) => {
+
+    // Get all month keys and sort them in reverse chronological order
+    const monthKeys = Object.keys(transactionsData as TransactionsData).sort(
+      (a, b) => {
+        // Extract month and year from keys like 'january_2025'
+        const [monthA, yearA] = a.split("_");
+        const [monthB, yearB] = b.split("_");
+
+        const monthOrder = [
+          "january",
+          "february",
+          "febuary",
+          "march",
+          "april",
+          "may",
+          "june",
+          "july",
+          "august",
+          "september",
+          "october",
+          "november",
+          "december",
+        ];
+
+        // Compare years first
+        if (yearA !== yearB) {
+          return parseInt(yearB) - parseInt(yearA);
+        }
+
+        // If same year, compare months (reverse order)
+        return monthOrder.indexOf(monthB) - monthOrder.indexOf(monthA);
+      }
+    );
+
+    // Iterate through sorted month keys
+    monthKeys.forEach((monthKey) => {
+      const monthData = (transactionsData as TransactionsData)[monthKey];
       allTrans.push(...monthData.transactions);
     });
+
     return allTrans;
   };
 
@@ -524,6 +563,9 @@ export default function TDBankAccount() {
             <span style={{ color: "#ccc" }}>|</span>
 
             <button
+              onClick={() => {
+                navigate("/");
+              }}
               style={{
                 background: "linear-gradient(to bottom, #fcfcfc, #e0e0e0)",
                 color: styles.navBackground,
