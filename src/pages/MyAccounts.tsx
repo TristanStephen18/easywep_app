@@ -110,7 +110,7 @@ const contactUsMenu = {
       ]
     },
     {
-      iconPath: './Contact_Us_Call_Us_37x37.png',
+      iconPath: '/Contact_Us_Call_Us_37x37.png',
       title: 'Contact Us',
       links: [
         { text: 'Call Us', href: '#' },
@@ -118,7 +118,7 @@ const contactUsMenu = {
       ]
     },
     {
-      iconPath: './icon_meet-us.gif',
+      iconPath: '/icon_meet-us.gif',
       title: 'Come See Us',
       links: [
         { text: 'Find a Branch', href: '#' },
@@ -133,7 +133,7 @@ const productsServicesMenu = {
   sections: [
     [
       {
-        iconPath: './Products_and_Services_Banking_37x37.png',
+        iconPath: '/Products_and_Services_Banking_37x37.png',
         title: 'Banking',
         links: [
           { text: 'Bank Accounts', href: '#' },
@@ -142,7 +142,7 @@ const productsServicesMenu = {
         ]
       },
       {
-        iconPath: './Products_and_Services_Borrowing_37x37.png',
+        iconPath: '/Products_and_Services_Borrowing_37x37.png',
         title: 'Borrowing',
         links: [
           { text: 'Mortgages', href: '#' },
@@ -157,7 +157,7 @@ const productsServicesMenu = {
         ]
       },
       {
-        iconPath: './Products_and_Services_Insurance_37x37.png',
+        iconPath: '/Products_and_Services_Insurance_37x37.png',
         title: 'Insurance',
         links: [
           { text: 'See All', href: '#' }
@@ -166,7 +166,7 @@ const productsServicesMenu = {
     ],
     [
       {
-        iconPath: './Products_and_Services_Investing_37x37.png',
+        iconPath: '/Products_and_Services_Investing_37x37.png',
         title: 'Investing',
         links: [
           { text: 'Savings & Investment Products', href: '#' },
@@ -176,7 +176,7 @@ const productsServicesMenu = {
         ]
       },
       {
-        iconPath: './Products_and_Services_Travel_37x37.png',
+        iconPath: '/Products_and_Services_Travel_37x37.png',
         title: 'Travel',
         links: [
           { text: 'Cross-Border Banking', href: '#' },
@@ -185,14 +185,14 @@ const productsServicesMenu = {
         ]
       },
       {
-        iconPath: './Products_and_Services_SmallBusiness_37x37 (1).png',
+        iconPath: '/Products_and_Services_SmallBusiness_37x37 (1).png',
         title: 'Small Business',
         links: [
           { text: 'See All', href: '#' }
         ]
       },
       {
-        iconPath: './Products_and_Services_Special_Offers_37x37.png',
+        iconPath: '/Products_and_Services_Special_Offers_37x37.png',
         title: 'Offers & Promotions',
         links: [
           { text: 'See All', href: '#' }
@@ -205,21 +205,21 @@ const productsServicesMenu = {
 
 const marketsResearchMenu = {
   columns: [
-    { iconPath: './Markets_and_Research_Markets_37x37.png', title: 'Markets', links: [
+    { iconPath: '/Markets_and_Research_Markets_37x37.png', title: 'Markets', links: [
       { text: 'Markets Overview', href: '#' }
     ]},
-    { iconPath: './Markets_and_Research_Research_37x37.png', title: 'Research', links: [
+    { iconPath: '/Markets_and_Research_Research_37x37.png', title: 'Research', links: [
       { text: 'Stocks', href: '#' },
       { text: 'Options', href: '#' },
       { text: 'Mutual Funds', href: '#' },
       { text: 'ETFs', href: '#' }
     ]},
-    { iconPath: './Markets_and_Research_Investor_tools_37x37.png', title: 'Investor Tools', links: [
+    { iconPath: '/Markets_and_Research_Investor_tools_37x37.png', title: 'Investor Tools', links: [
       { text: 'Screeners', href: '#' },
       { text: 'Alerts', href: '#' },
       { text: "Today's Rates", href: '#' }
     ]},
-    { iconPath: './Markets_and_Research_Quote_37x37.png', title: 'Quote', links: [] }  // Empty - has widget
+    { iconPath: '/Markets_and_Research_Quote_37x37.png', title: 'Quote', links: [] }  // Empty - has widget
   ],
   featureTabs: ['Featured', 'Weekly Expert Videos', 'Investor Seminars', 'Economic Research']
 };
@@ -228,16 +228,16 @@ const marketsResearchMenu = {
 const lifePlanningMenu = {
   sections: [
     [
-      { iconPath: './life-planning-in-school-52x52.png', title: 'In School', href: '#' },
-      { iconPath: './life-planning-got-a-new-job-52x52.png', title: 'Got a New Job', href: '#' },
-      { iconPath: './life-planning-buying-a-home-52x52.png', title: 'Buying a Home', href: '#' },
-      { iconPath: './life-planning-starting-a-business-52x52.png', title: 'Starting a Business', href: '#' },
-      { iconPath: './life-planning-planning-to-retire-52x52.png', title: 'Planning to Retire', href: '#' }
+      { iconPath: '/life-planning-in-school-52x52.png', title: 'In School', href: '#' },
+      { iconPath: '/life-planning-got-a-new-job-52x52.png', title: 'Got a New Job', href: '#' },
+      { iconPath: '/life-planning-buying-a-home-52x52.png', title: 'Buying a Home', href: '#' },
+      { iconPath: '/life-planning-starting-a-business-52x52.png', title: 'Starting a Business', href: '#' },
+      { iconPath: '/life-planning-planning-to-retire-52x52.png', title: 'Planning to Retire', href: '#' }
     ],
     [
-      { iconPath: './life-planning-new-to-canada-52x52.png', title: 'New to Canada', href: '#' },
-      { iconPath: './life-planning-tools-and-calculators-52x52.png', title: 'Tools & Calculators', href: '#' },
-      { iconPath: './life-planning-td-helps-community-52x52.png', title: 'TD Helps Community', href: '#' }
+      { iconPath: '/life-planning-new-to-canada-52x52.png', title: 'New to Canada', href: '#' },
+      { iconPath: '/life-planning-tools-and-calculators-52x52.png', title: 'Tools & Calculators', href: '#' },
+      { iconPath: '/life-planning-td-helps-community-52x52.png', title: 'TD Helps Community', href: '#' }
     ]
   ],
   featureTabs: ['Featured', 'Advice on Everyday Finances', 'Investing Basics']
@@ -290,7 +290,7 @@ const lifePlanningMenu = {
             
             <div style={{ display: 'flex', alignItems: 'center', gap: '3px', padding: '0 4px' }}>
               <span style={{ color: '#00391d', fontSize: '10px', marginRight: '5px' }}> <img 
-              src="./icon-lock.gif" 
+              src="/icon-lock.gif" 
               alt="TD Logo" 
               style={{
                 width: '100%',
@@ -383,7 +383,7 @@ const lifePlanningMenu = {
             zIndex: 10,
           }}>
              <img 
-              src="./td-logo.png" 
+              src="/td-logo.png" 
               alt="TD Logo" 
               style={{
                 width: '100%',
