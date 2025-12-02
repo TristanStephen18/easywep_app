@@ -69,7 +69,7 @@ export default function TDBankAccount() {
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
-      color: '#333'
+      color: '#333',
     }}>
       
       {/* 1. TOP UTILITY BAR - ADJUSTED TO MATCH SCREENSHOT */}
@@ -226,122 +226,254 @@ export default function TDBankAccount() {
         marginTop: '15px',
         display: 'flex',
         gap: '10px',
-        alignItems: 'flex-start'
-      }}>
+        alignItems: 'flex-start',
+        paddingTop: '15px',             // Padding on top
+        paddingRight: '15px',           // Padding on right
+        paddingBottom: '15px',          // Padding on bottom
+        paddingLeft: '0',               // NO padding on left - allows sidebar to overflow
+        backgroundColor: 'white',
+        boxShadow: '0 2px 4px rgba(0,0,0,0.1)'
+            }}>
         
-        {/* LEFT SIDEBAR */}
-        <div style={{ width: '170px', flexShrink: 0 , marginTop: '10px', }}>
-          
-          {/* Accounts Section (Expanded) */}
-          <div style={{ marginBottom: '10px' }}>
-            <div style={{
-              backgroundColor: styles.bgGrey,
-              padding: '5px 10px',
-              border: '1px solid #ccc',
-              fontWeight: 'bold',
-              fontSize: '12px',
-               color: styles.navBackground
-            }}>Accounts</div>
-            <div style={{ border: '1px solid #ccc', borderTop: 'none', padding: '10px 8px' }}>
-              <div style={{ marginBottom: '8px', fontSize: '11px' }}>
-                <a href="#" style={{color: '#333', textDecoration: 'none'}}>Personal Accounts</a>
-              </div>
-              <div style={{ marginBottom: '8px', fontSize: '11px', fontWeight: 'bold' }}>
-                <span style={{color: '#333', marginRight: '4px'}}>▸</span>
-                <a href="#" style={{color: styles.tdGreen, textDecoration: 'none'}}>Small Business Accounts</a>
-              </div>
-              
-              <div style={{ marginLeft: '12px', marginBottom: '10px' }}>
-                <div style={{ fontSize: '11px', fontWeight: 'bold', color: '#333', marginBottom: '4px' }}>
-                  <span style={{fontSize: '9px', verticalAlign: 'middle'}}>▼</span> View Accounts
-                </div>
-                <div style={{ marginLeft: '10px', fontSize: '11px', color: '#333', lineHeight: '1.4' }}>
-                  Order Cheques &<br/>Deposit Bags
-                </div>
+
+
+          {/* LEFT SIDEBAR */}
+          <div style={{ width: '170px', flexShrink: 0 , marginTop: '10px', }}>
+
+
+            <div
+              style={{ 
+                marginBottom: '10px',
+                marginLeft: '-10px',           // overflow to the left
+                width: 'calc(100% + 10px)',    // keep right edge aligned
+                boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)',
+              }}
+            >
+              <div
+                style={{
+                  backgroundColor: '#fffffd',  // ← changed from styles.bgGrey
+                  padding: '5px 10px',
+                  border: '1px solid #ccc',
+                  fontWeight: 800,
+                  fontSize: '12px',
+                  color: '#4c7b6d',
+                }}
+              >
+                Accounts
               </div>
 
-              <div style={{ fontSize: '11px', marginBottom: '8px' }}>
-                <a href="#" style={{color: '#333', textDecoration: 'none'}}>Statements & Documents</a>
-              </div>
-              <div style={{ fontSize: '11px', marginBottom: '8px' }}>
-                <a href="#" style={{color: '#333', textDecoration: 'none'}}>Communications</a>
-              </div>
-              <div style={{ fontSize: '11px' }}>
-                <a href="#" style={{color: '#333', textDecoration: 'none'}}>Order Foreign Currency</a>
+              <div
+                style={{
+                  backgroundColor: '#fffffd',  // ← added background
+                  border: '1px solid #ccc',
+                  borderTop: 'none',
+                  borderLeft: '4px solid #4c7b6d',
+                  padding: '10px 8px',
+                }}
+              >
+                <div style={{ marginBottom: 'px', fontSize: '11px' }}>
+                  <a href="#"
+                    style={{ color: '#4c7b6d', textDecoration: 'none', fontWeight: 500 }}
+                  >Personal Accounts</a>
+                </div>
+
+                {/* Divider Line */}
+                <div
+                  style={{
+                    borderTop: '1px solid #e5e5e5',
+                    margin: '10px 0',
+                  }}
+                ></div>
+
+                <div style={{ marginBottom: '8px', fontSize: '11px', fontWeight: 600 }}>
+                  <span style={{ color: '#4c7b6d', marginRight: '4px' }}>▸</span>
+                  <a
+                    href="#"
+                    style={{ color: '#4c7b6d', textDecoration: 'none', fontWeight: 700 }}
+                  >
+                    Small Business Accounts
+                  </a>
+                </div>
+
+                <div style={{ marginLeft: '12px', marginBottom: '10px' }}>
+                  <div
+                    style={{
+                      fontSize: '11px',
+                      fontWeight: 700,
+                      color: '#4c7b6d',
+                      marginBottom: '4px',
+                    }}
+                  >
+                    <span style={{ fontSize: '9px', verticalAlign: 'middle' }}>▼</span>{' '}
+                    View Accounts
+                  </div>
+                  <div
+                    style={{
+                      marginLeft: '20px',
+                      fontSize: '11px',
+                      color: '#4c7b6d',
+                      lineHeight: '1.4',
+                      fontWeight: 500,
+                    }}
+                  >
+                    Order Cheques &<br />
+                    Deposit Bags
+                  </div>
+                </div>
+
+                {/* Divider Line */}
+                <div
+                  style={{
+                    borderTop: '1px solid #e5e5e5',
+                    margin: '10px 0',
+                  }}
+                ></div>
+
+                <div style={{ fontSize: '11px', marginBottom: '8px' }}>
+                  <a
+                    href="#"
+                    style={{ color: '#4c7b6d', textDecoration: 'none', fontWeight: 600 }}
+                  >
+                    Statements & Documents
+                  </a>
+                </div>
+
+                {/* Divider Line */}
+                <div
+                  style={{
+                    borderTop: '1px solid #e5e5e5',
+                    margin: '10px 0',
+                  }}
+                ></div>
+
+                <div style={{ fontSize: '11px', marginBottom: '8px' }}>
+                  <a
+                    href="#"
+                    style={{ color: '#4c7b6d', textDecoration: 'none', fontWeight: 600 }}
+                  >
+                    Communications
+                  </a>
+                </div>
+
+                {/* Divider Line */}
+                <div
+                  style={{
+                    borderTop: '1px solid #e5e5e5',
+                    margin: '10px 0',
+                  }}
+                ></div>
+
+                <div style={{ fontSize: '11px' }}>
+                  <a
+                    href="#"
+                    style={{ color: '#4c7b6d', textDecoration: 'none', fontWeight: 600 }}
+                  >
+                    Order Foreign Currency
+                  </a>
+                </div>
               </div>
             </div>
-          </div>
 
-          {/* Collapsed Sections */}
           {['Pay Bills', 'Transfers'].map((item) => (
-            <div key={item} style={{
-              marginBottom: '10px',
-              background: styles.sidebarHeaderGradient,
-              border: styles.sidebarHeaderBorder,
-              padding: '6px 10px',
-              fontSize: '12px',
-              cursor: 'pointer',
-            color: styles.navBackground
-            }}>{item}</div>
-          ))}
-
-          {/* Special Section */}
-          <div style={{
-            marginBottom: '10px',
-            background: styles.sidebarHeaderGradient,
-            border: styles.sidebarHeaderBorder,
-            padding: '6px 10px',
-            fontSize: '12px',
-            fontStyle: 'italic',
-             color: styles.navBackground
-          }}>Interac e-Transfer®</div>
-
-          {['Investments', 'Profile & Settings'].map((item) => (
-            <div key={item} style={{
-              marginBottom: '10px',
-              background: styles.sidebarHeaderGradient,
-              border: styles.sidebarHeaderBorder,
-              padding: '6px 10px',
-              fontSize: '12px',
-               color: styles.navBackground,
-              cursor: 'pointer'
-            }}>{item}</div>
-          ))}
-
-          {/* My Links */}
-          <div style={{ marginBottom: '10px', border: '1px solid #ccc' }}>
-             <div style={{
-                padding: '6px 10px',
-                fontSize: '14px',
-                fontWeight: 'normal',
-                color: '#333',
-                borderBottom: '1px solid #eee'
-            }}>My Links</div>
-            <div style={{ padding: '10px' }}>
-              <div style={{ fontSize: '10px', marginBottom: '8px' }}>
-                <a href="#" style={{ color: styles.linkGreen, textDecoration: 'underline' }}>Choose my links</a>
+              <div
+                key={item}
+                style={{
+                  marginBottom: '10px',
+                  marginLeft: '-10px',
+                  width: 'calc(100% + 10px)',
+                  backgroundColor: '#f6f7f5',
+                  border: '0.5px solid #4c7b6d',  // ← changed border color
+                  padding: '6px 10px',
+                  fontSize: '12px',
+                  cursor: 'pointer',
+                  color: '#4c7b6d',
+                  fontWeight: '600',
+                }}
+              >
+                {item}
               </div>
-              <div style={{ fontSize: '11px', color: '#333', marginBottom: '5px' }}>› <a href="#" style={{color: '#333', textDecoration: 'none'}}>Pay Bills</a></div>
-              <div style={{ fontSize: '11px', color: '#333', marginBottom: '5px' }}>› <a href="#" style={{color: '#333', textDecoration: 'none'}}>Make a Transfer</a></div>
-              <div style={{ fontSize: '11px', color: '#333', marginBottom: '5px' }}>› <a href="#" style={{color: '#333', textDecoration: 'none'}}>Purchase Mutual Funds</a></div>
-              <div style={{ fontSize: '11px', color: '#333' }}>› <a href="#" style={{color: '#333', textDecoration: 'none'}}>WebBroker</a></div>
+            ))}
+
+            <div
+              style={{
+                marginBottom: '10px',
+                marginLeft: '-10px',
+                width: 'calc(100% + 10px)',
+                backgroundColor: '#f6f7f5',
+                border: '0.5px solid #4c7b6d',  // ← changed border color
+                padding: '6px 10px',
+                fontSize: '12px',
+                fontStyle: 'italic',
+                color: '#4c7b6d',
+                fontWeight: '600',
+              }}
+            >
+              Interac e-Transfer®
             </div>
+
+            {['Investments', 'Profile & Settings'].map((item) => (
+              <div
+                key={item}
+                style={{
+                  marginBottom: '10px',
+                  marginLeft: '-10px',
+                  width: 'calc(100% + 10px)',
+                  backgroundColor: '#f6f7f5',
+                  border: '0.5px solid #4c7b6d',  // ← changed border color
+                  padding: '6px 10px',
+                  fontSize: '12px',
+                  color: '#4c7b6d',
+                  cursor: 'pointer',
+                  fontWeight: '600',
+                }}
+              >
+                {item}
+              </div>
+            ))}
+
+
+            {/* My Links */}
+            <div style={{ marginBottom: '10px' }}>
+              <div style={{
+                  padding: '6px 10px',
+                  fontSize: '13px',
+                  fontWeight: 'bold',
+                  backgroundColor: '#fffffd', 
+                  color: '#555',
+                  lineHeight: '1.2',
+              }}>My Links</div>
+              <div style={{ padding: '10px' }}>
+                <div style={{ fontSize: '11px', marginBottom: '8px' }}>
+                  <a href="#" style={{ color: '#4c7b6d', textDecoration: 'underline', fontWeight: '600' }}>Choose my links</a>
+                </div>
+                <div style={{ fontSize: '11px', color: '#4c7b6d', marginBottom: '5px', fontWeight: '600' }}>› <a href="#" style={{color: '#4c7b6d', textDecoration: 'none', fontWeight: '600'}}>Pay Bills</a></div>
+                <div style={{ fontSize: '11px', color: '#4c7b6d', marginBottom: '5px', fontWeight: '600' }}>› <a href="#" style={{color: '#4c7b6d', textDecoration: 'none', fontWeight: '600'}}>Make a Transfer</a></div>
+                <div style={{ fontSize: '11px', color: '#4c7b6d', marginBottom: '5px', fontWeight: '600' }}>› <a href="#" style={{color: '#4c7b6d', textDecoration: 'none', fontWeight: '600'}}>Purchase Mutual Funds</a></div>
+                <div style={{ fontSize: '11px', color: '#4c7b6d', fontWeight: '700' }}>› <a href="#" style={{color: '#4c7b6d', textDecoration: 'none', fontWeight: '600'}}>WebBroker</a></div>
+              </div>
+            </div>
+
+            <div style={{ marginBottom: '10px' }}>
+              <div style={{
+                  padding: '6px 10px',
+                  fontSize: '13px',
+                  fontWeight: 'bold',
+                  backgroundColor: '#fffffd', 
+                  color: '#555',
+                  lineHeight: '1.2'
+              }}>More Online<br/>Services</div>
+              <div style={{ padding: '5px 10px' }}>
+                <div style={{ fontSize: '11px', color: '#4c7b6d', fontWeight: '700' }}>› <a href="#" style={{color: '#4c7b6d', textDecoration: 'none', fontWeight: '600'}}>Apply for Products</a></div>
+              </div>
+            </div>
+
           </div>
 
-          <div style={{ marginBottom: '10px' }}>
-             <div style={{
-                padding: '6px 0',
-                fontSize: '13px',
-                fontWeight: 'bold',
-                color: '#555',
-                lineHeight: '1.2'
-            }}>More Online Services</div>
-            <div style={{ padding: '5px 0' }}>
-              <div style={{ fontSize: '11px', color: '#333' }}>› <a href="#" style={{color: styles.linkGreen, textDecoration: 'none'}}>Apply for Products</a></div>
-            </div>
-          </div>
 
-        </div>
+
+
+
+        
 
         {/* CENTER CONTENT */}
         <div style={{ flex: 1, paddingLeft: '10px' }}>
