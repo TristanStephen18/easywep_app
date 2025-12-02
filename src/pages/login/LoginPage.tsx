@@ -1,10 +1,12 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { Lock, Eye, EyeOff, ChevronDown } from 'lucide-react';
 import tdLogo from '../../assets/td-logo.png';
 import appleImg from '../../assets/apple.jpg';
 import chairImg from '../../assets/footer-chair.png';
 
 const LoginPage = () => {
+  const navigate = useNavigate();
   const [showPassword, setShowPassword] = useState(false);
   const [rememberMe, setRememberMe] = useState(false);
   const [showDescription, setShowDescription] = useState(false);
@@ -18,6 +20,11 @@ const LoginPage = () => {
   const savedCredentials = [
     { username: '130******8009', password: 'password123' }
   ];
+
+  const handleLogin = (e: React.FormEvent) => {
+    e.preventDefault();
+    navigate('/homepage');
+  };
 
   const handleUsernameSelect = (cred: { username: string; password: string }) => {
     setUsername(cred.username);
@@ -211,7 +218,7 @@ const LoginPage = () => {
         <div className="bg-[#f5f9f7] pt-4 px-8 pb-8 grid grid-cols-1 lg:grid-cols-2 gap-x-12 relative">
           {/* Left Column - Login Form */}
           <div className="border-r border-gray-300 pr-12">
-            <form className="space-y-6">
+            <form className="space-y-6" onSubmit={handleLogin}>
               {/* Username Input */}
               <div className="relative">
                 <label htmlFor="username" className="block text-[#1c1c1c] text-sm font-bold mb-2">
