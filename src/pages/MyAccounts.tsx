@@ -298,7 +298,8 @@ const lifePlanningMenu = {
                 objectFit: 'contain',
               }}
             /></span>
-              <a href="#" style={{ color: styles.navBackground, fontWeight: 'bold', textDecoration: 'none', fontSize: '13px', paddingRight: '20px' }}>My Profile </a>
+              <a href="#" style={{ color: styles.navBackground, fontWeight: 'bold', textDecoration: 'none', fontSize: '13px', paddingRight: '20px', display: 'flex', 
+                alignItems: 'center' }}>My Profile <span style={{ fontSize: '8px', marginLeft: '5px' }}>▼</span> </a>
               
             </div>
             <span style={{ color: '#ccc' }}>|</span>
