@@ -239,197 +239,309 @@ export default function TDBankAccount() {
 
           {/* LEFT SIDEBAR */}
           <div style={{ width: '170px', flexShrink: 0 , marginTop: '10px', }}>
-
-
-            <div
-              style={{ 
-                marginBottom: '10px',
-                marginLeft: '-10px',           // overflow to the left
-                width: 'calc(100% + 10px)',    // keep right edge aligned
-                boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)',
-              }}
-            >
-              <div
-                style={{
-                  backgroundColor: '#fffffd',  // ← changed from styles.bgGrey
-                  padding: '5px 10px',
-                  border: '1px solid #ccc',
-                  fontWeight: 800,
-                  fontSize: '12px',
-                  color: '#4c7b6d',
-                }}
-              >
-                Accounts
-              </div>
-
-              <div
-                style={{
-                  backgroundColor: '#fffffd',  // ← added background
-                  border: '1px solid #ccc',
-                  borderTop: 'none',
-                  borderLeft: '4px solid #4c7b6d',
-                  padding: '10px 8px',
-                }}
-              >
-                <div style={{ marginBottom: 'px', fontSize: '11px' }}>
-                  <a href="#"
-                    style={{ color: '#4c7b6d', textDecoration: 'none', fontWeight: 500 }}
-                  >Personal Accounts</a>
-                </div>
-
-                {/* Divider Line */}
                 <div
-                  style={{
-                    borderTop: '1px solid #e5e5e5',
-                    margin: '10px 0',
+                  style={{ 
+                    marginBottom: '10px',
+                    marginLeft: '-10px',
+                    width: 'calc(100% + 10px)',
+                    boxShadow: '0 2px 8px rgba(0, 0, 0, 0.1)',
                   }}
-                ></div>
-
-                <div style={{ marginBottom: '8px', fontSize: '11px', fontWeight: 600 }}>
-                  <span style={{ color: '#4c7b6d', marginRight: '4px' }}>▸</span>
-                  <a
-                    href="#"
-                    style={{ color: '#4c7b6d', textDecoration: 'none', fontWeight: 700 }}
-                  >
-                    Small Business Accounts
-                  </a>
-                </div>
-
-                <div style={{ marginLeft: '12px', marginBottom: '10px' }}>
+                >
                   <div
                     style={{
-                      fontSize: '11px',
-                      fontWeight: 700,
+                      backgroundColor: '#fffffd',
+                      padding: '5px 10px',
+                      border: '1px solid #ccc',
+                      fontWeight: 800,
+                      fontSize: '12px',
                       color: '#4c7b6d',
-                      marginBottom: '4px',
                     }}
                   >
-                    <span style={{ fontSize: '9px', verticalAlign: 'middle' }}>▼</span>{' '}
-                    View Accounts
+                    Accounts
                   </div>
+
                   <div
                     style={{
-                      marginLeft: '20px',
-                      fontSize: '11px',
-                      color: '#4c7b6d',
-                      lineHeight: '1.4',
-                      fontWeight: 500,
+                      backgroundColor: '#fffffd',
+                      border: '1px solid #ccc',
+                      borderTop: 'none',
+                      borderLeft: '4px solid #4c7b6d',
+                      padding: '10px 8px',
                     }}
                   >
-                    Order Cheques &<br />
-                    Deposit Bags
+                    <div style={{ marginBottom: '8px', fontSize: '11px' }}>
+                      <a href="#"
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.color = '#000000';
+                          e.currentTarget.style.textDecoration = 'underline';
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.color = '#4c7b6d';
+                          e.currentTarget.style.textDecoration = 'none';
+                        }}
+                        style={{ 
+                          color: '#4c7b6d', 
+                          textDecoration: 'none', 
+                          fontWeight: 500,
+                          transition: 'color 0.2s ease'
+                        }}
+                      >Personal Accounts</a>
+                    </div>
+
+                    {/* Divider Line */}
+                    <div
+                      style={{
+                        borderTop: '1px solid #e5e5e5',
+                        margin: '10px 0',
+                      }}
+                    ></div>
+
+                    <div style={{ marginBottom: '8px', fontSize: '11px', fontWeight: 600 }}>
+                      <span style={{ color: '#4c7b6d', marginRight: '4px' }}>▸</span>
+                      <a
+                        href="#"
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.color = '#000000';
+                          e.currentTarget.style.textDecoration = 'underline';
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.color = '#4c7b6d';
+                          e.currentTarget.style.textDecoration = 'none';
+                        }}
+                        style={{ 
+                          color: '#4c7b6d', 
+                          textDecoration: 'none', 
+                          fontWeight: 700,
+                          transition: 'color 0.2s ease'
+                        }}
+                      >
+                        Small Business Accounts
+                      </a>
+                    </div>
+
+                    <div style={{ marginLeft: '12px', marginBottom: '10px' }}>
+                      <div
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.color = '#000000';
+                          e.currentTarget.style.textDecoration = 'underline';
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.color = '#4c7b6d';
+                          e.currentTarget.style.textDecoration = 'none';
+                        }}
+                        style={{
+                          fontSize: '11px',
+                          fontWeight: 700,
+                          color: '#4c7b6d',
+                          marginBottom: '4px',
+                          cursor: 'pointer',
+                          transition: 'color 0.2s ease',
+                        }}
+                      >
+                        <span style={{ fontSize: '9px', verticalAlign: 'middle' }}>▼</span>{' '}
+                        View Accounts
+                      </div>
+                      <div
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.color = '#000000';
+                          e.currentTarget.style.textDecoration = 'underline';
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.color = '#4c7b6d';
+                          e.currentTarget.style.textDecoration = 'none';
+                        }}
+                        style={{
+                          marginLeft: '20px',
+                          fontSize: '11px',
+                          color: '#4c7b6d',
+                          lineHeight: '1.4',
+                          fontWeight: 500,
+                          cursor: 'pointer',
+                          transition: 'color 0.2s ease',
+                        }}
+                      >
+                        Order Cheques &<br />
+                        Deposit Bags
+                      </div>
+                    </div>
+
+                    {/* Divider Line */}
+                    <div
+                      style={{
+                        borderTop: '1px solid #e5e5e5',
+                        margin: '10px 0',
+                      }}
+                    ></div>
+
+                    <div style={{ fontSize: '11px', marginBottom: '8px' }}>
+                      <a
+                        href="#"
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.color = '#000000';
+                          e.currentTarget.style.textDecoration = 'underline';
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.color = '#4c7b6d';
+                          e.currentTarget.style.textDecoration = 'none';
+                        }}
+                        style={{ 
+                          color: '#4c7b6d', 
+                          textDecoration: 'none', 
+                          fontWeight: 600,
+                          transition: 'color 0.2s ease'
+                        }}
+                      >
+                        Statements & Documents
+                      </a>
+                    </div>
+
+                    {/* Divider Line */}
+                    <div
+                      style={{
+                        borderTop: '1px solid #e5e5e5',
+                        margin: '10px 0',
+                      }}
+                    ></div>
+
+                    <div style={{ fontSize: '11px', marginBottom: '8px' }}>
+                      <a
+                        href="#"
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.color = '#000000';
+                          e.currentTarget.style.textDecoration = 'underline';
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.color = '#4c7b6d';
+                          e.currentTarget.style.textDecoration = 'none';
+                        }}
+                        style={{ 
+                          color: '#4c7b6d', 
+                          textDecoration: 'none', 
+                          fontWeight: 600,
+                          transition: 'color 0.2s ease'
+                        }}
+                      >
+                        Communications
+                      </a>
+                    </div>
+
+                    {/* Divider Line */}
+                    <div
+                      style={{
+                        borderTop: '1px solid #e5e5e5',
+                        margin: '10px 0',
+                      }}
+                    ></div>
+
+                    <div style={{ fontSize: '11px' }}>
+                      <a
+                        href="#"
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.color = '#000000';
+                          e.currentTarget.style.textDecoration = 'underline';
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.color = '#4c7b6d';
+                          e.currentTarget.style.textDecoration = 'none';
+                        }}
+                        style={{ 
+                          color: '#4c7b6d', 
+                          textDecoration: 'none', 
+                          fontWeight: 600,
+                          transition: 'color 0.2s ease'
+                        }}
+                      >
+                        Order Foreign Currency
+                      </a>
+                    </div>
                   </div>
                 </div>
 
-                {/* Divider Line */}
+              {['Pay Bills', 'Transfers'].map((item) => (
                 <div
-                  style={{
-                    borderTop: '1px solid #e5e5e5',
-                    margin: '10px 0',
+                  key={item}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.color = '#000000';
+                    e.currentTarget.style.textDecoration = 'underline';
                   }}
-                ></div>
-
-                <div style={{ fontSize: '11px', marginBottom: '8px' }}>
-                  <a
-                    href="#"
-                    style={{ color: '#4c7b6d', textDecoration: 'none', fontWeight: 600 }}
-                  >
-                    Statements & Documents
-                  </a>
-                </div>
-
-                {/* Divider Line */}
-                <div
-                  style={{
-                    borderTop: '1px solid #e5e5e5',
-                    margin: '10px 0',
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.color = '#4c7b6d';
+                    e.currentTarget.style.textDecoration = 'none';
                   }}
-                ></div>
-
-                <div style={{ fontSize: '11px', marginBottom: '8px' }}>
-                  <a
-                    href="#"
-                    style={{ color: '#4c7b6d', textDecoration: 'none', fontWeight: 600 }}
-                  >
-                    Communications
-                  </a>
-                </div>
-
-                {/* Divider Line */}
-                <div
                   style={{
-                    borderTop: '1px solid #e5e5e5',
-                    margin: '10px 0',
+                    marginBottom: '10px',
+                    marginLeft: '-10px',
+                    width: 'calc(100% + 10px)',
+                    backgroundColor: '#f6f7f5',
+                    border: '0.5px solid #4c7b6d',
+                    padding: '6px 10px',
+                    fontSize: '12px',
+                    cursor: 'pointer',
+                    color: '#4c7b6d',
+                    fontWeight: '600',
+                    transition: 'color 0.2s ease',
                   }}
-                ></div>
-
-                <div style={{ fontSize: '11px' }}>
-                  <a
-                    href="#"
-                    style={{ color: '#4c7b6d', textDecoration: 'none', fontWeight: 600 }}
-                  >
-                    Order Foreign Currency
-                  </a>
+                >
+                  {item}
                 </div>
-              </div>
-            </div>
+              ))}
 
-          {['Pay Bills', 'Transfers'].map((item) => (
               <div
-                key={item}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.color = '#000000';
+                  e.currentTarget.style.textDecoration = 'underline';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.color = '#4c7b6d';
+                  e.currentTarget.style.textDecoration = 'none';
+                }}
                 style={{
                   marginBottom: '10px',
                   marginLeft: '-10px',
                   width: 'calc(100% + 10px)',
                   backgroundColor: '#f6f7f5',
-                  border: '0.5px solid #4c7b6d',  // ← changed border color
+                  border: '0.5px solid #4c7b6d',
                   padding: '6px 10px',
                   fontSize: '12px',
-                  cursor: 'pointer',
+                  fontStyle: 'italic',
                   color: '#4c7b6d',
                   fontWeight: '600',
-                }}
-              >
-                {item}
-              </div>
-            ))}
-
-            <div
-              style={{
-                marginBottom: '10px',
-                marginLeft: '-10px',
-                width: 'calc(100% + 10px)',
-                backgroundColor: '#f6f7f5',
-                border: '0.5px solid #4c7b6d',  // ← changed border color
-                padding: '6px 10px',
-                fontSize: '12px',
-                fontStyle: 'italic',
-                color: '#4c7b6d',
-                fontWeight: '600',
-              }}
-            >
-              Interac e-Transfer®
-            </div>
-
-            {['Investments', 'Profile & Settings'].map((item) => (
-              <div
-                key={item}
-                style={{
-                  marginBottom: '10px',
-                  marginLeft: '-10px',
-                  width: 'calc(100% + 10px)',
-                  backgroundColor: '#f6f7f5',
-                  border: '0.5px solid #4c7b6d',  // ← changed border color
-                  padding: '6px 10px',
-                  fontSize: '12px',
-                  color: '#4c7b6d',
                   cursor: 'pointer',
-                  fontWeight: '600',
+                  transition: 'color 0.2s ease',
                 }}
               >
-                {item}
+                Interac e-Transfer®
               </div>
-            ))}
+
+              {['Investments', 'Profile & Settings'].map((item) => (
+                <div
+                  key={item}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.color = '#000000';
+                    e.currentTarget.style.textDecoration = 'underline';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.color = '#4c7b6d';
+                    e.currentTarget.style.textDecoration = 'none';
+                  }}
+                  style={{
+                    marginBottom: '10px',
+                    marginLeft: '-10px',
+                    width: 'calc(100% + 10px)',
+                    backgroundColor: '#f6f7f5',
+                    border: '0.5px solid #4c7b6d',
+                    padding: '6px 10px',
+                    fontSize: '12px',
+                    color: '#4c7b6d',
+                    cursor: 'pointer',
+                    fontWeight: '600',
+                    transition: 'color 0.2s ease',
+                  }}
+                >
+                  {item}
+                </div>
+              ))}
+                          
 
 
             {/* My Links */}
@@ -444,12 +556,110 @@ export default function TDBankAccount() {
               }}>My Links</div>
               <div style={{ padding: '10px' }}>
                 <div style={{ fontSize: '11px', marginBottom: '8px' }}>
-                  <a href="#" style={{ color: '#4c7b6d', textDecoration: 'underline', fontWeight: '600' }}>Choose my links</a>
+                  <a 
+                    href="#"
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.color = '#000000';
+                      e.currentTarget.style.textShadow = '1px 1px 2px rgba(0, 0, 0, 0.3)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.color = '#4c7b6d';
+                      e.currentTarget.style.textShadow = 'none';
+                    }}
+                    style={{ 
+                      color: '#4c7b6d', 
+                      textDecoration: 'underline', 
+                      fontWeight: '600',
+                      transition: 'color 0.2s ease, text-shadow 0.2s ease'
+                    }}
+                  >
+                    Choose my links
+                  </a>
                 </div>
-                <div style={{ fontSize: '11px', color: '#4c7b6d', marginBottom: '5px', fontWeight: '600' }}>› <a href="#" style={{color: '#4c7b6d', textDecoration: 'none', fontWeight: '600'}}>Pay Bills</a></div>
-                <div style={{ fontSize: '11px', color: '#4c7b6d', marginBottom: '5px', fontWeight: '600' }}>› <a href="#" style={{color: '#4c7b6d', textDecoration: 'none', fontWeight: '600'}}>Make a Transfer</a></div>
-                <div style={{ fontSize: '11px', color: '#4c7b6d', marginBottom: '5px', fontWeight: '600' }}>› <a href="#" style={{color: '#4c7b6d', textDecoration: 'none', fontWeight: '600'}}>Purchase Mutual Funds</a></div>
-                <div style={{ fontSize: '11px', color: '#4c7b6d', fontWeight: '700' }}>› <a href="#" style={{color: '#4c7b6d', textDecoration: 'none', fontWeight: '600'}}>WebBroker</a></div>
+                <div style={{ fontSize: '11px', color: '#4c7b6d', marginBottom: '5px', fontWeight: '600' }}>
+                  › <a 
+                    href="#"
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.color = '#000000';
+                      e.currentTarget.style.textShadow = '1px 1px 2px rgba(0, 0, 0, 0.3)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.color = '#4c7b6d';
+                      e.currentTarget.style.textShadow = 'none';
+                    }}
+                    style={{
+                      color: '#4c7b6d', 
+                      textDecoration: 'none', 
+                      fontWeight: '600',
+                      transition: 'color 0.2s ease, text-shadow 0.2s ease'
+                    }}
+                  >
+                    Pay Bills
+                  </a>
+                </div>
+                <div style={{ fontSize: '11px', color: '#4c7b6d', marginBottom: '5px', fontWeight: '600' }}>
+                  › <a 
+                    href="#"
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.color = '#000000';
+                      e.currentTarget.style.textShadow = '1px 1px 2px rgba(0, 0, 0, 0.3)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.color = '#4c7b6d';
+                      e.currentTarget.style.textShadow = 'none';
+                    }}
+                    style={{
+                      color: '#4c7b6d', 
+                      textDecoration: 'none', 
+                      fontWeight: '600',
+                      transition: 'color 0.2s ease, text-shadow 0.2s ease'
+                    }}
+                  >
+                    Make a Transfer
+                  </a>
+                </div>
+                <div style={{ fontSize: '11px', color: '#4c7b6d', marginBottom: '5px', fontWeight: '600' }}>
+                  › <a 
+                    href="#"
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.color = '#000000';
+                      e.currentTarget.style.textShadow = '1px 1px 2px rgba(0, 0, 0, 0.3)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.color = '#4c7b6d';
+                      e.currentTarget.style.textShadow = 'none';
+                    }}
+                    style={{
+                      color: '#4c7b6d', 
+                      textDecoration: 'none', 
+                      fontWeight: '600',
+                      transition: 'color 0.2s ease, text-shadow 0.2s ease'
+                    }}
+                  >
+                    Purchase Mutual Funds
+                  </a>
+                </div>
+                <div style={{ fontSize: '11px', color: '#4c7b6d', fontWeight: '700' }}>
+                  › <a 
+                    href="#"
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.color = '#000000';
+                      e.currentTarget.style.textShadow = '1px 1px 2px rgba(0, 0, 0, 0.3)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.color = '#4c7b6d';
+                      e.currentTarget.style.textShadow = 'none';
+                    }}
+                    style={{
+                      color: '#4c7b6d', 
+                      textDecoration: 'none', 
+                      fontWeight: '600',
+                      transition: 'color 0.2s ease, text-shadow 0.2s ease'
+                    }}
+                  >
+                    WebBroker
+                  </a>
+                </div>
               </div>
             </div>
 
@@ -462,9 +672,29 @@ export default function TDBankAccount() {
                   color: '#555',
                   lineHeight: '1.2'
               }}>More Online<br/>Services</div>
-              <div style={{ padding: '5px 10px' }}>
-                <div style={{ fontSize: '11px', color: '#4c7b6d', fontWeight: '700' }}>› <a href="#" style={{color: '#4c7b6d', textDecoration: 'none', fontWeight: '600'}}>Apply for Products</a></div>
-              </div>
+                <div style={{ padding: '5px 10px' }}>
+                  <div style={{ fontSize: '11px', color: '#4c7b6d', fontWeight: '700' }}>
+                    › <a 
+                      href="#"
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.color = '#000000';
+                        e.currentTarget.style.textShadow = '1px 1px 2px rgba(0, 0, 0, 0.3)';
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.color = '#4c7b6d';
+                        e.currentTarget.style.textShadow = 'none';
+                      }}
+                      style={{
+                        color: '#4c7b6d', 
+                        textDecoration: 'none', 
+                        fontWeight: '600',
+                        transition: 'color 0.2s ease, text-shadow 0.2s ease'
+                      }}
+                    >
+                      Apply for Products
+                    </a>
+                  </div>
+                </div>
             </div>
 
           </div>
