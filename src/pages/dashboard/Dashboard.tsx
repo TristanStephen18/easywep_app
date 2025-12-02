@@ -29,7 +29,7 @@ const Header = () => {
     <header className="sticky top-0 z-50">
       {/* Tier 1: Top Utility Bar (Dark Green) */}
       <div className="bg-[#008a00] text-white h-[35px] flex items-center">
-        <div className="max-w-[1440px] mx-auto w-full px-8 flex items-center justify-between">
+        <div className="max-w-[1200px] mx-auto w-full px-6 flex items-center justify-between">
           {/* Left Links */}
           <div className="flex items-center gap-6">
             <a href="#" className="font-td text-[11px] leading-[15px] font-normal text-white">
@@ -48,14 +48,12 @@ const Header = () => {
               About TD
             </a>
           </div>
-
-          
         </div>
       </div>
 
       {/* Tier 2: Brand & Actions Bar (White) */}
-      <div className="bg-white h-[80px] flex items-center border-b border-gray-200">
-        <div className="max-w-[1440px] mx-auto w-full px-8 flex items-center justify-between">
+      <div className="bg-white h-20 flex items-center border-b border-gray-200">
+        <div className="max-w-[1200px] mx-auto w-full px-6 flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center">
             <img src={tdLogo} alt="TD Bank" className="h-12" />
@@ -77,7 +75,6 @@ const Header = () => {
             <button className="text-[#008a00] hover:text-black p-2 hover:bg-gray-50 rounded transition-colors">
               <CircleHelp size={20} />
             </button>
-
 
             {/* Region Selector */}
             <button className="flex items-center gap-1 text-[#008a00] hover:text-black hover:bg-gray-50 px-3 py-2 rounded transition-colors">
@@ -108,28 +105,16 @@ const Header = () => {
               {/* Dropdown Menu */}
               {isLoginOpen && (
                 <div className="absolute right-0 top-full mt-2 min-w-[200px] bg-white shadow-xl rounded z-50 border border-gray-100">
-                  <a
-                    href="#"
-                    className="block text-gray-700 px-4 py-3 hover:bg-gray-50 hover:text-[#008a00] transition-colors"
-                  >
+                  <a href="#" className="block text-gray-700 px-4 py-3 hover:bg-gray-50 hover:text-[#008a00] transition-colors">
                     EasyWeb
                   </a>
-                  <a
-                    href="#"
-                    className="block text-gray-700 px-4 py-3 hover:bg-gray-50 hover:text-[#008a00] transition-colors"
-                  >
+                  <a href="#" className="block text-gray-700 px-4 py-3 hover:bg-gray-50 hover:text-[#008a00] transition-colors">
                     WebBroker
                   </a>
-                  <a
-                    href="#"
-                    className="block text-gray-700 px-4 py-3 hover:bg-gray-50 hover:text-[#008a00] transition-colors"
-                  >
+                  <a href="#" className="block text-gray-700 px-4 py-3 hover:bg-gray-50 hover:text-[#008a00] transition-colors">
                     U.S. Banking
                   </a>
-                  <a
-                    href="#"
-                    className="block text-gray-700 px-4 py-3 hover:bg-gray-50 hover:text-[#008a00] transition-colors"
-                  >
+                  <a href="#" className="block text-gray-700 px-4 py-3 hover:bg-gray-50 hover:text-[#008a00] transition-colors">
                     My Accounts
                   </a>
                 </div>
@@ -141,7 +126,7 @@ const Header = () => {
 
       {/* Tier 3: Main Navigation (White) */}
       <div className="bg-white border-b border-gray-300">
-        <div className="max-w-[1440px] mx-auto w-full px-8">
+        <div className="max-w-[1200px] mx-auto w-full px-6">
           <nav className="flex items-center gap-8 h-[60px]">
             {['Accounts', 'Credit Cards', 'Mortgages', 'Borrowing', 'Personal Investing', 'Insurance', 'Advice'].map((link, index) => (
               <a
@@ -160,7 +145,96 @@ const Header = () => {
   );
 };
 
-// Sub-component: ProductExploreGrid
+// Sub-component: HeroSection - Image stretches to left edge
+const HeroSection = () => {
+  return (
+    <div className="w-full flex justify-center bg-white">
+      <div className="max-w-[1200px] w-full mx-auto relative">
+        <div className="flex gap-0">
+          {/* Main Banner (Left Side - Flex Container with Relative Positioning) */}
+          <div className="flex flex-1 min-h-[360px] relative">
+            {/* Item 1: Image Background - Extends to viewport left edge */}
+            <div
+              className="absolute inset-0 right-auto left-[calc(-50vw+50%)] w-[calc(50vw+41%)] bg-contain bg-center bg-no-repeat"
+              style={{ backgroundImage: `url(${hero1Image})` }}
+            />
+
+            {/* Content Wrapper */}
+            <div className="relative z-10 flex w-full items-center">
+              {/* Spacer for Image */}
+              <div className="w-[41%] shrink-0" />
+
+              {/* Item 2: The Green Box (Overlapping) */}
+              <div className="w-60 h-60 shrink-0 bg-[#008a00] flex items-center justify-center px-4">
+                <h2 className="text-white text-[38px] font-bold leading-[41px] text-left">
+                  You are <br />never alone
+                </h2>
+              </div>
+
+              {/* Item 3: The White Promo */}
+              <div className="flex-1 bg-white flex flex-col items-start justify-center px-10 py-6 gap-5">
+                <p className="text-gray-800 text-[15px] leading-relaxed">
+                  Get top notch support from direct investing professionals.
+                </p>
+                <button className="border-2 border-[#008a00] text-[#008a00] bg-white px-8 py-2.5 text-[14px] font-bold hover:bg-[#008a00] hover:text-white transition-colors">
+                  Open an account
+                </button>
+              </div>
+            </div>
+          </div>
+
+          {/* Login Sidebar (Right Side - Vertical Stack) */}
+          <div className="w-[300px] shrink-0 border-l border-gray-300 pl-6">
+            <div className="flex flex-col">
+              {/* EasyWeb Widget */}
+              <div className="py-6">
+                <h3 className="text-[#1a5336] font-medium text-[22px] leading-[31px] mb-4">
+                  EasyWeb: Online Banking
+                </h3>
+                <button className="w-full bg-[#008a00] text-white font-bold py-3 rounded-sm flex items-center justify-center gap-2 hover:bg-[#006d00] transition-colors mb-4">
+                  <Lock size={18} />
+                  Login
+                </button>
+                <div className="flex items-center gap-4 text-[13px]">
+                  <a href="#" className="text-[#008a00] font-bold hover:underline flex items-center gap-1">
+                    Register <ChevronDown size={12} className="-rotate-90" />
+                  </a>
+                  <a href="#" className="text-[#008a00] font-bold hover:underline flex items-center gap-1">
+                    Security Guarantee <ChevronDown size={12} className="-rotate-90" />
+                  </a>
+                </div>
+              </div>
+
+              {/* Horizontal Divider */}
+              <div className="border-b border-gray-300" />
+
+              {/* WebBroker Widget */}
+              <div className="py-6">
+                <h3 className="text-[#1a5336] font-bold text-[18px] mb-4">
+                  WebBroker: Online Trading
+                </h3>
+                <button className="w-full bg-[#008a00] text-white font-bold py-3 rounded-sm flex items-center justify-center gap-2 hover:bg-[#006d00] transition-colors mb-4">
+                  <Lock size={18} />
+                  Login
+                </button>
+                <div className="flex items-center gap-4 text-[13px]">
+                  <a href="#" className="text-[#008a00] font-bold hover:underline flex items-center gap-1">
+                    Register <ChevronDown size={12} className="-rotate-90" />
+                  </a>
+                  <a href="#" className="text-[#008a00] font-bold hover:underline flex items-center gap-1">
+                    Security Guarantee <ChevronDown size={12} className="-rotate-90" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+// Sub-component: ProductExploreGrid - CENTERED
 const ProductExploreGrid = () => {
   const products = [
     {
@@ -211,8 +285,8 @@ const ProductExploreGrid = () => {
   ];
 
   return (
-    <section className="bg-white py-16 px-6">
-      <div className="max-w-[1280px] mx-auto">
+    <section className="bg-white py-16">
+      <div className="max-w-[1200px] mx-auto px-6">
         {/* Headers */}
         <h2 className="text-center text-[#1a5336] text-[30px] font-bold mb-3">
           Welcome to TD Personal Banking
@@ -236,7 +310,7 @@ const ProductExploreGrid = () => {
                 <div className="flex-1">
                   <h3 className="text-[#008a00] font-bold text-[15px] flex items-center gap-1">
                     {product.title}
-                    <ChevronDown size={14} className="rotate-[-90deg]" />
+                    <ChevronDown size={14} className="-rotate-90" />
                   </h3>
                   <p className="text-gray-600 text-[14px] leading-relaxed mt-1">
                     {product.description}
@@ -251,11 +325,11 @@ const ProductExploreGrid = () => {
   );
 };
 
-// Sub-component: ProductFinder
+// Sub-component: ProductFinder - CENTERED
 const ProductFinder = () => {
   return (
-    <section className="bg-white py-12 px-6">
-      <div className="max-w-[1280px] mx-auto">
+    <section className="bg-white py-12">
+      <div className="max-w-[1200px] mx-auto px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           {/* Column 1: Text Content */}
           <div className="max-w-xl">
@@ -280,7 +354,7 @@ const ProductFinder = () => {
   );
 };
 
-// Sub-component: PlanYourMove
+// Sub-component: PlanYourMove - CENTERED
 const PlanYourMove = () => {
   return (
     <section className="bg-[#f4f8f4] py-16">
@@ -293,7 +367,7 @@ const PlanYourMove = () => {
         {/* Content Layout - Flex Row */}
         <div className="flex items-start gap-8">
           {/* Left Column: Image */}
-          <div className="flex-shrink-0">
+          <div className="shrink-0">
             <img
               src={planYourMoveImage}
               alt="Person planning move to Canada"
@@ -316,7 +390,7 @@ const PlanYourMove = () => {
   );
 };
 
-// Sub-component: TDAdvice
+// Sub-component: TDAdvice - CENTERED
 const TDAdvice = () => {
   return (
     <section className="bg-white py-20">
@@ -340,7 +414,7 @@ const TDAdvice = () => {
   );
 };
 
-// Sub-component: FinancialFuture
+// Sub-component: FinancialFuture - CENTERED
 const FinancialFuture = () => {
   const cards = [
     {
@@ -364,8 +438,8 @@ const FinancialFuture = () => {
   ];
 
   return (
-    <section className="bg-white py-16 px-6">
-      <div className="max-w-[1280px] mx-auto">
+    <section className="bg-white py-16">
+      <div className="max-w-[1200px] mx-auto px-6">
         {/* Headline */}
         <h2 className="text-[#1a5336] text-3xl font-bold text-center mb-12">
           Plan for your financial future with our unique banking solutions
@@ -404,7 +478,7 @@ const FinancialFuture = () => {
   );
 };
 
-// Sub-component: FraudProtection
+// Sub-component: FraudProtection - CENTERED
 const FraudProtection = () => {
   const cards = [
     {
@@ -420,8 +494,8 @@ const FraudProtection = () => {
   ];
 
   return (
-    <section className="bg-white py-16 px-6">
-      <div className="max-w-[1280px] mx-auto">
+    <section className="bg-white py-16">
+      <div className="max-w-[1200px] mx-auto px-6">
         {/* Section Heading */}
         <h2 className="text-[#1a5336] text-3xl font-bold text-center mb-6">
           Protect yourself against fraud
@@ -453,11 +527,11 @@ const FraudProtection = () => {
   );
 };
 
-// Sub-component: EstatePlanning
+// Sub-component: EstatePlanning - CENTERED
 const EstatePlanning = () => {
   return (
-    <section className="bg-white py-16 px-6">
-      <div className="max-w-[900px] mx-auto">
+    <section className="bg-white py-16">
+      <div className="max-w-[900px] mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
           {/* Left Column: Text Content */}
           <div>
@@ -482,7 +556,7 @@ const EstatePlanning = () => {
   );
 };
 
-// Sub-component: DigitalBanking
+// Sub-component: DigitalBanking - CENTERED
 const DigitalBanking = () => {
   return (
     <section className="bg-white">
@@ -502,45 +576,49 @@ const DigitalBanking = () => {
       </div>
 
       {/* Divider */}
-      <hr className="border-t border-gray-300 my-4" />
+      <div className="max-w-[1200px] mx-auto px-6">
+        <hr className="border-t border-gray-300 my-4" />
+      </div>
 
       {/* Part 2: Digital Banking */}
       <div className="py-12 px-6">
-        <h2 className="text-[#1a5336] text-2xl font-bold text-center mb-12">
-          It's never been more important to bank digitally
-        </h2>
+        <div className="max-w-[1000px] mx-auto">
+          <h2 className="text-[#1a5336] text-2xl font-bold text-center mb-12">
+            It's never been more important to bank digitally
+          </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-[1000px] mx-auto">
-          {/* Column 1: Easy, safe and secure banking */}
-          <div className="flex flex-col items-center text-center">
-            <div className="mb-6">
-              <img src={digitalBanking1} alt="Digital Banking" className="w-48 h-auto" />
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            {/* Column 1: Easy, safe and secure banking */}
+            <div className="flex flex-col items-center text-center">
+              <div className="mb-6">
+                <img src={digitalBanking1} alt="Digital Banking" className="w-48 h-auto" />
+              </div>
+              <h3 className="text-gray-900 font-bold text-lg mb-2">
+                Easy, safe and secure banking from home
+              </h3>
+              <p className="text-gray-600 mb-6">
+                At this time, we encourage you to bank digitally.
+              </p>
+              <button className="bg-[#008a00] text-white font-bold px-24 py-3 rounded-none hover:bg-[#006d00] transition-colors">
+                Learn more
+              </button>
             </div>
-            <h3 className="text-gray-900 font-bold text-lg mb-2">
-              Easy, safe and secure banking from home
-            </h3>
-            <p className="text-gray-600 mb-6">
-              At this time, we encourage you to bank digitally.
-            </p>
-            <button className="bg-[#008a00] text-white font-bold px-24 py-3 rounded-none hover:bg-[#006d00] transition-colors">
-              Learn more
-            </button>
-          </div>
 
-          {/* Column 2: Bank from anywhere with confidence */}
-          <div className="flex flex-col items-center text-center">
-            <div className="mb-6">
-              <img src={digitalBanking2} alt="Digital Banking Tutorials" className="w-48 h-auto" />
+            {/* Column 2: Bank from anywhere with confidence */}
+            <div className="flex flex-col items-center text-center">
+              <div className="mb-6">
+                <img src={digitalBanking2} alt="Digital Banking Tutorials" className="w-48 h-auto" />
+              </div>
+              <h3 className="text-gray-900 font-bold text-lg mb-2">
+                Bank from anywhere with confidence
+              </h3>
+              <p className="text-gray-600 mb-6">
+                It's easy to get started with online and mobile banking.
+              </p>
+              <button className="bg-[#008a00] text-white font-bold px-24 py-3 rounded-none hover:bg-[#006d00] transition-colors">
+                View All Tutorials
+              </button>
             </div>
-            <h3 className="text-gray-900 font-bold text-lg mb-2">
-              Bank from anywhere with confidence
-            </h3>
-            <p className="text-gray-600 mb-6">
-              It's easy to get started with online and mobile banking.
-            </p>
-            <button className="bg-[#008a00] text-white font-bold px-24 py-3 rounded-none hover:bg-[#006d00] transition-colors">
-              View All Tutorials
-            </button>
           </div>
         </div>
       </div>
@@ -548,11 +626,11 @@ const DigitalBanking = () => {
   );
 };
 
-// Sub-component: UpdatesFromUs
+// Sub-component: UpdatesFromUs - CENTERED
 const UpdatesFromUs = () => {
   return (
     <section className="bg-[#f4f8f4] py-16">
-      <div className="max-w-[1280px] mx-auto px-6">
+      <div className="max-w-[1200px] mx-auto px-6">
         {/* Section Header */}
         <h2 className="text-[#1a5336] text-2xl font-bold text-center mb-10">
           Updates from us
@@ -565,7 +643,7 @@ const UpdatesFromUs = () => {
             <h3 className="text-gray-900 font-bold text-sm mb-4">
               Personal TD Chequing Accounts
             </h3>
-            <p className="text-gray-600 text-sm mb-6 min-h-[40px]">
+            <p className="text-gray-600 text-sm mb-6 min-h-10">
               Pay bills, send money, make purchases, and manage your cash flow.
             </p>
             <a href="#" className="text-[#008a00] font-bold text-sm flex items-center gap-1">
@@ -579,7 +657,7 @@ const UpdatesFromUs = () => {
             <h3 className="text-gray-900 font-bold text-sm mb-4">
               Accelerate your savings
             </h3>
-            <p className="text-gray-600 text-sm mb-6 min-h-[40px]">
+            <p className="text-gray-600 text-sm mb-6 min-h-10">
               Get a premium rate with TD Growth Savings Account
             </p>
             <a href="#" className="text-[#008a00] font-bold text-sm flex items-center gap-1">
@@ -593,7 +671,7 @@ const UpdatesFromUs = () => {
             <h3 className="text-gray-900 font-bold text-sm mb-4">
               Looking for a TD Credit Card?
             </h3>
-            <p className="text-gray-600 text-sm mb-6 min-h-[40px]">
+            <p className="text-gray-600 text-sm mb-6 min-h-10">
               Our Credit Card Selector Tool can help you choose.
             </p>
             <a href="#" className="text-[#008a00] font-bold text-sm flex items-center gap-1">
@@ -615,6 +693,7 @@ const UpdatesFromUs = () => {
                 className="w-full h-full object-cover"
               />
             </div>
+
             {/* Content */}
             <div className="flex-1 p-6 flex flex-col">
               <h3 className="text-gray-900 font-bold text-sm mb-2">
@@ -639,6 +718,7 @@ const UpdatesFromUs = () => {
                 className="w-full h-full object-cover"
               />
             </div>
+
             {/* Content */}
             <div className="flex-1 p-6 flex flex-col">
               <h3 className="text-gray-900 font-bold text-sm mb-2">
@@ -658,7 +738,7 @@ const UpdatesFromUs = () => {
   );
 };
 
-// Sub-component: WhyBankWithTD
+// Sub-component: WhyBankWithTD - CENTERED
 const WhyBankWithTD = () => {
   const communityCards = [
     {
@@ -709,7 +789,7 @@ const WhyBankWithTD = () => {
       </div>
 
       {/* Divider */}
-      <div className="px-50">
+      <div className="max-w-[1200px] mx-auto px-6">
         <hr className="border-t border-gray-300 my-12" />
       </div>
 
@@ -719,8 +799,8 @@ const WhyBankWithTD = () => {
           See the ways in which TD enriches lives
         </h2>
 
-        {/* 4-Column Grid - Gap Between Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-4 max-w-[1440px] mx-auto px-6">
+        {/* 4-Column Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-4 max-w-[1200px] mx-auto">
           {communityCards.map((card, index) => (
             <div
               key={index}
@@ -734,6 +814,7 @@ const WhyBankWithTD = () => {
                   {card.title}
                   <ChevronRight size={16} />
                 </a>
+
                 {/* Description */}
                 <p className="text-[#1d1d1d] text-sm leading-relaxed">
                   {card.description}
@@ -747,11 +828,11 @@ const WhyBankWithTD = () => {
   );
 };
 
-// Sub-component: QuestionSection
+// Sub-component: QuestionSection - CENTERED
 const QuestionSection = () => {
   return (
-    <section className="bg-[#f1f1f1] py-16 px-6">
-      <div className="max-w-[1000px] mx-auto">
+    <section className="bg-[#f1f1f1] py-16">
+      <div className="max-w-[1000px] mx-auto px-6">
         {/* Heading */}
         <h2 className="text-[#1a5336] text-2xl font-bold mb-6">
           Have a question? Find answers here
@@ -787,7 +868,7 @@ const QuestionSection = () => {
   );
 };
 
-// Sub-component: Footer
+// Sub-component: Footer - CENTERED
 const Footer = () => {
   const handleBackToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -797,7 +878,7 @@ const Footer = () => {
     <footer>
       {/* Zone 1: Main Footer */}
       <div className="bg-[#f9f9f9] border-t border-gray-200 pt-10 pb-20">
-        <div className="max-w-[1280px] mx-auto px-6">
+        <div className="max-w-[1200px] mx-auto px-6">
           {/* Part A: Top Utilities */}
           <div className="flex justify-between items-center mb-10">
             {/* Left Side: Find Us & Help */}
@@ -924,7 +1005,7 @@ const Footer = () => {
 
       {/* Zone 2: Sub-Footer (Regulatory) */}
       <div className="bg-white border-t border-gray-200 py-8">
-        <div className="max-w-[1280px] mx-auto px-6">
+        <div className="max-w-[1200px] mx-auto px-6">
           {/* Row 1: Social Icons & Regulatory Logos */}
           <div className="flex justify-between items-start mb-8 flex-wrap gap-6">
             {/* Social Icons */}
@@ -971,31 +1052,29 @@ const Footer = () => {
           </div>
 
           {/* Row 2: Legal Text Blocks */}
-          <div className="cmp--margin-top-default aem-GridColumn aem-GridColumn--default--12">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {/* CDIC Block */}
-              <div>
-                <h4 className="text-gray-900 font-bold text-xs mb-2">Canada Deposit Insurance Corporation</h4>
-                <p className="text-gray-600 text-[10px] leading-relaxed mb-2">
-                  TD Canada Trust offers a full range of business banking services to help you manage your day-to-day
-                  operations, plan for growth and evolve your business. Eligible deposits with TD Canada Trust are
-                  guaranteed by the Canada Deposit Insurance Corporation up to the maximum allowed by law.
-                </p>
-                <a href="#" className="text-[#008a00] font-bold text-xs hover:underline">Learn more</a>
-              </div>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* CDIC Block */}
+            <div>
+              <h4 className="text-gray-900 font-bold text-xs mb-2">Canada Deposit Insurance Corporation</h4>
+              <p className="text-gray-600 text-[10px] leading-relaxed mb-2">
+                TD Canada Trust offers a full range of business banking services to help you manage your day-to-day
+                operations, plan for growth and evolve your business. Eligible deposits with TD Canada Trust are
+                guaranteed by the Canada Deposit Insurance Corporation up to the maximum allowed by law.
+              </p>
+              <a href="#" className="text-[#008a00] font-bold text-xs hover:underline">Learn more</a>
+            </div>
 
-              {/* CIRO Block */}
-              <div>
-                <h4 className="text-gray-900 font-bold text-xs mb-2">
-                  Canada Investment Regulatory Organization (CIRO)
-                </h4>
-                <p className="text-gray-600 text-[10px] leading-relaxed mb-2">
-                  TD Direct Investing is a division of TD Waterhouse Canada Inc., a subsidiary of The Toronto-Dominion Bank.
-                  TD Waterhouse Canada Inc. is a member of the Canadian Investment Regulatory Organization (CIRO) and
-                  the Canadian Investor Protection Fund (CIPF).
-                </p>
-                <a href="#" className="text-[#008a00] font-bold text-xs hover:underline">www.ciro.ca</a>
-              </div>
+            {/* CIRO Block */}
+            <div>
+              <h4 className="text-gray-900 font-bold text-xs mb-2">
+                Canada Investment Regulatory Organization (CIRO)
+              </h4>
+              <p className="text-gray-600 text-[10px] leading-relaxed mb-2">
+                TD Direct Investing is a division of TD Waterhouse Canada Inc., a subsidiary of The Toronto-Dominion Bank.
+                TD Waterhouse Canada Inc. is a member of the Canadian Investment Regulatory Organization (CIRO) and
+                the Canadian Investor Protection Fund (CIPF).
+              </p>
+              <a href="#" className="text-[#008a00] font-bold text-xs hover:underline">www.ciro.ca</a>
             </div>
           </div>
 
@@ -1011,100 +1090,13 @@ const Footer = () => {
   );
 };
 
-// Sub-component: HeroSection
-const HeroSection = () => {
-  return (
-    <div className="max-w-[1440px]">
-      <div className="flex gap-0">
-        {/* Main Banner (Left Side - Flex Container with Relative Positioning) */}
-        <div className="flex flex-1 min-h-[360px] relative">
-          {/* Item 1: Image Background - Full Width Behind Everything */}
-          <div
-            className="absolute inset-0 w-[53%] bg-cover bg-center bg-no-repeat"
-            style={{ backgroundImage: `url(${hero1Image})` }}
-          >
-          </div>
-
-          {/* Content Wrapper */}
-          <div className="relative z-10 flex w-full items-center">
-            {/* Spacer for Image */}
-            <div className="w-[41%] shrink-0"></div>
-
-            {/* Item 2: The Green Box (Overlapping) */}
-            <div className="w-[280px] h-[280px] shrink-0 bg-[#008a00] flex items-center justify-center px-6">
-              <h2 className="text-white text-[38px] font-bold leading-[41px] text-left">
-                You are <br />never alone
-              </h2>
-            </div>
-
-            {/* Item 3: The White Promo */}
-            <div className="flex-1 bg-white flex flex-col items-start justify-center px-10 py-6 gap-5">
-              <p className="text-gray-800 text-[15px] leading-relaxed">
-                Get top notch support from direct investing professionals.
-              </p>
-              <button className="border-2 border-[#008a00] text-[#008a00] bg-white px-8 py-2.5 text-[14px] font-bold hover:bg-[#008a00] hover:text-white transition-colors">
-                Open an account
-              </button>
-            </div>
-          </div>
-        </div>
-
-        {/* Login Sidebar (Right Side - Vertical Stack / 340px) */}
-        <div className="w-[340px] shrink-0 border-l border-gray-300 pl-8">
-          <div className="flex flex-col">
-            {/* EasyWeb Widget */}
-            <div className="py-6">
-              <h3 className="text-[#1a5336] font-medium text-[22px] leading-[31px] mb-4">EasyWeb: Online Banking</h3>
-              <button className="w-full bg-[#008a00] text-white font-bold py-3 rounded-sm flex items-center justify-center gap-2 hover:bg-[#006d00] transition-colors mb-4">
-                <Lock size={18} />
-                Login
-              </button>
-              <div className="flex items-center gap-4 text-[13px]">
-                <a href="#" className="text-[#008a00] font-bold hover:underline flex items-center gap-1">
-                  Register <ChevronDown size={12} className="rotate-[-90deg]" />
-                </a>
-                <a href="#" className="text-[#008a00] font-bold hover:underline flex items-center gap-1">
-                  Security Guarantee <ChevronDown size={12} className="rotate-[-90deg]" />
-                </a>
-              </div>
-            </div>
-
-            {/* Horizontal Divider */}
-            <div className="border-b border-gray-300"></div>
-
-            {/* WebBroker Widget */}
-            <div className="py-6">
-              <h3 className="text-[#1a5336] font-bold text-[18px] mb-4">WebBroker: Online Trading</h3>
-              <button className="w-full bg-[#008a00] text-white font-bold py-3 rounded-sm flex items-center justify-center gap-2 hover:bg-[#006d00] transition-colors mb-4">
-                <Lock size={18} />
-                Login
-              </button>
-              <div className="flex items-center gap-4 text-[13px]">
-                <a href="#" className="text-[#008a00] font-bold hover:underline flex items-center gap-1">
-                  Register <ChevronDown size={12} className="rotate-[-90deg]" />
-                </a>
-                <a href="#" className="text-[#008a00] font-bold hover:underline flex items-center gap-1">
-                  Security Guarantee <ChevronDown size={12} className="rotate-[-90deg]" />
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-};
-
 // Main Dashboard Component
 const Dashboard = () => {
   return (
     <div className="min-h-screen bg-white">
       <Header />
       <HeroSection />
-      <div className="aem-GridColumn aem-GridColumn--default--12"></div>
-            <div className="cmp--margin-top-default cmp--margin-bottom-default aem-GridColumn aem-GridColumn--default--12"></div>
       <ProductExploreGrid />
-      <div className="cmp--margin-top-default cmp--margin-bottom-default aem-GridColumn aem-GridColumn--default--12 px-8"></div>
       <ProductFinder />
       <PlanYourMove />
       <TDAdvice />
