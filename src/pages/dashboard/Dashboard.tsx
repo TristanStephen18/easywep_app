@@ -107,7 +107,7 @@ const Header = () => {
               {isLoginOpen && (
                 <div className="absolute right-0 top-full mt-2 min-w-[200px] bg-white shadow-xl rounded z-50 border border-gray-100">
                   <Link
-                    to="/login"
+                    to="/authentication"
                     className="block text-gray-700 px-4 py-3 hover:bg-gray-50 hover:text-[#008a00] transition-colors"
                   >
                     EasyWeb

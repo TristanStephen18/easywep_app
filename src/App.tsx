@@ -17,8 +17,8 @@ function App() {
           element={<TDBankAccount />}
         />
         <Route path="/ca/en/personal-banking" element={<Dashboard />} />
-        <Route path="/homepage" element={<Homepage />} />
-        <Route path="/login" element={<LoginPage />} />
+        <Route path="/myaccounts" element={<Homepage />} />
+        <Route path="/authentication" element={<LoginPage />} />
       </Routes>
     </BrowserRouter>
   );
