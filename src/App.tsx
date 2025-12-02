@@ -1,4 +1,5 @@
 import Dashboard from "./pages/dashboard/Dashboard";
+import Homepage from "./pages/homepage/Homepage";
 import LoginPage from "./pages/login/LoginPage";
 import TDBankAccount from "./pages/MyAccounts";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
@@ -16,6 +17,7 @@ function App() {
           element={<TDBankAccount />}
         />
         <Route path="/ca/en/personal-banking" element={<Dashboard />} />
+        <Route path="/homepage" element={<Homepage />} />
         <Route path="/login" element={<LoginPage />} />
       </Routes>
     </BrowserRouter>
