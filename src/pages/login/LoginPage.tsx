@@ -30,7 +30,7 @@ const LoginPage = () => {
       {/* Header */}
       <header>
         {/* Top Strip - White Background */}
-        <div className="bg-white h-[36px] flex items-center border-b border-gray-200">
+        <div className="bg-white h-9 flex items-center border-b border-gray-200">
           <div className="max-w-[1200px] mx-auto w-full px-[15px] flex items-center justify-between">
             {/* Left Links */}
             <div className="flex items-center gap-6">
@@ -85,25 +85,25 @@ const LoginPage = () => {
                   {showProductsDropdown && (
                     <div className="absolute top-full left-0 mt-0 bg-white shadow-lg min-w-[250px] z-50">
                       <div className="py-4 px-6">
-                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-[40px] font-normal hover:bg-gray-100 px-2 -mx-2">
+                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-10 font-normal hover:bg-gray-100 px-2 -mx-2">
                           Bank Accounts
                         </a>
-                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-[40px] font-normal hover:bg-gray-100 px-2 -mx-2">
+                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-10 font-normal hover:bg-gray-100 px-2 -mx-2">
                           Credit Cards
                         </a>
-                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-[40px] font-normal hover:bg-gray-100 px-2 -mx-2">
+                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-10 font-normal hover:bg-gray-100 px-2 -mx-2">
                           Mortgages
                         </a>
-                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-[40px] font-normal hover:bg-gray-100 px-2 -mx-2">
+                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-10 font-normal hover:bg-gray-100 px-2 -mx-2">
                           Borrowing
                         </a>
-                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-[40px] font-normal hover:bg-gray-100 px-2 -mx-2">
+                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-10 font-normal hover:bg-gray-100 px-2 -mx-2">
                           Saving & Investing
                         </a>
-                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-[40px] font-normal hover:bg-gray-100 px-2 -mx-2">
+                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-10 font-normal hover:bg-gray-100 px-2 -mx-2">
                           Insurance
                         </a>
-                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-[40px] font-normal hover:bg-gray-100 px-2 -mx-2">
+                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-10 font-normal hover:bg-gray-100 px-2 -mx-2">
                           All Products
                         </a>
                       </div>
@@ -123,34 +123,34 @@ const LoginPage = () => {
                   {showSolutionsDropdown && (
                     <div className="absolute top-full left-0 mt-0 bg-white shadow-lg min-w-[250px] z-50">
                       <div className="py-4 px-6">
-                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-[40px] font-normal hover:bg-gray-100 px-2 -mx-2">
+                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-10 font-normal hover:bg-gray-100 px-2 -mx-2">
                           Investors
                         </a>
-                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-[40px] font-normal hover:bg-gray-100 px-2 -mx-2">
+                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-10 font-normal hover:bg-gray-100 px-2 -mx-2">
                           Small Businesses
                         </a>
-                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-[40px] font-normal hover:bg-gray-100 px-2 -mx-2">
+                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-10 font-normal hover:bg-gray-100 px-2 -mx-2">
                           Commercial Banking
                         </a>
-                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-[40px] font-normal hover:bg-gray-100 px-2 -mx-2">
+                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-10 font-normal hover:bg-gray-100 px-2 -mx-2">
                           Students
                         </a>
-                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-[40px] font-normal hover:bg-gray-100 px-2 -mx-2">
+                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-10 font-normal hover:bg-gray-100 px-2 -mx-2">
                           New to Canada
                         </a>
-                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-[40px] font-normal hover:bg-gray-100 px-2 -mx-2">
+                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-10 font-normal hover:bg-gray-100 px-2 -mx-2">
                           Cross Border Banking
                         </a>
-                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-[40px] font-normal hover:bg-gray-100 px-2 -mx-2">
+                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-10 font-normal hover:bg-gray-100 px-2 -mx-2">
                           Foreign Exchange Services
                         </a>
-                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-[40px] font-normal hover:bg-gray-100 px-2 -mx-2">
+                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-10 font-normal hover:bg-gray-100 px-2 -mx-2">
                           Ways to Pay
                         </a>
-                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-[40px] font-normal hover:bg-gray-100 px-2 -mx-2">
+                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-10 font-normal hover:bg-gray-100 px-2 -mx-2">
                           Ways to Bank
                         </a>
-                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-[40px] font-normal hover:bg-gray-100 px-2 -mx-2">
+                        <a href="#" className="block text-[#1c1c1c] text-[16px] leading-10 font-normal hover:bg-gray-100 px-2 -mx-2">
                           Green Banking
                         </a>
                       </div>
