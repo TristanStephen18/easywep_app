@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 export default function TDBankAccount() {
   const [selectedAccount] = useState('TD UNLIMITED BUSINESS PLAN - 5241534 $19.67');
   
+  const [hoveredNav, setHoveredNav] = useState<string | null>(null);
+
   // Transaction data remains the same
   const transactions = [
     { date: 'Dec 01, 2025', description: 'DEBITS/FACT. DIV', withdrawals: '146.54', deposits: '', balance: '($3,880.33)' },
@@ -60,6 +62,187 @@ export default function TDBankAccount() {
     sidebarHeaderBorder: '1px solid #cccccc',
   };
 
+  const myAccountsMenu = {
+  sections: [
+    {
+      title: 'EasyWeb Online Banking',
+      columns: [
+        {
+          links: [
+            { text: 'Accounts', href: '#' },
+            { text: 'Pay Bills', href: '#' },
+            { text: 'Transfers', href: '#' },
+            { text: 'INTERAC e-Transfer', href: '#' }
+          ]
+        },
+        {
+          links: [
+            { text: 'Investments', href: '#' },
+            { text: 'Profile & Settings', href: '#' }
+          ]
+        }
+      ]
+    },
+    {
+      title: 'WebBroker Online Investing',
+      columns: [
+        {
+          links: [
+            { text: 'Learn About WebBroker', href: '#' },
+            { text: 'Log in', href: '#' }
+          ]
+        }
+      ]
+    }
+  ]
+};
+
+
+const contactUsMenu = {
+  sections: [
+    {
+      iconPath: 'question_mark.png',
+      title: 'How can we help you?',
+      links: [
+        { text: 'Ask Us', href: '#', hasExternalIcon: true },
+        { text: 'Frequently Asked Questions', href: '#' },
+        { text: 'TD Helps Community', href: '#', hasExternalIcon: true }
+      ]
+    },
+    {
+      iconPath: './Contact_Us_Call_Us_37x37.png',
+      title: 'Contact Us',
+      links: [
+        { text: 'Call Us', href: '#' },
+        { text: 'More Ways to Contact Us', href: '#' }
+      ]
+    },
+    {
+      iconPath: './icon_meet-us.gif',
+      title: 'Come See Us',
+      links: [
+        { text: 'Find a Branch', href: '#' },
+        { text: 'Book an Appointment', href: '#' },
+        { text: 'TD Wealth Locations', href: '#' }
+      ]
+    }
+  ]
+};
+
+const productsServicesMenu = {
+  sections: [
+    [
+      {
+        iconPath: './Products_and_Services_Banking_37x37.png',
+        title: 'Banking',
+        links: [
+          { text: 'Bank Accounts', href: '#' },
+          { text: 'Ways to Bank', href: '#' },
+          { text: 'Overdraft protection', href: '#' }
+        ]
+      },
+      {
+        iconPath: './Products_and_Services_Borrowing_37x37.png',
+        title: 'Borrowing',
+        links: [
+          { text: 'Mortgages', href: '#' },
+          { text: 'Loans', href: '#' }
+        ]
+      },
+      {
+        iconPath: 'Products_and_Services_Credit_Cards_37x37.png',
+        title: 'Credit Cards',
+        links: [
+          { text: 'See All', href: '#' }
+        ]
+      },
+      {
+        iconPath: './Products_and_Services_Insurance_37x37.png',
+        title: 'Insurance',
+        links: [
+          { text: 'See All', href: '#' }
+        ]
+      }
+    ],
+    [
+      {
+        iconPath: './Products_and_Services_Investing_37x37.png',
+        title: 'Investing',
+        links: [
+          { text: 'Savings & Investment Products', href: '#' },
+          { text: 'Invest On Your Own', href: '#' },
+          { text: 'Invest With An Advisor', href: '#' },
+          { text: 'See All', href: '#' }
+        ]
+      },
+      {
+        iconPath: './Products_and_Services_Travel_37x37.png',
+        title: 'Travel',
+        links: [
+          { text: 'Cross-Border Banking', href: '#' },
+          { text: 'Travel Medical Insurance', href: '#' },
+          { text: 'Foreign Exchange', href: '#' }
+        ]
+      },
+      {
+        iconPath: './Products_and_Services_SmallBusiness_37x37 (1).png',
+        title: 'Small Business',
+        links: [
+          { text: 'See All', href: '#' }
+        ]
+      },
+      {
+        iconPath: './Products_and_Services_Special_Offers_37x37.png',
+        title: 'Offers & Promotions',
+        links: [
+          { text: 'See All', href: '#' }
+        ]
+      }
+    ]
+  ]
+};
+
+
+const marketsResearchMenu = {
+  columns: [
+    { iconPath: './Markets_and_Research_Markets_37x37.png', title: 'Markets', links: [
+      { text: 'Markets Overview', href: '#' }
+    ]},
+    { iconPath: './Markets_and_Research_Research_37x37.png', title: 'Research', links: [
+      { text: 'Stocks', href: '#' },
+      { text: 'Options', href: '#' },
+      { text: 'Mutual Funds', href: '#' },
+      { text: 'ETFs', href: '#' }
+    ]},
+    { iconPath: './Markets_and_Research_Investor_tools_37x37.png', title: 'Investor Tools', links: [
+      { text: 'Screeners', href: '#' },
+      { text: 'Alerts', href: '#' },
+      { text: "Today's Rates", href: '#' }
+    ]},
+    { iconPath: './Markets_and_Research_Quote_37x37.png', title: 'Quote', links: [] }  // Empty - has widget
+  ],
+  featureTabs: ['Featured', 'Weekly Expert Videos', 'Investor Seminars', 'Economic Research']
+};
+
+
+const lifePlanningMenu = {
+  sections: [
+    [
+      { iconPath: './life-planning-in-school-52x52.png', title: 'In School', href: '#' },
+      { iconPath: './life-planning-got-a-new-job-52x52.png', title: 'Got a New Job', href: '#' },
+      { iconPath: './life-planning-buying-a-home-52x52.png', title: 'Buying a Home', href: '#' },
+      { iconPath: './life-planning-starting-a-business-52x52.png', title: 'Starting a Business', href: '#' },
+      { iconPath: './life-planning-planning-to-retire-52x52.png', title: 'Planning to Retire', href: '#' }
+    ],
+    [
+      { iconPath: './life-planning-new-to-canada-52x52.png', title: 'New to Canada', href: '#' },
+      { iconPath: './life-planning-tools-and-calculators-52x52.png', title: 'Tools & Calculators', href: '#' },
+      { iconPath: './life-planning-td-helps-community-52x52.png', title: 'TD Helps Community', href: '#' }
+    ]
+  ],
+  featureTabs: ['Featured', 'Advice on Everyday Finances', 'Investing Basics']
+};
+
   return (
     <div style={{ 
       backgroundColor: 'white', 
@@ -72,6 +255,16 @@ export default function TDBankAccount() {
       color: '#333'
     }}>
       
+      {/* CSS Keyframes for Spinner */}
+      <style>
+        {`
+          @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+          }
+        `}
+      </style>
+
       {/* 1. TOP UTILITY BAR - ADJUSTED TO MATCH SCREENSHOT */}
       <div style={{
         width: '100%',
@@ -90,14 +283,22 @@ export default function TDBankAccount() {
         }}>
           
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <a href="#" style={{ color: '#555', textDecoration: 'none', fontSize: '14px', paddingRight: '4px' }}>TD Home</a>
+            <a href="#" style={{ color: '#555', textDecoration: 'none', fontSize: '13px', paddingRight: '4px' }}>TD Home</a>
             <span style={{ color: '#ccc' }}>|</span>
-            <a href="#" style={{ color: '#555', textDecoration: 'none', fontSize: '14px', padding: '0 4px' }}>Apply</a>
+            <a href="#" style={{ color: '#555', textDecoration: 'none', fontSize: '13px', padding: '0 4px' }}>Apply</a>
             <span style={{ color: '#ccc' }}>|</span>
             
             <div style={{ display: 'flex', alignItems: 'center', gap: '3px', padding: '0 4px' }}>
-              <span style={{ color: '#00391d', fontSize: '10px', marginRight: '5px' }}>🔒</span>
-              <a href="#" style={{ color: '#000', fontWeight: 'bold', textDecoration: 'none', fontSize: '14px', paddingRight: '20px' }}>My Profile </a>
+              <span style={{ color: '#00391d', fontSize: '10px', marginRight: '5px' }}> <img 
+              src="./icon-lock.gif" 
+              alt="TD Logo" 
+              style={{
+                width: '100%',
+                height: '100%',
+                objectFit: 'contain',
+              }}
+            /></span>
+              <a href="#" style={{ color: styles.navBackground, fontWeight: 'bold', textDecoration: 'none', fontSize: '13px', paddingRight: '20px' }}>My Profile </a>
               
             </div>
             <span style={{ color: '#ccc' }}>|</span>
@@ -142,7 +343,7 @@ export default function TDBankAccount() {
                 alignItems: 'center',
                 justifyContent: 'center'
               }}>
-                <span style={{ transform: 'rotate(-45deg)', fontSize: '12px', color: '#555' }}>⚲</span>
+                <span style={{ transform: 'rotate(-45deg)', fontSize: '25px', color: '#555' }}>⚲</span>
               </button>
             </div>
           </div>
@@ -150,14 +351,19 @@ export default function TDBankAccount() {
       </div>
 
       {/* 2. MAIN NAV BAR - EXACT MATCH */}
-      <div style={{
-        backgroundColor: styles.navBackground, // Darker Green
-        width: '65%',
-        display: 'flex',
-        justifyContent: 'center',
-        height: '40px', // Tighter height matches screenshot
-        borderTop: '1px solid #002d17' // Subtle top border
-      }}>
+      <div 
+        style={{
+          backgroundColor: styles.navBackground, // Darker Green
+          width: '65%',
+          display: 'flex',
+          justifyContent: 'center',
+          height: '40px', // Tighter height matches screenshot
+          borderTop: '1px solid #002d17', // Subtle top border
+          position: 'relative'  // ← ADD THIS LINE
+        }}
+        onMouseEnter={() => setHoveredNav('myaccounts')}  // ← ADD THIS LINE
+        onMouseLeave={() => setHoveredNav(null)}          // ← ADD THIS LINE
+      >
         <div style={{
           width: '970px',
           display: 'flex',
@@ -175,7 +381,6 @@ export default function TDBankAccount() {
             height: '70px',
             padding: '0',
             zIndex: 10,
-            boxShadow: '2px 0 5px rgba(0,0,0,0.1)'
           }}>
              <img 
               src="./td-logo.png" 
@@ -183,42 +388,733 @@ export default function TDBankAccount() {
               style={{
                 width: '100%',
                 height: '100%',
-                objectFit: 'contain',
+                objectFit: 'cover',
               }}
             />
           </div>
 
           <nav style={{ display: 'flex', height: '100%', marginLeft: '70px' }}> {/* Margin accounts for logo width */}
             {/* Active Tab - Has the lime green underline */}
-            <a href="#" style={{
-              color: 'white',
-              textDecoration: 'none',
-              marginLeft: '15px',
-              padding: '0 15px',
-              fontSize: '17px',
-              fontWeight: 'bold',
-              display: 'flex',
-              alignItems: 'center',
-              height: '100%',
-              borderBottom: `4px solid ${styles.navActiveUnderline}`, // The lime green strip
-              boxSizing: 'border-box'
-            }}>My Accounts</a>
+           <a 
+              href="#" 
+              style={{
+                color: hoveredNav === 'myaccounts' ? 'black' : 'white',
+                textDecoration: 'none',
+                marginLeft: '15px',
+                padding: '0 15px',
+                fontSize: '17px',
+                fontWeight: 'bold',
+                display: 'flex',
+                alignItems: 'center',
+                height: '100%',
+                borderBottom: hoveredNav === 'myaccounts' 
+                  ? 'none' 
+                  : `4px solid ${styles.navActiveUnderline}`,
+                backgroundColor: hoveredNav === 'myaccounts' ? 'white' : 'transparent',
+                boxSizing: 'border-box',
+                transition: 'all 0.2s ease',
+              }}
+            >
+              My Accounts
+            </a>
+
+            {/* Contact Us with menu */}
+<a 
+  href="#" 
+  style={{
+    color: hoveredNav === 'contactus' ? 'black' : 'white',
+    textDecoration: 'none',
+    padding: '0 15px',
+    fontSize: '17px',
+    display: 'flex',
+    alignItems: 'center',
+    height: '100%',
+    backgroundColor: hoveredNav === 'contactus' ? 'white' : 'transparent',
+    transition: 'all 0.2s ease',
+  }}
+  onMouseEnter={() => setHoveredNav('contactus')}
+  onMouseLeave={() => setHoveredNav(null)}
+>
+  Contact Us
+</a>
+
+{/* Products & Services with hover */}
+<a 
+  href="#" 
+  style={{
+    color: hoveredNav === 'products' ? 'black' : 'white',
+    textDecoration: 'none',
+    padding: '0 15px',
+    fontSize: '17px',
+    display: 'flex',
+    alignItems: 'center',
+    height: '100%',
+    backgroundColor: hoveredNav === 'products' ? 'white' : 'transparent',
+    transition: 'all 0.2s ease',
+  }}
+  onMouseEnter={() => setHoveredNav('products')}
+  onMouseLeave={() => setHoveredNav(null)}
+>
+  Products & Services
+</a>
+
+<a 
+  href="#" 
+  style={{
+    color: hoveredNav === 'markets' ? 'black' : 'white',
+    textDecoration: 'none',
+    padding: '0 15px',
+    fontSize: '17px',
+    display: 'flex',
+    alignItems: 'center',
+    height: '100%',
+    backgroundColor: hoveredNav === 'markets' ? 'white' : 'transparent',
+    transition: 'all 0.2s ease',
+  }}
+  onMouseEnter={() => setHoveredNav('markets')}
+  onMouseLeave={() => setHoveredNav(null)}
+>
+  Markets & Research
+</a>
+
+
+{/* Life Planning with menu */}
+<a 
+  href="#" 
+  style={{
+    color: hoveredNav === 'lifeplanning' ? 'black' : 'white',
+    textDecoration: 'none',
+    padding: '0 15px',
+    fontSize: '17px',
+    display: 'flex',
+    alignItems: 'center',
+    height: '100%',
+    backgroundColor: hoveredNav === 'lifeplanning' ? 'white' : 'transparent',
+    transition: 'all 0.2s ease',
+  }}
+  onMouseEnter={() => setHoveredNav('lifeplanning')}
+  onMouseLeave={() => setHoveredNav(null)}
+>
+  Life Planning
+</a>
+
+{/* MARKETS MENU - FULL WIDTH LINE AND TIGHTER BOTTOM SPACING */}
+{hoveredNav === 'markets' && (
+  <div style={{
+    position: 'absolute',
+    top: '100%',
+    left: '0',
+    right: '0',
+    width: '100%',
+    backgroundColor: '#f5f5f5', // Light background
+    boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+    zIndex: 1000,
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center'
+  }}
+  
+  onMouseEnter={() => setHoveredNav('markets')}
+    onMouseLeave={() => setHoveredNav(null)}>
+    
+    {/* 1. MAIN CONTENT (Centered 970px) */}
+    <div style={{ 
+        width: '970px', 
+        padding: '30px 40px 20px 40px', // Standard padding for top area
+        boxSizing: 'border-box' 
+    }}>
+      
+      {/* Columns */}
+      <div style={{
+        display: 'grid',
+        gridTemplateColumns: '1fr 1fr 1fr 1fr',
+        gap: '40px',
+      }}>
+        {marketsResearchMenu.columns.map((col, colIndex) => (
+          <div key={colIndex}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginBottom: '15px' }}>
+              {col.iconPath && (
+                <img 
+                  src={col.iconPath}
+                  alt=""
+                  style={{
+                    width: '28px',
+                    height: '28px',
+                    objectFit: 'contain'
+                  }}
+                />
+              )}
+              <h3 style={{ fontSize: '16px', fontWeight: 'bold', color: '#333', margin: 0 }}>
+                {col.title}
+              </h3>
+            </div>
             
-            {/* Inactive Tabs */}
-            {['Contact Us', 'Products & Services', 'Markets & Research', 'Life Planning'].map((item) => (
-                <a key={item} href="#" style={{
-                    color: 'white',
-                    textDecoration: 'none',
-                    padding: '0 15px',
-                    fontSize: '17px',
-                    display: 'flex',
-                    alignItems: 'center',
-                    height: '100%'
-                }}>{item}</a>
-            ))}
-          </nav>
+            {col.links.length > 0 && (
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '7px' }}>
+                {col.links.map((link, linkIndex) => (
+                  <a
+                    key={linkIndex}
+                    href={link.href}
+                    style={{
+                      color: styles.navBackground,
+                      textDecoration: 'none',
+                      fontSize: '13px',
+                      transition: 'color 0.2s ease',
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '5px'
+                    }}
+                    onMouseEnter={(e) => { e.currentTarget.style.color = "black"; }}
+                    onMouseLeave={(e) => { e.currentTarget.style.color = styles.navBackground; }}
+                  >
+                    <span style={{ fontSize: '14px', fontWeight: 'bold' }}>›</span>
+                    <span>{link.text}</span>
+                  </a>
+                ))}
+              </div>
+            )}
+
+            {/* LOADING BOX - COLUMN 1 */}
+            {colIndex === 0 && (
+              <div style={{
+                marginTop: '15px',
+                width: '100%',
+                height: '180px',
+                backgroundColor: '#eeeeee',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center'
+              }}>
+                 {/* Dark Grey Spinner */}
+                 <div style={{
+                    width: '40px',
+                    height: '40px',
+                    border: '4px solid #ddd',
+                    borderTop: '4px solid #666', 
+                    borderRadius: '50%',
+                    animation: 'spin 1s linear infinite'
+                 }} />
+              </div>
+            )}
+
+          </div>
+        ))}
+      </div>
+    </div>
+
+    {/* 2. FULL WIDTH DIVIDER LINE */}
+    <div style={{ width: '100%', height: '1px', backgroundColor: '#d0d0d0', boxShadow: '0 2px 5px rgba(0,0,0.20,0.40)',
+      position: 'relative',
+      zIndex: 1}}></div>
+
+    {/* 3. FOOTER TABS (Centered 970px with REDUCED PADDING) */}
+    <div style={{ 
+        width: '970px', 
+        padding: '10px 40px 12px 40px', // Reduced vertical padding
+        boxSizing: 'border-box',
+    }}>
+        <div style={{ display: 'flex', gap: '20px' }}>
+          {marketsResearchMenu.featureTabs.map((tab, index) => (
+            <a
+              key={index}
+              href="#"
+              style={{
+                color: index === 0 ? styles.navBackground : '#666',
+                textDecoration: 'none',
+                fontSize: '13px',
+                fontWeight: index === 0 ? 'bold' : 'normal',
+                transition: 'all 0.2s ease'
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.color = styles.navBackground;
+                e.currentTarget.style.fontWeight = 'bold';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.color = index === 0 ? styles.navBackground : '#666';
+                e.currentTarget.style.fontWeight = index === 0 ? 'bold' : 'normal';
+              }}
+            >
+              {tab}
+            </a>
+          ))}
         </div>
       </div>
+
+  </div>
+)}
+
+
+
+
+          </nav>
+        </div>
+         {/* MEGA MENU - FULL WIDTH */}
+        {hoveredNav === 'myaccounts' && (
+          <div style={{
+            position: 'absolute',
+            top: '100%',
+            left: '0',
+            right: '0',
+            width: '100%',
+            backgroundColor: '#f5f5f5',
+            boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+            zIndex: 1000,
+            display: 'flex',
+          }}>
+            <div style={{
+              width: '970px',
+              padding: '30px 40px',
+              boxSizing: 'border-box'
+            }}>
+              <div style={{
+                display: 'grid',
+                gridTemplateColumns: '2fr auto 1fr',
+                gap: '60px',
+                alignItems: 'start'
+              }}>
+                
+                {/* LEFT SECTION: EasyWeb Online Banking with 2 columns */}
+                <div>
+                  <h3 style={{
+                    fontSize: '16px',
+                    fontWeight: 'normal',
+                    color: '#666',
+                    marginBottom: '20px',
+                    marginTop: '0'
+                  }}>
+                    {myAccountsMenu.sections[0].title}
+                  </h3>
+                  
+                  {/* Two columns under EasyWeb */}
+                  <div style={{
+                    display: 'grid',
+                    gridTemplateColumns: '1fr 1fr',
+                    gap: '40px'
+                  }}>
+                    {myAccountsMenu.sections[0].columns.map((column, colIndex) => (
+                      <div key={colIndex} style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '12px'
+                      }}>
+                        {column.links.map((link, linkIndex) => (
+                          <a
+                            key={linkIndex}
+                            href={link.href}
+                            style={{
+                              color: styles.navBackground,
+                              textDecoration: 'none',
+                              fontSize: '13px',
+                              transition: 'color 0.2s ease'
+                            }}
+                            onMouseEnter={(e) => {
+                              e.currentTarget.style.color = 'black';
+                            }}
+                            onMouseLeave={(e) => {
+                              e.currentTarget.style.color = styles.navBackground;
+                              e.currentTarget.style.textDecoration = 'none';
+                            }}
+                          >
+                            {link.text}
+                          </a>
+                        ))}
+                      </div>
+                    ))}
+                  </div>
+                </div>
+
+                {/* VERTICAL DIVIDER */}
+                <div style={{
+                  width: '1px',
+                  backgroundColor: '#d0d0d0',
+                  height: '140px'
+                }} />
+
+                {/* RIGHT SECTION: WebBroker Online Investing */}
+                <div>
+                  <h3 style={{
+                    fontSize: '16px',
+                    fontWeight: 'normal',
+                    color: '#666',
+                    marginBottom: '20px',
+                    marginTop: '0'
+                  }}>
+                    {myAccountsMenu.sections[1].title}
+                  </h3>
+                  
+                  <div style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    gap: '12px'
+                  }}>
+                    {myAccountsMenu.sections[1].columns[0].links.map((link, index) => (
+                      <a
+                        key={index}
+                        href={link.href}
+                        style={{
+                          color: styles.navBackground,
+                          textDecoration: 'none',
+                          fontSize: '13px',
+                          transition: 'color 0.2s ease'
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.color = "black";
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.color = styles.navBackground;
+                          e.currentTarget.style.textDecoration = 'none';
+                        }}
+                      >
+                        {link.text}
+                      </a>
+                    ))}
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        )}
+
+
+        {/* CONTACT US MEGA MENU */}
+        {hoveredNav === 'contactus' && (
+          <div style={{
+            position: 'absolute',
+            top: '100%',
+            left: '0',
+            right: '0',
+            width: '100%',
+            backgroundColor: '#f5f5f5',
+            boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+            zIndex: 1000,
+            display: 'flex',
+            justifyContent: 'center'
+          }}
+          onMouseEnter={() => setHoveredNav('contactus')}
+    onMouseLeave={() => setHoveredNav(null)}
+          >
+            <div style={{
+              width: '970px',
+              padding: '30px 40px',
+              boxSizing: 'border-box'
+            }}>
+              <div style={{
+                display: 'grid',
+                gridTemplateColumns: '1fr 1fr 1fr',
+                gap: '60px',
+                alignItems: 'start'
+              }}>
+                
+                {contactUsMenu.sections.map((section, index) => (
+                  <div key={index}>
+                    <div style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '10px',
+                      marginBottom: '20px'
+                    }}>
+                      {section.iconPath && (
+  <img 
+    src={section.iconPath}
+    alt=""
+    style={{
+      width: '28px',
+      height: '28px',
+      objectFit: 'contain'
+    }}
+  />
+)}
+
+                      <h3 style={{
+                        fontSize: '14px',
+                        fontWeight: 'bold',
+                        color: '#666',
+                        margin: 0
+                      }}>
+                        {section.title}
+                      </h3>
+                    </div>
+                    
+                    <div style={{
+                      display: 'flex',
+                      flexDirection: 'column',
+                      gap: '12px'
+                    }}>
+                      {section.links.map((link, linkIndex) => (
+                        <a
+                          key={linkIndex}
+                          href={link.href}
+                          style={{
+                            color: styles.navBackground,
+                            textDecoration: 'none',
+                            fontSize: '13px',
+                            transition: 'color 0.2s ease',
+                            display: 'flex',
+                            alignItems: 'center',
+                            gap: '5px' 
+                          }}
+                          onMouseEnter={(e) => {
+                            e.currentTarget.style.color = 'black';
+                            e.currentTarget.style.textDecoration = 'underline';
+                          }}
+                          onMouseLeave={(e) => {
+                            e.currentTarget.style.color = styles.navBackground;
+                            e.currentTarget.style.textDecoration = 'none';
+                          }}
+                        >
+                           <span style={{ fontSize: '14px', fontWeight: 'bold', marginRight: '2px' }}>›</span>
+                           <span>{link.text}</span>
+  
+  {/* ✅ Trailing icon */}
+  {link.hasExternalIcon && (
+    <span style={{ fontSize: '11px', marginLeft: '3px' }}>⧉</span>
+  )}
+                        </a>
+                      ))}
+                    </div>
+                  </div>
+                ))}
+
+              </div>
+            </div>
+          </div>
+        )}
+
+
+
+
+
+        {/* PRODUCTS & SERVICES MEGA MENU */}
+{hoveredNav === 'products' && (
+  <div style={{
+    position: 'absolute',
+    top: '100%',
+    left: '0',
+    right: '0',
+    width: '100%',
+    backgroundColor: '#f5f5f5',
+    boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+    zIndex: 1000,
+    display: 'flex',
+    justifyContent: 'center'
+  }}
+  onMouseEnter={() => setHoveredNav('products')}
+    onMouseLeave={() => setHoveredNav(null)}
+  >
+    <div style={{
+      width: '970px',
+      padding: '30px 40px',
+      boxSizing: 'border-box'
+    }}>
+      {productsServicesMenu.sections.map((row, rowIndex) => (
+        <div 
+          key={rowIndex}
+          style={{
+            display: 'grid',
+            gridTemplateColumns: '1fr 1fr 1fr 1fr',
+            gap: '40px',
+            marginBottom: rowIndex === 0 ? '20px' : '0'
+          }}
+        >
+          {row.map((column, colIndex) => (
+            <div key={colIndex}>
+              <div style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '8px',
+                marginBottom: '10px'
+              }}>
+                {column.iconPath && (
+  <img 
+    src={column.iconPath}
+    alt=""
+    style={{
+      width: '28px',
+      height: '28px',
+      objectFit: 'contain'
+    }}
+  />
+)}
+                <h3 style={{
+                  fontSize: '16px',
+                  fontWeight: 'bold',
+                  color: '#333',
+                  margin: 0
+                }}>
+                  {column.title}
+                </h3>
+              </div>
+              
+              <div style={{
+                display: 'flex',
+                flexDirection: 'column',
+                gap: '6px'
+              }}>
+                {column.links.map((link, linkIndex) => (
+                  <a
+                    key={linkIndex}
+                    href={link.href}
+                    style={{
+                      color: styles.navBackground,
+                      textDecoration: 'none',
+                      fontSize: '12px',
+                      transition: 'color 0.2s ease',
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '5px'
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.color = 'black';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.color = styles.linkGreen;
+                    }}
+                  >
+                    <span style={{ fontSize: '14px', fontWeight: 'bold' }}>›</span>
+                    <span>{link.text}</span>
+                  </a>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      ))}
+    </div>
+  </div>
+)}
+
+
+{/* LIFE PLANNING MEGA MENU - UPDATED TO MATCH MARKETS STYLE */}
+{hoveredNav === 'lifeplanning' && (
+  <div style={{
+    position: 'absolute',
+    top: '100%',
+    left: '0',
+    right: '0',
+    width: '100%',
+    backgroundColor: '#f5f5f5',
+    boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+    zIndex: 1000,
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center'
+  }}
+  
+  onMouseEnter={() => setHoveredNav('lifeplanning')}
+    onMouseLeave={() => setHoveredNav(null)}
+    >
+    
+    {/* 1. MAIN CONTENT (Icons + Wave) */}
+    <div style={{ 
+        width: '970px', 
+        padding: '30px 40px 10px 40px', // Standard top padding
+        boxSizing: 'border-box' 
+    }}>
+      
+      {/* Icon Grid - 2 Rows */}
+      {lifePlanningMenu.sections.map((row, rowIndex) => (
+        <div 
+          key={rowIndex}
+          style={{
+            display: 'grid',
+            gridTemplateColumns: '1fr 1fr 1fr 1fr 1fr',
+            gap: '40px',
+            marginBottom: rowIndex === 0 ? '30px' : '20px',
+            justifyItems: 'center'
+          }}
+        >
+          {row.map((item, itemIndex) => (
+            <a
+              key={itemIndex}
+              href={item.href}
+              style={{
+                textDecoration: 'none',
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: '10px',
+                transition: 'transform 0.2s ease'
+              }}
+            >
+              <img 
+                src={item.iconPath}
+                alt={item.title}
+                style={{ width: '52px', height: '52px', objectFit: 'contain' }}
+              />
+              <span style={{
+                fontSize: '13px',
+                color: '#333',
+                fontWeight: 'normal',
+                textAlign: 'center',
+                maxWidth: '120px'
+              }}>
+                {item.title}
+              </span>
+            </a>
+          ))}
+          
+          {rowIndex === 1 && (
+            <>
+              <div />
+              <div />
+            </>
+          )}
+        </div>
+      ))}
+
+   
+
+    </div>
+
+    {/* 2. FULL WIDTH DIVIDER LINE */}
+    <div style={{ width: '100%', height: '1px', backgroundColor: '#d0d0d0', boxShadow: '0 2px 5px rgba(0,0,0.20,0.40)',
+      position: 'relative',
+      zIndex: 1 }}></div>
+
+    {/* 3. FOOTER TABS (Reduced Padding) */}
+    <div style={{ 
+        width: '970px', 
+        padding: '10px 40px 12px 40px', // Reduced vertical padding
+        boxSizing: 'border-box' 
+    }}>
+        <div style={{ display: 'flex', gap: '20px' }}>
+          {lifePlanningMenu.featureTabs.map((tab, index) => (
+            <a
+              key={index}
+              href="#"
+              style={{
+                color: index === 0 ? 'black' : styles.navBackground,
+                textDecoration: 'none',
+                fontSize: '13px',
+                fontWeight: index === 0 ? 'bold' : 'normal',
+                paddingBottom: '5px',
+                transition: 'all 0.2s ease'
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.color = 'black';
+                e.currentTarget.style.fontWeight = 'bold';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.color = styles.navBackground;
+              }}
+            >
+              {tab}
+            </a>
+          ))}
+        </div>
+      </div>
+
+  </div>
+)}
+
+
+
+
+
+      </div>
+
+      
 
       {/* 3. CONTENT AREA */}
       <div style={{
