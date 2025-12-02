@@ -1,1 +1,52 @@
 @import "tailwindcss";
+
+/* TD Bank Custom Styles */
+* {
+  font-family: 'Graphik', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Custom TD Font Stack */
+.font-td {
+  font-family: "TD Graphik SemiLight", -apple-system, "system-ui", "Segoe UI", Roboto, sans-serif;
+}
+
+@media (min-width: 1024px) {
+  .cmp-site-utility-nav__segment {
+    background-color: #038203;
+  }
+}
+
+.td-brand-green {
+  background-color: #038203;
+}
+
+.td-text-green {
+  color: #038203;
+}
+
+.td-border-green {
+  border-color: #038203;
+}
+
+.td-hover-border-green:hover {
+  border-color: #038203;
+}
+
+/* AEM Grid and Separator Styles */
+.cmp--margin-top-default {
+  margin-top: 2rem;
+}
+
+.cmp--margin-bottom-default {
+  margin-bottom: 2rem;
+}
+
+.aem-GridColumn {
+  width: 100%;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 1px;
+}
+
+.aem-GridColumn--default--12 {
+  width: 100%;
+}
