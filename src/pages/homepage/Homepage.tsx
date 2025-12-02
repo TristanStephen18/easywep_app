@@ -2,9 +2,11 @@ import { useState } from 'react';
 import { Search, ChevronDown, User, LogOut, Download, Printer, Plus } from 'lucide-react';
 import tdLogo from '../../assets/td-logo.png';
 import cdicBadgeImage from '../../assets/cdic-badge.jpeg';
+import { useNavigate } from 'react-router-dom';
 
 const Homepage = () => {
   const [activeTab, setActiveTab] = useState('Personal');
+  const navigate = useNavigate();
 
   return (
     <div className="min-h-screen bg-white">
@@ -150,7 +152,9 @@ const Homepage = () => {
               <div className="px-6 py-4">
                 <div className="flex items-center justify-between">
                   <div>
-                    <div className="text-[#008a00] font-medium">TD UNLIMITED BUSINESS PLAN</div>
+                    <div className="text-[#008a00] font-medium cursor-pointer" onClick={()=>{
+                      navigate('/waw/ezw/servlet/TransferInFromNorthStarServlet');
+                    }}>TD UNLIMITED BUSINESS PLAN</div>
                     <div className="text-gray-600 text-sm">4928 5241534</div>
                   </div>
                   <div className="flex items-center gap-4">
